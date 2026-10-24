@@ -45,6 +45,34 @@ Todavía no se ha implementado:
 ## Pipeline
 
 ```text
-                           VÍDEO
+                          VÍDEO
                              │
-                  ┌──────────┴──────────
+                  ┌──────────┴──────────┐
+                  │                     │
+                AUDIO                 IMAGEN
+                  │                     │
+              FFmpeg                  YOLO
+                  │                     │
+                  ▼                     ▼
+             diarización           detecciones
+             con pyannote               │
+                  │                 ByteTrack
+                  ▼                     │
+          SPEAKER_00, 01...             ▼
+                  │                tracklets
+                  │                     │
+                  └──────────┬──────────┘
+                             ▼
+                  alineación voz-imagen
+                             │
+                             ▼
+                  métricas de presencia
+                    y protagonismo
+
+              faster-whisper
+                     │
+                     ▼
+                 transcripción
+                     │
+                     ▼
+          alineación speaker-transcript
