@@ -1,0 +1,24 @@
+# Entorno virtual python
+.venv/
+venv/
+
+#Python
+__pychache__/
+*.pyc
+*.pyo
+
+data/raw/
+data/audio/
+
+data/output/
+outputs/
+
+#modelos descargados
+*.pt
+
+#credenciales
+.env
+
+.vscode/
+
+.ipynb_checkpoints/

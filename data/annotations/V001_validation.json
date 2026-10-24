@@ -1,0 +1,33 @@
+{
+  "video_id": "V001_sample",
+  "validation_type": "manual_spot_check",
+  "observations": [
+    {
+      "speaker": "SPEAKER_03",
+      "result": "correct",
+      "notes": "Correctly followed across multiple camera shots"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "result": "correct",
+      "notes": "Correctly aligned across different shots"
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "start": 248.684,
+      "end": 248.701,
+      "result": "false_microsegment",
+      "notes": "No perceptible speaker change; filtered by minimum duration"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "result": "correct",
+      "notes": "Speaker transition visually confirmed"
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "result": "correct",
+      "notes": "Later real intervention visually confirmed"
+    }
+  ]
+}
