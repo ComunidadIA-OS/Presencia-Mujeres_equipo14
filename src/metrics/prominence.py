@@ -8,7 +8,7 @@ if len(sys.argv) <2:
 
 VIDEO_ID = sys.argv[1]
 
-DIARIZATION_PATH = Path(f"data/output/{VIDEO_ID}_diarization.json")
+DIARIZATION_PATH = Path(f"outputs/{VIDEO_ID}_diarization.json")
 ALIGNMENT_PATH = Path(f"outputs/{VIDEO_ID}_speaker_visual_alignment.json")
 
 OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_prominence.json")
