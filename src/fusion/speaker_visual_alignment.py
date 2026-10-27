@@ -2,12 +2,18 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+import sys
 
-DIARIZATION_PATH = Path("data/output/V001_sample_diarization.json")
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/spaker_visual_alignment.py VIDEO_ID")
 
-TRACKS_PATH = Path("outputs/V001_tracks.json")
+VIDEO_ID = sys.argv[1]
 
-OUTPUT_PATH = Path("outputs/V001_speaker_visual_alignment.json")
+DIARIZATION_PATH = Path(f"outputs/{VIDEO_ID}_diarization.json")
+
+TRACKS_PATH =Path(f"outputs/{VIDEO_ID}_tracks.json")
+
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_speaker_visual_alignment.json")
 
 
 # Filtros configurables.

@@ -2,9 +2,20 @@ import json
 from pathlib import Path
 from faster_whisper import WhisperModel
 
-AUDIO_PATH = Path("data/audio/V001_sample.wav")
+import sys
 
-OUTPUT_PATH = Path("outputs/V001_transcription.json")
+#AUDIO_PATH = Path("data/audio/V001_sample.wav")
+
+#OUTPUT_PATH = Path("outputs/V001_transcription.json")
+
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/transcription.py VIDEO_ID")
+
+VIDEO_ID = sys.argv[1]
+AUDIO_PATH = Path(f"data/audio/{VIDEO_ID}.wav")
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_transcription.json")
+
+
 MODEL_SIZE = "small"
 print("Cargando modelo...")
 

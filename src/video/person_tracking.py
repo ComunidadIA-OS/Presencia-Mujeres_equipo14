@@ -5,9 +5,17 @@ from pathlib import Path
 import cv2
 from ultralytics import YOLO
 
+import sys
 
-VIDEO_PATH = "data/raw/V001_sample.webm"
-OUTPUT_PATH = Path("outputs/V001_tracks.json")
+#VIDEO_PATH = "data/raw/V001_sample.webm"
+#OUTPUT_PATH = Path("outputs/V001_tracks.json")
+
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/person_tracking.py VIDEO_ID")
+
+VIDEO_ID = sys.argv[1]
+VIDEO_PATH = Path(f"data/raw/{VIDEO_ID}.webm")
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_tracks.json")
 
 MODEL_NAME = "yolo11n.pt"
 CONFIDENCE = 0.40

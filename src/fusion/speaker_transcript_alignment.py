@@ -1,9 +1,20 @@
 import json
 from pathlib import Path
 
-DIARIZATION_PATH = Path("data/output/V001_sample_diarization.json")
-TRANSCRIPTION_PATH = Path("outputs/V001_transcription.json")
-OUTPUT_PATH = Path("outputs/V001_speaker_transcript.json")
+import sys
+
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/speaker_transcript_alignment.py VIDEO_ID")
+
+VIDEO_ID = sys.argv[1]
+
+DIARIZATION_PATH = Path(f"outputs/{VIDEO_ID}_diarization.json")
+
+TRANSCRIPTION_PATH = Path(f"outputs/{VIDEO_ID}_transcription.json")
+
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_speaker_transcript.json")
+
+
 
 MIN_SEGMENT_DURATION = 0.5
 

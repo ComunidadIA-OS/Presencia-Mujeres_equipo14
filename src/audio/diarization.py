@@ -6,8 +6,17 @@ import soundfile as sf
 import torch
 from pyannote.audio import Pipeline
 
-AUDIO_PATH = Path("./data/audio/V001_sample.wav")
-OUTPUT_PATH = Path("./data/output/V001_sample_diarization.json")
+import sys
+
+#AUDIO_PATH = Path("./data/audio/V001_sample.wav")
+#OUTPUT_PATH = Path("./data/output/V001_sample_diarization.json")
+
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/diarization.py VIDEO_ID")
+
+VIDEO_ID = sys.argv[1]
+AUDIO_PATH = Path(f"data/audio/{VIDEO_ID}.wav")
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_diarization.json")
 
 token = os.environ.get("HF_TOKEN")
 if not token:

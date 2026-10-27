@@ -2,10 +2,16 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-DIARIZATION_PATH = Path("data/output/V001_sample_diarization.json")
-ALIGNMENT_PATH = Path("outputs/V001_speaker_visual_alignment.json")
+import sys
+if len(sys.argv) <2:
+    raise RuntimeError("Uso: python src/audio/prominence.py VIDEO_ID")
 
-OUTPUT_PATH = Path("outputs/V001_prominence.json")
+VIDEO_ID = sys.argv[1]
+
+DIARIZATION_PATH = Path(f"data/output/{VIDEO_ID}_diarization.json")
+ALIGNMENT_PATH = Path(f"outputs/{VIDEO_ID}_speaker_visual_alignment.json")
+
+OUTPUT_PATH = Path(f"outputs/{VIDEO_ID}_prominence.json")
 
 MIN_SEGMENT_DURATION = 0.5  # segundos
 MAX_TURN_GAP = 1.0
@@ -341,7 +347,7 @@ for speaker in all_speakers:
     	]
 	}
 output = {
-	"video_id": "V001_sample",
+	"video_id": VIDEO_ID,
 	"configuration": {
     	"minimum_segment_duration": (
         	MIN_SEGMENT_DURATION
