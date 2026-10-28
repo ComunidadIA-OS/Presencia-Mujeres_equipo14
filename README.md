@@ -972,15 +972,265 @@ python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample
 
 ---
 
-# Próximos pasos
+# Estado actual del MVP
 
-1. Seleccionar y procesar `V003_sample`.
-2. Seleccionar y procesar `V004_sample`.
-3. Seleccionar y procesar `V005_sample`.
-4. Validar manualmente una selección de segmentos de cada vídeo.
-5. Consolidar las métricas agregadas.
-6. Incorporar información declarada de participantes cuando exista una fuente verificable.
-7. Incorporar género declarado sin inferencia biométrica.
-8. Generar visualizaciones finales.
-9. Documentar limitaciones y metodología.
-10. Preparar demo y presentación final.
+El MVP multimodal está completo para cinco muestras de vídeo:
+
+```text
+V001_sample
+V002_sample
+V003_sample
+V004_sample
+V005_sample
+```
+
+Para cada muestra se ha ejecutado el pipeline completo:
+
+```text
+vídeo
+  ↓
+extracción de audio
+  ↓
+diarización
+  ↓
+transcripción
+  ↓
+detección y tracking de personas
+  ↓
+alineación voz-imagen
+  ↓
+alineación speaker-transcripción
+  ↓
+métricas de presencia y protagonismo
+  ↓
+análisis semántico
+  ↓
+métricas finales
+```
+
+Los resultados individuales se encuentran en:
+
+```text
+outputs/V001_sample_final_metrics.json
+outputs/V002_sample_final_metrics.json
+outputs/V003_sample_final_metrics.json
+outputs/V004_sample_final_metrics.json
+outputs/V005_sample_final_metrics.json
+```
+
+La comparación entre vídeos se genera con:
+
+```powershell
+python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
+```
+
+Resultado:
+
+```text
+outputs/aggregate_metrics.json
+```
+
+---
+
+# Casos audiovisuales incluidos
+
+Las cinco muestras se seleccionaron para representar situaciones diferentes:
+
+```text
+V001_sample
+Panel con varios participantes y cambios de plano.
+
+V002_sample
+Panel con ronda de preguntas e intervenciones fuera de plano.
+
+V003_sample
+Panel adicional con varios speakers y una realización audiovisual distinta.
+
+V004_sample
+Panel presencial con plano grupal persistente y cuatro participantes visibles.
+
+V005_sample
+Panel con cinco speakers y composición grupal o en mosaico.
+```
+
+V004 y V005 producen principalmente:
+
+```text
+ambiguous_group_shot
+```
+
+Esto ocurre porque varias personas permanecen visibles simultáneamente y ninguna domina visualmente de forma suficiente.
+
+Por tanto:
+
+```text
+alineación voz-imagen = 0 %
+```
+
+no significa:
+
+```text
+presencia visual = 0 %
+```
+
+Significa que el sistema no puede atribuir de forma suficientemente fiable la voz activa a una única figura visual dominante.
+
+---
+
+# Anotación manual de participantes
+
+La relación entre los clusters de voz y los participantes está documentada manualmente en:
+
+```text
+config/participants.json
+```
+
+La estructura utilizada es:
+
+```json
+{
+  "V001_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+  }
+}
+```
+
+## Significado de los campos
+
+```text
+participant
+Identificador anónimo de participante dentro de un vídeo.
+
+declared_gender
+Categoría documentada en una fuente oficial.
+
+speaker_mapping_verified
+Indica si la relación SPEAKER_XX ↔ participante fue revisada manualmente.
+
+speaker_mapping_method
+Método utilizado para comprobar la correspondencia.
+
+gender_source
+Tipo de fuente utilizada para documentar el género.
+```
+
+Los IDs de participante son locales a cada vídeo.
+
+Por ejemplo:
+
+```text
+V001_sample / participant_01
+```
+
+no representa necesariamente a la misma persona que:
+
+```text
+V002_sample / participant_01
+```
+
+## Principio ético
+
+El género no se obtiene mediante:
+
+```text
+apariencia
+voz
+nombre
+reconocimiento facial
+clasificación automática
+LLM
+```
+
+La asociación `SPEAKER_XX ↔ participante` se realiza mediante revisión manual de audio y vídeo.
+
+El género solo se incorpora desde información documentada. Cuando no existe evidencia suficiente, debe utilizarse:
+
+```text
+unknown
+```
+
+---
+
+# Métricas agregadas por género
+
+Las métricas se generan con:
+
+```powershell
+python src/metrics/gender_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
+```
+
+Resultado:
+
+```text
+outputs/gender_metrics.json
+```
+
+## Resultados actuales
+
+Se han analizado:
+
+```text
+5 vídeos
+30 clusters de voz
+2.834,92 segundos de habla
+aproximadamente 47 minutos y 15 segundos
+```
+
+La cobertura declarada actualmente es:
+
+```text
+30 speakers con mapping verificado
+100 % del tiempo hablado con mapping anotado
+```
+
+Distribución del tiempo de habla:
+
+```text
+woman
+1.017,00 segundos
+35,87 % del tiempo hablado
+
+man
+1.817,92 segundos
+64,13 % del tiempo hablado
+```
+
+Control de turnos:
+
+```text
+woman
+27 turnos
+2 aperturas
+2 cierres
+
+man
+50 turnos
+3 aperturas
+3 cierres
+```
+
+Alineación voz-imagen:
+
+```text
+woman
+28,33 %
+
+man
+29,37 %
+```
+
+## Interpretación correcta
+
+Los resultados no se deben presentar como una conclusión general sobre todas las conferencias técnicas.
+
+La formulación recomendada es:
+
+> En los cinco fragmentos seleccionados para el MVP, las intervenciones asociadas manualmente a participantes documentadas como mujeres representan el 35,87 % del tiempo de habla analizado.
+
+La alineación voz-imagen tampoco representa tiempo total visible.
