@@ -1,0 +1,227 @@
+{
+  "V001_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_01": {
+      "participant": "participant_02",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_02": {
+      "participant": "participant_03",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_03": {
+      "participant": "participant_04",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+  },
+
+  "V002_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_01": {
+      "participant": "participant_02",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_02": {
+      "participant": "participant_03",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_03": {
+      "participant": "participant_04",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_04": {
+      "participant": "participant_05",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_05": {
+      "participant": "participant_06",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_06": {
+      "participant": "participant_07",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_07": {
+      "participant": "participant_08",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_08": {
+      "participant": "participant_09",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    
+    "SPEAKER_09": {
+      "participant": "participant_10",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_10": {
+      "participant": "participant_11",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+   },
+   "V003_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_01": {
+      "participant": "participant_02",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_02": {
+      "participant": "participant_03",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_03": {
+      "participant": "participant_04",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_04": {
+      "participant": "participant_05",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_05": {
+      "participant": "participant_06",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+  },
+  "V004_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_01": {
+      "participant": "participant_02",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_02": {
+      "participant": "participant_03",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_03": {
+      "participant": "participant_04",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+  },
+  "V005_sample": {
+    "SPEAKER_00": {
+      "participant": "participant_01",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_01": {
+      "participant": "participant_02",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_02": {
+      "participant": "participant_03",
+      "declared_gender": "woman",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_03": {
+      "participant": "participant_04",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    },
+    "SPEAKER_04": {
+      "participant": "participant_05",
+      "declared_gender": "man",
+      "speaker_mapping_verified": true,
+      "speaker_mapping_method": "manual_audio_video_review",
+      "gender_source": "official_participant_profile"
+    }
+  }
+  
+}
+
+
