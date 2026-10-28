@@ -399,312 +399,312 @@ Ejemplo:
 *
   "speaker": "SPEAKER_03",
 * "start": 95.999,
-  "end": 118*882,
+  "end": 118.882,
   "duration": 22.883
 }
 ```
 
-*os identificadores:
+Los identificadores:
 
 ```text
-SPEAK*R_00
-SPE*KER_01
+SPEAKER_00
+SPEAKER_01
 SPEAKER_02
 ...
 ```
 
-represe*tan clusters de voz.
+representan clusters de voz.
 
-No represent*n identidades reales.
+No representan identidades reales.
 
 ---
 
-# 2. T*anscripción
+# 2. Transcripción
 
-La transcripción se r*aliza mediante faster-whisper.
+La transcripción se realiza mediante faster-whisper.
 
-Ou*put:
+Output:
 
 ```text
 *_transcription.json*```
 
 Se generan:
 
-- texto transcri*o;
+- texto transcrito;
 - timestamps;
-- timestamps a ni*el de palabra;
-- idioma detectado.*
-Estos timestamps permiten posteri*rmente relacionar las palabras con*los segmentos producidos por pyann*te.
+- timestamps a nivel de palabra;
+- idioma detectado.
+Estos timestamps permiten posteriormente relacionar las palabras con los segmentos producidos por pyannote.
 
 ---
 
-# 3. Detección de person*s
+# 3. Detección de personas
 
-La detección visual utiliza YOL* y únicamente la clase:
+La detección visual utiliza YOLO y únicamente la clase:
 
 ```text
-p*rson
+person
 ```
 
-No se utiliza reconocimi*nto facial.
+No se utiliza reconocimiento facial.
 
-No se realiza clasifi*ación de género sobre las imágenes*
+No se realiza clasificación de género sobre las imágenes
 
 ---
 
 # 4. Tracking
 
-El tracking *tiliza ByteTrack.
+El tracking utiliza ByteTrack.
 
 Output:
 
-```tex*
-*_tracks.json
+```text
+_tracks.json
 ```
 
-Los IDs genera*os representan tracklets temporale*.
+Los IDs generados representan tracklets temporales.
 
 Por ejemplo:
 
 ```text
-TRACK_037*TRACK_090
+TRACK_037_TRACK_090
 TRACK_172
 ```
 
-Un mismo *articipante puede recibir distinto* IDs después de cambios de plano.
-*Por tanto:
+Un mismo participante puede recibir distintos IDs después de cambios de plano.
+Por tanto:
 
 ```text
-TRACK_ID != id*ntidad global
+TRACK_ID != identidad global
 ```
 
 ---
 
-# 5. Aline*ción voz-imagen
+# 5. Alineación voz-imagen
 
 Output:
 
 ```text
-*_speaker_visual_alignment.json
-```*
-Durante cada segmento de voz se a*alizan las personas visibles.
+_speaker_visual_alignment.json
+```
+Durante cada segmento de voz se analizan las personas visibles.
 
-La *rominencia visual utiliza informac*ón como:
+La prominencia visual utiliza información como:
 
 - tiempo visible;
-- área*relativa del bounding box;
-- centr*lidad;
+- área relativa del bounding box;
+- centrtlidad;
 - dominancia visual;
-- dife*encia respecto al siguiente candid*to.
+- diferencia respecto al siguiente candidato.
 
 Estados posibles:
 
 ```text
-ca*didate_selected
-ambiguous_group_sh*t
+candidate_selected
+ambiguous_group_shot
 no_visual_candidate
-segment_too_*hort
+segment_too_short
 ```
 
 ## candidate_selected
 
-E*iste una figura visual suficientem*nte dominante durante ese segmento*
+Elegiste una figura visual suficientemente dominante durante ese segmento.
 
 ## ambiguous_group_shot
 
-Hay var*as personas visibles y no existe s*ficiente evidencia para selecciona* una.
+Hay varias personas visibles y no existe suficiente evidencia para seleccionar una.
 
 ## no_visual_candidate
 
-No *xiste una detección visual que cum*la los criterios.
+No existe una detección visual que cumpla los criterios.
 
-## segment_too_*hort
+## segment_too_short
 
-El segmento de audio es dema*iado corto para utilizarlo de form* fiable.
+El segmento de audio es demasiado corto para utilizarlo de forma fiable.
 
 IMPORTANTE:
 
 ```text
-can*idate_selected
+candidate_selected
 ```
 
-no significa q*e se haya identificado biométricam*nte a la persona que habla.
+no significa que se haya identificado biométricamente a la persona que habla.
 
-Repre*enta únicamente un candidato visua* basado en prominencia temporal y *spacial.
+Representa únicamente un candidato visual basado en prominencia temporal y espacial.
 
 ---
 
-# 6. Alineación spe*ker-transcript
+# 6. Alineación speaker-transcript
 
 Output:
 
 ```text
-**speaker_transcript.json
+speaker_transcript.json
 ```
 
-Combi*a:
+Combina:
 
 ```text
 speaker
 +
 inicio
 +
-fin*+
+fin+
 duración
 +
 texto
 ```
 
-Las palabr*s transcritas se asignan a los seg*entos de diarización mediante sus *imestamps.
+Las palabras transcritas se asignan a los segmentos de diarización mediante sus timestamps.
 
 ---
 
-# 7. Métricas de *rotagonismo
+# 7. Métricas de protagonismo
 
 Output:
 
 ```text
-*_pr*minence.json
+_prominence.json
 ```
 
-Actualmente se c*lculan:
+Actualmente se calculan:
 
 - tiempo total de habla;
-* porcentaje de tiempo hablado;
-- n*mero de turnos;
-- duración media d* turno;
-- duración máxima de turno*
+- porcentaje de tiempo hablado;
+- numero de turnos;
+- duración media de turno;
+- duración máxima de turn;
 - speaker de apertura;
-- speaker *e cierre;
-- alineación visual por *iempo;
-- alineación visual por seg*entos.
+- speaker de cierre;
+- alineación visual por tiempo;
+- alineación visual por segmentos.
 
-Los microsegmentos inferio*es al umbral configurado se excluy*n de estas métricas derivadas.
+Los microsegmentos inferiores al umbral configurado se excluyen de estas métricas derivadas.
 
-Ta*bién se fusionan segmentos consecu*ivos del mismo speaker cuando está* separados por pausas suficienteme*te pequeñas.
+También se fusionan segmentos consecutivos del mismo speaker cuando están separados por pausas suficientemente pequeñas.
 
 ---
 
-# 8. Análisis s*mántico
+# 8. Análisis semántico
 
 Output:
 
 ```text
-*_conten*_analysis.json
+_content_analysis.json
 ```
 
-El análisis ut*liza OVHcloud AI Endpoints mediant* una API compatible con OpenAI.
+El análisis utuliza OVHcloud AI Endpoints mediante una API compatible con OpenAI.
 
-A*tualmente el pipeline utiliza el m*delo virtual:
+Actualmente el pipeline utiliza el modelo virtual:
 
 ```text
-mistral@lat*st
+mistral@latest
 ```
 
-Durante las pruebas, OVH r*solvió este modelo virtual a un mo*elo Mistral disponible en su servi*io.
+Durante las pruebas, OVH resolvió este modelo virtual a un modelo Mistral disponible en su servicio.
 
-El LLM clasifica cada interve*ción en una categoría:
+El LLM clasifica cada intervención en una categoría:
 
 ```text
-te*hnical_explanation
+technical_explanation
 answer
-question*opinion
+question-opinion
 moderation
 introduction
-cl*sing
+closing
 organizational
 other
 ```
 
-Tam*ién estima el peso técnico:
+También estima el peso técnico:
 
-```te*t
+```text
 low
 medium
 high
 ```
 
-IMPORTANTE:*
-El LLM únicamente analiza el text*.
+IMPORTANTE:
+El LLM únicamente analiza el text.
 
 El LLM no determina:
 
-- quién e*tá hablando;
+- quién está hablando;
 - identidad;
-- género*
+- género;
 - presencia visual;
-- tiempo de h*bla;
+- tiempo de habla;
 - tracking.
 
 ---
 
-# 9. Métric*s finales
+# 9. Métricas finales
 
-El resultado principal *e cada vídeo es:
+El resultado principal de cada vídeo es:
 
 ```text
-*_final_*etrics.json
+_final_metrics.json
 ```
 
-Para cada `SPEAKE*_XX` se agrupan:
+Para cada `SPEAKER_XX` se agrupan:
 
 ```text
-presence*├── speaking_time_seconds
-└── spea*ing_percentage
+presence├── speaking_time_seconds
+└── speaking_percentage
 
 turn_control
-├── t*rns
-├── average_turn_duration_seco*ds
-├── maximum_turn_duration_secon*s
+├── turns
+├── average_turn_duration_seconds
+├── maximum_turn_duration_seconds
 ├── opens_video
-└── closes_video*
+└── closes_video
 visual
-├── alignment_time_percent*ge
-├── alignment_segment_percentag*
+├── alignment_time_percentege
+├── alignment_segment_percentage
 └── ambiguous_segments
 
 content
-├*─ segments_analyzed
-├── dominant_c*ntent_type
-├── content_type_counts*└── duration_by_content_type_secon*s
+├─ segments_analyzed
+├── dominant_content_type
+├── content_type_counts── duration_by_content_type_seconds
 
 technical_weight
 ├── counts
-├──*duration_seconds
-└── time_percenta*e
+├──duration_seconds
+└── time_percentage
 ```
 
-Las métricas semánticas se *gregan también por duración.
+Las métricas semánticas se agregan también por duración.
 
-Así,*un segmento de 90 segundos tiene m*s peso que otro de 3 segundos.
+Así, un segmento de 90 segundos tiene más peso que otro de 3 segundos.
 
---*
+--
 
 # Comparar varios vídeos
 
-Cuando*ya existen varios resultados final*s se puede ejecutar:
+Cuando ya existen varios resultados finales se puede ejecutar:
 
-```powershel*
-python src/metrics/aggregate_metr*cs.py V001_sample V002_sample
+```powershel
+python src/metrics/aggregate_metrics.py V001_sample V002_sample
 ```
 *Para cinco vídeos:
 
 ```powershell
-*ython src/metrics/aggregate_metric*.py V001_sample V002_sample V003_s*mple V004_sample V005_sample
+python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
 ```
 
-*e genera:
+Se genera:
 
 ```text
-outputs/aggrega*e_metrics.json
+outputs/aggregate_metrics.json
 ```
 
-La agregación *ompara actualmente:
+La agregación compara actualmente:
 
-- número de s*eakers;
-- speaker con mayor porcen*aje de habla;
-- distribución del t*empo de habla;
-- alineación visual*media;
+- número de speakers;
+- speaker con mayor porcentaje de habla;
+- distribución del tiempo de habla;
+- alineación visual media;
 - distribución de tipos de contenido;
 - distribución del peso técnico.
 
