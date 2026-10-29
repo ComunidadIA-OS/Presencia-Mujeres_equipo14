@@ -1,6 +1,16 @@
-# Challenge Mujeres IA - Análisis multimodal de conferencias técnicas
+# Medición multimodal del protagonismo de las mujeres en paneles y conferencias tecnológicos.
+> Quién habla, cuánto, cuándo, con qué visibilidad y qué contenido aporta.
 
-Este proyecto desarrolla un sistema abierto para analizar vídeos de conferencias y paneles técnicos y estudiar la distribución de presencia y protagonismo entre las personas participantes.
+## Equipo 14
+** Datitas**
+### Autoras:
+- Sara Piñas
+- Afina Nurova
+- Paula Gutiérrez
+
+
+## Descripción
+Este proyecto desarrolla un sistema abierto de análisis multimodal para estudiar cómo se distribuyen la presencia y el protagonismo de las mujeres en conferencias tecnológicas.
 
 El pipeline combina:
 
@@ -13,398 +23,155 @@ El pipeline combina:
 - generación de métricas finales por vídeo;
 - comparación agregada entre varios vídeos.
 
-> Importante: el sistema no utiliza reconocimiento facial ni infiere género mediante imagen, voz o apariencia.
+El sistema fusiona audio, vídeo y texto para producir métricas interpretables y explorables mediante un dashboard interactivo.
 
----
-
-# Estado actual
-
-Actualmente se han procesado correctamente dos muestras independientes:
-
-- `V001_sample`
-- `V002_sample`
-
-Ambas producen las métricas finales utilizando el mismo pipeline automatizado.
-
-El siguiente objetivo del MVP es completar un conjunto de cinco muestras heterogéneas y generar su comparación agregada.
-
----
-
-# Quick start
-
-## 1. Clonar el repositorio
-
-Clonar el repositorio y acceder al proyecto:
-
-```powershell
-git clone <URL_DEL_REPOSITORIO>
-cd ChallengeMujeresIA
-```
-
-Actualizar las ramas remotas:
-
-```powershell
-git fetch origin
-```
-
-Cambiar a la rama actual de desarrollo:
-
-```powershell
-git switch multimodal-pipeline
-```
-
----
-
-# 2. Configurar Python
-
-El proyecto se ha desarrollado con Python 3.12.
-
-Comprobar la versión instalada:
-
-```powershell
-python --version
-```
-
-Se recomienda:
-
+# Resultados principales del MVP
+Se han procesado cinco fragmentos audiovisuales con características diferentes:
 ```text
-Python 3.12.x
+V001_sample
+V002_sample
+V003_sample
+V004_sample
+V005_sample
 ```
+En total se analizaron:
+- 5 vídeos
+- 30 clusters de voz anotados
+- 47 min de habla
+- 77 turnos reconstruidos
 
-Crear el entorno virtual:
-
-```powershell
-py -3.12 -m venv .venv
-```
-
-Activarlo en Windows:
-
-```powershell
-.venv\Scripts\activate
-```
-
-La terminal debería mostrar algo parecido a:
-
+## Composición documentada
 ```text
-(.venv) PS C:\...\ChallengeMujeresIA>
+Mujeres: 9/30 participantes
+Hombres: 21/30 participantes
 ```
+## Ejecutar únicamente el dashboard
 
----
-
-# 3. Instalar las dependencias
-
-Actualizar pip:
+Crear un entorno virtual:
 
 ```powershell
-python -m pip install --upgrade pip
+py -3.12 -m venv .venv-dashboard
+```
+
+Activarlo:
+
+```powershell
+.venv-dashboard\Scripts\activate
 ```
 
 Instalar las dependencias:
 
 ```powershell
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Entre las dependencias principales utilizadas actualmente están:
+Ejecutar desde la raíz del repositorio:
+
+```powershell
+python -m streamlit run app.py
+```
+
+La aplicación se abrirá normalmente en:
 
 ```text
-pyannote.audio
-ultralytics
-faster-whisper
-av<19
-opencv-python
-openai
-easyocr
+http://localhost:8501
 ```
 
-Se utiliza `av<19` porque durante el desarrollo se encontró una incompatibilidad entre la versión utilizada de faster-whisper y versiones posteriores de PyAV.
+## Vistas disponibles
+
+### Resumen
+
+Presenta:
+
+- vídeos analizados;
+- clusters de voz;
+- tiempo total de habla;
+- cobertura de anotación;
+- composición del corpus;
+- distribución global del tiempo hablado;
+- turnos, aperturas y cierres.
+
+### Comparación por vídeo
+
+Permite seleccionar una muestra y explorar:
+
+- número de clusters de voz;
+- composición documentada;
+- participante o cluster con mayor porcentaje de habla;
+- distribución del tiempo hablado;
+- alineación voz-imagen;
+- tipos de contenido;
+- peso técnico estimado.
+
+### Representación y protagonismo
+
+Compara:
+
+- representación numérica;
+- cuota total de voz;
+- tiempo medio hablado por participante;
+- número de turnos;
+- aperturas;
+- cierres;
+- alineación voz-imagen.
+
+
+### Metodología y transparencia
+
+Documenta:
+
+- arquitectura multimodal;
+- tecnologías utilizadas;
+- perspectiva de género;
+- decisiones éticas;
+- limitaciones del sistema;
+- riesgos y posibles mejoras.
 
 ---
 
-# 4. Instalar FFmpeg
+# Arquitectura
 
-Comprobar primero si FFmpeg está instalado:
-
-```powershell
-ffmpeg -version
-```
-
-Si no está instalado en Windows:
-
-```powershell
-winget install Gyan.FFmpeg
-```
-
-Después de instalarlo puede ser necesario cerrar y volver a abrir la terminal.
-
----
-
-# 5. Configurar los tokens
-
-El pipeline necesita dos tokens.
-
-## Hugging Face
-
-Se utiliza para cargar el modelo de diarización de pyannote.
-
-En PowerShell:
-
-```powershell
-$env:HF_TOKEN="TU_TOKEN"
-```
-
-Comprobar que existe sin mostrar su contenido:
-
-```powershell
-if ($env:HF_TOKEN) {
-    "HF OK"
-} else {
-    "HF NO configurado"
-}
-```
-
----
-
-## OVHcloud AI Endpoints
-
-Se utiliza para el análisis semántico de las transcripciones.
-
-Configurar:
-
-```powershell
-$env:OVH_AI_ENDPOINTS_ACCESS_TOKEN="TU_TOKEN"
-```
-
-Comprobar:
-
-```powershell
-if ($env:OVH_AI_ENDPOINTS_ACCESS_TOKEN) {
-    "OVH OK"
-} else {
-    "OVH NO configurado"
-}
-```
-
-IMPORTANTE:
-
-- no escribir tokens directamente en los scripts;
-- no subir tokens a GitHub;
-- no poner tokens en este README;
-- no incluir tokens dentro de commits.
-
-Las variables configuradas con `$env:` permanecen en la sesión actual de PowerShell.
-
-Si se abre una terminal nueva será necesario configurarlas otra vez.
-
----
-
-# Preparar un vídeo
-
-Los vídeos se guardan localmente en:
-
-```text
-data/raw/
-```
-
-Por ejemplo:
-
-```text
-data/raw/V003.webm
-```
-
-Para desarrollar y validar el pipeline es recomendable utilizar fragmentos representativos en lugar de procesar siempre el vídeo completo.
-
-Por ejemplo, para extraer 8 minutos empezando en `00:12:30`:
-
-```powershell
-ffmpeg -ss 00:12:30 -i data/raw/V003.webm -t 00:08:00 -c copy data/raw/V003_sample.webm
-```
-
-Esto generará:
-
-```text
-data/raw/V003_sample.webm
-```
-
-Comprobar el sample:
-
-```powershell
-ffprobe data/raw/V003_sample.webm
-```
-
-Para los samples interesa seleccionar intervalos donde haya:
-
-- varios participantes;
-- varios cambios de hablante;
-- planos individuales y grupales;
-- cambios de cámara;
-- conversación, debate o panel real.
-
-Conviene evitar:
-
-- introducciones largas de una sola persona;
-- presentaciones individuales consecutivas;
-- vídeos con imagen estática;
-- largos fragmentos de diapositivas sin participantes.
-
----
-
-# Ejecutar el pipeline completo
-
-Una vez disponible, por ejemplo:
-
-```text
-data/raw/V003_sample.webm
-```
-
-ejecutar:
-
-```powershell
-python scripts/run_pipeline.py V003_sample
-```
-
-IMPORTANTE:
-
-El argumento es el `VIDEO_ID`.
-
-Correcto:
-
-```powershell
-python scripts/run_pipeline.py V003_sample
-```
-
-Incorrecto:
-
-```powershell
-python scripts/run_pipeline.py V003_sample.webm
-```
-
----
-
-# Pipeline
-
-`run_pipeline.py` ejecuta automáticamente el flujo completo:
+El procesamiento se divide en varias capas:
 
 ```text
 VÍDEO
-  |
-  v
-Extracción de audio
-  |
-  +-------------------------+
-  |                         |
-  v                         v
-Diarización              Detección
-pyannote                    YOLO
-  |                         |
-  v                         v
-Speakers                  ByteTrack
-  |                         |
-  +-----------+-------------+
-              |
-              v
-      Alineación voz-imagen
-              |
-              v
-         Transcripción
-       faster-whisper
-              |
-              v
- Alineación speaker-transcript
-              |
-              v
- Métricas de protagonismo
-              |
-              v
-Análisis semántico con OVH
-              |
-              v
-       Métricas finales
+│
+├── AUDIO
+│   ├── FFmpeg
+│   ├── pyannote
+│   └── faster-whisper
+│
+├── IMAGEN
+│   ├── YOLO
+│   └── ByteTrack
+│
+├── FUSIÓN
+│   ├── speaker ↔ transcript
+│   └── speaker ↔ prominencia visual
+│
+├── CONTENIDO
+│   └── OVHcloud AI Endpoints / Mistral
+│
+└── ANOTACIÓN
+    └── correspondencia manual speaker-participante
 ```
 
-El resultado principal será:
+## Audio
+
+### FFmpeg
+
+Extrae y normaliza el audio del vídeo:
 
 ```text
-outputs/V003_sample_final_metrics.json
+mono
+16 kHz
+WAV
 ```
 
----
+### pyannote
 
-# Reanudación automática
-
-El pipeline comprueba si determinados resultados ya existen antes de ejecutar cada paso.
-
-Por ejemplo:
-
-```text
-[SKIP] Extracción de audio
-       Ya existe: data/audio/V003_sample.wav
-
-[SKIP] Diarización
-       Ya existe: outputs/V003_sample_diarization.json
-```
-
-Esto permite volver a ejecutar:
-
-```powershell
-python scripts/run_pipeline.py V003_sample
-```
-
-sin recalcular todos los pasos anteriores.
-
-Si se quiere recalcular expresamente un paso, se puede eliminar previamente su fichero de salida correspondiente.
-
----
-
-# Outputs generados
-
-Para un vídeo identificado como:
-
-```text
-V003_sample
-```
-
-se generan:
-
-```text
-data/audio/
-└── V003_sample.wav
-
-outputs/
-├── V003_sample_diarization.json
-├── V003_sample_transcription.json
-├── V003_sample_tracks.json
-├── V003_sample_speaker_visual_alignment.json
-├── V003_sample_speaker_transcript.json
-├── V003_sample_prominence.json
-├── V003_sample_content_analysis.json
-└── V003_sample_final_metrics.json
-```
-
----
-
-# 1. Diarización
-
-La diarización se realiza con pyannote.
-
-Output:
-
-```text
-*_diarization.json
-```
-
-Ejemplo:
-
-`*`json
-*
-  "speaker": "SPEAKER_03",
-* "start": 95.999,
-  "end": 118.882,
-  "duration": 22.883
-}
-```
-
-Los identificadores:
+Realiza la diarización y genera clusters de voz:
 
 ```text
 SPEAKER_00
@@ -413,89 +180,75 @@ SPEAKER_02
 ...
 ```
 
-representan clusters de voz.
+Estos identificadores son clusters técnicos de voz, no identidades reales.
 
-No representan identidades reales.
+### faster-whisper
 
----
+Genera:
 
-# 2. Transcripción
-
-La transcripción se realiza mediante faster-whisper.
-
-Output:
-
-```text
-*_transcription.json*```
-
-Se generan:
-
-- texto transcrito;
-- timestamps;
-- timestamps a nivel de palabra;
-- idioma detectado.
-Estos timestamps permiten posteriormente relacionar las palabras con los segmentos producidos por pyannote.
+- transcripción;
+- idioma detectado;
+- timestamps por segmento;
+- timestamps por palabra.
 
 ---
 
-# 3. Detección de personas
+## Vídeo
 
-La detección visual utiliza YOLO y únicamente la clase:
+### YOLO
+
+Detecta únicamente la clase:
 
 ```text
 person
 ```
 
-No se utiliza reconocimiento facial.
+No se utiliza reconocimiento facial ni clasificación de atributos personales.
 
-No se realiza clasificación de género sobre las imágenes
+### ByteTrack
+
+Relaciona las detecciones entre frames y genera tracklets temporales:
+
+```text
+TRACK_01
+TRACK_02
+TRACK_03
+...
+```
+
+Un track no equivale a una identidad global. La misma persona puede obtener distintos IDs después de un cambio de plano.
 
 ---
+## Fusión multimodal
 
-# 4. Tracking
+### Speaker-transcript
 
-El tracking utiliza ByteTrack.
+Las palabras transcritas se asignan al cluster de voz activo mediante sus timestamps.
 
-Output:
-
-```text
-_tracks.json
-```
-
-Los IDs generados representan tracklets temporales.
-
-Por ejemplo:
+Resultado:
 
 ```text
-TRACK_037_TRACK_090
-TRACK_172
+speaker
++
+inicio
++
+fin
++
+duración
++
+texto
 ```
 
-Un mismo participante puede recibir distintos IDs después de cambios de plano.
-Por tanto:
+### Speaker-visual
 
-```text
-TRACK_ID != identidad global
-```
+Durante cada segmento de voz se analizan los tracks visibles mediante:
 
----
-
-# 5. Alineación voz-imagen
-
-Output:
-
-```text
-_speaker_visual_alignment.json
-```
-Durante cada segmento de voz se analizan las personas visibles.
-
-La prominencia visual utiliza información como:
-
-- tiempo visible;
-- área relativa del bounding box;
-- centrtlidad;
-- dominancia visual;
-- diferencia respecto al siguiente candidato.
+- cobertura temporal;
+- duración visible;
+- área relativa;
+- centralidad;
+- dominancia;
+- diferencia entre el primer y segundo candidato.
 
 Estados posibles:
 
@@ -506,109 +259,41 @@ no_visual_candidate
 segment_too_short
 ```
 
-## candidate_selected
+#### `candidate_selected`
 
-Elegiste una figura visual suficientemente dominante durante ese segmento.
+Existe una figura visual suficientemente dominante.
 
-## ambiguous_group_shot
+#### `ambiguous_group_shot`
 
-Hay varias personas visibles y no existe suficiente evidencia para seleccionar una.
+Varias personas presentan una prominencia similar y no existe evidencia suficiente para elegir una.
 
-## no_visual_candidate
+#### `no_visual_candidate`
 
-No existe una detección visual que cumpla los criterios.
+No existe una detección visual válida.
 
-## segment_too_short
+#### `segment_too_short`
 
-El segmento de audio es demasiado corto para utilizarlo de forma fiable.
+El segmento de audio es demasiado corto para analizarlo de forma fiable.
 
-IMPORTANTE:
-
-```text
-candidate_selected
-```
-
-no significa que se haya identificado biométricamente a la persona que habla.
-
-Representa únicamente un candidato visual basado en prominencia temporal y espacial.
+`candidate_selected` no implica reconocimiento biométrico ni identificación personal.
 
 ---
 
-# 6. Alineación speaker-transcript
+## Análisis semántico
 
-Output:
-
-```text
-speaker_transcript.json
-```
-
-Combina:
-
-```text
-speaker
-+
-inicio
-+
-fin+
-duración
-+
-texto
-```
-
-Las palabras transcritas se asignan a los segmentos de diarización mediante sus timestamps.
-
----
-
-# 7. Métricas de protagonismo
-
-Output:
-
-```text
-_prominence.json
-```
-
-Actualmente se calculan:
-
-- tiempo total de habla;
-- porcentaje de tiempo hablado;
-- numero de turnos;
-- duración media de turno;
-- duración máxima de turn;
-- speaker de apertura;
-- speaker de cierre;
-- alineación visual por tiempo;
-- alineación visual por segmentos.
-
-Los microsegmentos inferiores al umbral configurado se excluyen de estas métricas derivadas.
-
-También se fusionan segmentos consecutivos del mismo speaker cuando están separados por pausas suficientemente pequeñas.
-
----
-
-# 8. Análisis semántico
-
-Output:
-
-```text
-_content_analysis.json
-```
-
-El análisis utuliza OVHcloud AI Endpoints mediante una API compatible con OpenAI.
-
-Actualmente el pipeline utiliza el modelo virtual:
+Las intervenciones se analizan mediante OVHcloud AI Endpoints utilizando una API compatible con OpenAI y el modelo virtual:
 
 ```text
 mistral@latest
 ```
 
-Durante las pruebas, OVH resolvió este modelo virtual a un modelo Mistral disponible en su servicio.
-
-El LLM clasifica cada intervención en una categoría:
+Cada intervención se clasifica en una categoría:
 
 ```text
 technical_explanation
 answer
-question-opinion
+question
+opinion
 moderation
 introduction
 closing
@@ -616,7 +301,7 @@ organizational
 other
 ```
 
-También estima el peso técnico:
+También se estima un peso técnico:
 
 ```text
 low
@@ -624,32 +309,228 @@ medium
 high
 ```
 
-IMPORTANTE:
-El LLM únicamente analiza el text.
+El modelo analiza únicamente texto.
 
-El LLM no determina:
+No determina:
 
-- quién está hablando;
+- qué persona habla;
 - identidad;
 - género;
-- presencia visual;
 - tiempo de habla;
-- tracking.
+- presencia visual;
+- tracking;
+- calidad o mérito de una persona.
+
+El peso técnico es una clasificación semántica experimental, no una medida objetiva de importancia.
 
 ---
 
-# 9. Métricas finales
+# Inicio rápido del proyecto completo
 
-El resultado principal de cada vídeo es:
-
-```text
-_final_metrics.json
+## 1. Configurar Python 
+El proyecto se ha desarrollado con python 3.12
+Crear el entorno virtual:
+```powershell
+py -3.12 -m venv .venv
 ```
 
-Para cada `SPEAKER_XX` se agrupan:
+Activarlo en Windows:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Actualizar pip:
+
+```powershell
+python -m pip install --upgrade pip
+```
+Instalar las dependencias completas:
+
+```powershell
+pip install -r requirements.txt
+```
+---
+## 2. Instalar FFmpeg
+
+Comprobar si está disponible:
+
+```powershell
+ffmpeg -version
+```
+
+En Windows puede instalarse mediante:
+
+```powershell
+winget install Gyan.FFmpeg
+```
+
+Después de la instalación puede ser necesario cerrar y volver a abrir la terminal.
+
+## 3. Configurar credenciales
+
+El pipeline necesita dos variables de entorno.
+
+### Hugging Face
+
+Necesaria para cargar el modelo de diarización de pyannote:
+
+```powershell
+$env:HF_TOKEN="TU_TOKEN"
+```
+
+Comprobar sin mostrar el valor:
+
+```powershell
+if ($env:HF_TOKEN) {
+    "HF_TOKEN configurado"
+} else {
+    "HF_TOKEN no configurado"
+}
+```
+---
+
+### OVHcloud AI Endpoints
+
+Necesaria para el análisis semántico:
+
+```powershell
+$env:OVH_AI_ENDPOINTS_ACCESS_TOKEN="TU_TOKEN"
+```
+
+Comprobar:
+
+```powershell
+if ($env:OVH_AI_ENDPOINTS_ACCESS_TOKEN) {
+    "Token OVH configurado"
+} else {
+    "Token OVH no configurado"
+}
+```
+
+# Preparar un vídeo
+
+Los vídeos se guardan localmente en:
 
 ```text
-presence├── speaking_time_seconds
+data/raw/
+```
+
+Ejemplo:
+
+```text
+data/raw/V006.webm
+```
+
+Para validar el pipeline se recomienda utilizar un fragmento representativo de entre seis y diez minutos.
+
+Ejemplo:
+
+```powershell
+ffmpeg -ss 00:12:30 -i data/raw/V006.webm -t 00:08:00 -c copy data/raw/V006_sample.webm
+```
+
+Comprobar el sample:
+
+```powershell
+ffprobe data/raw/V006_sample.webm
+```
+
+Es recomendable seleccionar fragmentos con:
+
+- varios participantes;
+- cambios de hablante;
+- conversación o debate real;
+- planos individuales y grupales;
+- cambios de cámara.
+
+Conviene evitar:
+
+- introducciones largas de una sola persona;
+- presentaciones individuales consecutivas;
+- vídeos congelados;
+- fragmentos formados principalmente por diapositivas.
+
+---
+# Ejecutar el pipeline
+Una vez disponible:
+```text
+data/raw/V006_sample.webm
+```
+
+ejecutar:
+
+```powershell
+python scripts/run_pipeline.py V006_sample
+```
+
+El argumento corresponde al `VIDEO_ID` y no debe incluir la extensión.
+
+Correcto:
+
+```powershell
+python scripts/run_pipeline.py V006_sample
+```
+
+Incorrecto:
+
+```powershell
+python scripts/run_pipeline.py V006_sample.webm
+```
+
+El resultado principal será:
+
+```text
+outputs/V006_sample_final_metrics.json
+```
+
+---
+
+# Reanudación automática
+
+El pipeline comprueba si cada resultado ya existe.
+
+Ejemplo:
+
+```text
+[SKIP] Extracción de audio
+       Ya existe: data/audio/V006_sample.wav
+
+[SKIP] Diarización
+       Ya existe: outputs/V006_sample_diarization.json
+```
+
+Esto permite reanudar una ejecución sin repetir operaciones costosas.
+
+Para recalcular un paso concreto, se puede eliminar previamente su fichero de salida correspondiente.
+
+---
+# Outputs
+
+Para un vídeo identificado como `V006_sample` se generan:
+
+```text
+data/audio/
+└── V006_sample.wav
+
+outputs/
+├── V006_sample_diarization.json
+├── V006_sample_transcription.json
+├── V006_sample_tracks.json
+├── V006_sample_speaker_visual_alignment.json
+├── V006_sample_speaker_transcript.json
+├── V006_sample_prominence.json
+├── V006_sample_content_analysis.json
+└── V006_sample_final_metrics.json
+```
+
+## Resultado final por speaker
+
+`*_final_metrics.json` agrupa:
+
+```text
+presence
+├── speaking_time_seconds
 └── speaking_percentage
 
 turn_control
@@ -658,367 +539,31 @@ turn_control
 ├── maximum_turn_duration_seconds
 ├── opens_video
 └── closes_video
+
 visual
-├── alignment_time_percentege
+├── alignment_time_percentage
 ├── alignment_segment_percentage
 └── ambiguous_segments
 
 content
-├─ segments_analyzed
+├── segments_analyzed
 ├── dominant_content_type
-├── content_type_counts── duration_by_content_type_seconds
+├── content_type_counts
+└── duration_by_content_type_seconds
 
 technical_weight
 ├── counts
-├──duration_seconds
+├── duration_seconds
 └── time_percentage
 ```
 
-Las métricas semánticas se agregan también por duración.
-
-Así, un segmento de 90 segundos tiene más peso que otro de 3 segundos.
-
---
-
-# Comparar varios vídeos
-
-Cuando ya existen varios resultados finales se puede ejecutar:
-
-```powershel
-python src/metrics/aggregate_metrics.py V001_sample V002_sample
-```
-*Para cinco vídeos:
-
-```powershell
-python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
-```
-
-Se genera:
-
-```text
-outputs/aggregate_metrics.json
-```
-
-La agregación compara actualmente:
-
-- número de speakers;
-- speaker con mayor porcentaje de habla;
-- distribución del tiempo de habla;
-- alineación visual media;
-- distribución de tipos de contenido;
-- distribución del peso técnico.
-
-Los IDs de speaker son locales a cada vídeo.
-
-Por tanto:
-
-```text
-V001 SPEAKER_01
-```
-
-no tiene por qué corresponder a:
-
-```text
-V002 SPEAKER_01
-```
+Las métricas semánticas se ponderan por duración. Un segmento de 90 segundos tiene más peso que uno de tres segundos.
 
 ---
 
-# Caso especial: preguntas del público
+# Agregación de resultados
 
-Un vídeo puede contener, por ejemplo:
-
-```text
-4 panelistas visibles
-+
-preguntas del público fuera de plano
-```
-
-Pyannote puede detectar más de cuatro speakers porque también está detectando las voces del público.
-
-Esto no se considera automáticamente un error.
-
-Permite diferenciar conceptualmente entre:
-
-```text
-presencia oral
-```
-
-y:
-
-```text
-representación visual
-```
-
-Una persona puede intervenir oralmente sin aparecer claramente en pantalla.
-
----
-
-# OCR
-
-Existe una prueba de OCR mediante EasyOCR:
-
-```text
-src/ocr/extract_labels.py
-```
-
-El OCR es un módulo opcional.
-
-Solo se utiliza cuando el vídeo contiene rótulos visibles con información textual como nombre o rol.
-
-En vídeos sin rótulos no se intenta inferir identidad mediante otros atributos visuales.
-
----
-
-# Resultados actuales
-
-## V001_sample
-
-En la primera muestra se detectaron 4 clusters de voz.
-
-El speaker con mayor tiempo de habla representa aproximadamente el 46 % del habla detectada.
-
-El contenido agregado se distribuyó principalmente entre:
-
-- opinion;
-- technical_explanation;
-- question;
-- moderation.
-
----
-
-## V002_sample
-
-La segunda muestra contiene un panel acompañado de una ronda de preguntas.
-
-Se detectaron más clusters de voz que panelistas principales visibles porque aparecen intervenciones del público fuera de plano.
-
-Este caso permite probar el comportamiento del pipeline cuando:
-
-```text
-número de voces detectadas
-!=
-número de panelistas visibles
-```
-
----
-
-# Estructura del proyecto
-
-```text
-ChallengeMujeresIA/
-│
-├── scripts/
-│   └── run_pipeline.py
-│
-├── src/
-│   ├── audio/
-│   │   ├── diarization.py
-│   │   └── transcription.py
-│   │
-│   ├── fusion/
-│   │   ├── speaker_visual_alignment.py
-│   │   └── speaker_transcript_alignment.py
-│   │
-│   ├── metrics/
-│   │   ├── presence.py
-│   │   ├── prominence.py
-│   │   ├── final_metrics.py
-│   │   └── aggregate_metrics.py
-│   │
-│   ├── ocr/
-│   │   └── extract_labels.py
-│   │
-│   ├── semantic/
-│   │   ├── test_ovh.py
-│   │   └── content_analysis.py
-│   │
-│   └── video/
-│       ├── person_detection.py
-│       └── person_tracking.py
-│
-├── config/
-├── data/
-├── outputs/
-├── tests/
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
-
-# Ética y privacidad
-
-El proyecto sigue los siguientes principios:
-
-- no utiliza reconocimiento facial;
-- no utiliza biometría para identificar participantes;
-- no infiere género a partir de imágenes;
-- no infiere género a partir de voz;
-- no infiere género a partir de nombres;
-- los IDs visuales son anónimos y temporales;
-- los clusters de voz son identificadores técnicos;
-- la ausencia de evidencia visual se conserva como ambigüedad;
-- no se fuerza una asociación cuando la evidencia es insuficiente;
-- el género únicamente podrá incorporarse mediante información explícitamente declarada y verificable.
-
----
-
-# Git
-
-El desarrollo principal se encuentra actualmente en:
-
-```text
-multimodal-pipeline
-```
-
-Cambiar a la rama:
-
-```powershell
-git switch multimodal-pipeline
-```
-
-Actualizar:
-
-```powershell
-git pull --rebase origin multimodal-pipeline
-```
-
-Guardar nuevos cambios:
-
-```powershell
-git status
-git add .
-git commit -m "Descripción del cambio"
-git push
-```
-
-Antes de hacer commit siempre comprobar:
-
-```powershell
-git status
-```
-
-No deben subirse:
-
-```text
-.venv/
-data/raw/
-data/audio/
-outputs/
-*.webm
-*.wav
-*.pt
-.env
-```
-
----
-
-# Flujo recomendado para añadir un nuevo vídeo
-
-## Paso 1
-
-Guardar el vídeo:
-
-```text
-data/raw/V003.webm
-```
-
-## Paso 2
-
-Localizar visualmente un intervalo representativo.
-
-## Paso 3
-
-Crear el sample:
-
-```powershell
-ffmpeg -ss 00:12:30 -i data/raw/V003.webm -t 00:08:00 -c copy data/raw/V003_sample.webm
-```
-
-## Paso 4
-
-Configurar los tokens:
-
-```powershell
-$env:HF_TOKEN="..."
-$env:OVH_AI_ENDPOINTS_ACCESS_TOKEN="..."
-```
-
-## Paso 5
-
-Ejecutar:
-
-```powershell
-python scripts/run_pipeline.py V003_sample
-```
-
-## Paso 6
-
-Comprobar:
-
-```text
-outputs/V003_sample_final_metrics.json
-```
-
-## Paso 7
-
-Añadirlo a la agregación:
-
-```powershell
-python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample
-```
-
----
-
-# Estado actual del MVP
-
-El MVP multimodal está completo para cinco muestras de vídeo:
-
-```text
-V001_sample
-V002_sample
-V003_sample
-V004_sample
-V005_sample
-```
-
-Para cada muestra se ha ejecutado el pipeline completo:
-
-```text
-vídeo
-  ↓
-extracción de audio
-  ↓
-diarización
-  ↓
-transcripción
-  ↓
-detección y tracking de personas
-  ↓
-alineación voz-imagen
-  ↓
-alineación speaker-transcripción
-  ↓
-métricas de presencia y protagonismo
-  ↓
-análisis semántico
-  ↓
-métricas finales
-```
-
-Los resultados individuales se encuentran en:
-
-```text
-outputs/V001_sample_final_metrics.json
-outputs/V002_sample_final_metrics.json
-outputs/V003_sample_final_metrics.json
-outputs/V004_sample_final_metrics.json
-outputs/V005_sample_final_metrics.json
-```
-
-La comparación entre vídeos se genera con:
+## Comparación entre vídeos
 
 ```powershell
 python src/metrics/aggregate_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
@@ -1030,62 +575,49 @@ Resultado:
 outputs/aggregate_metrics.json
 ```
 
----
+La agregación incluye:
 
-# Casos audiovisuales incluidos
+- número de clusters de voz;
+- cluster con mayor porcentaje de habla;
+- distribución del tiempo;
+- alineación visual media;
+- distribución de contenido;
+- peso técnico estimado.
 
-Las cinco muestras se seleccionaron para representar situaciones diferentes:
-
-```text
-V001_sample
-Panel con varios participantes y cambios de plano.
-
-V002_sample
-Panel con ronda de preguntas e intervenciones fuera de plano.
-
-V003_sample
-Panel adicional con varios speakers y una realización audiovisual distinta.
-
-V004_sample
-Panel presencial con plano grupal persistente y cuatro participantes visibles.
-
-V005_sample
-Panel con cinco speakers y composición grupal o en mosaico.
-```
-
-V004 y V005 producen principalmente:
+Los IDs de speaker son locales a cada vídeo.
 
 ```text
-ambiguous_group_shot
+V001_sample / SPEAKER_01
 ```
 
-Esto ocurre porque varias personas permanecen visibles simultáneamente y ninguna domina visualmente de forma suficiente.
-
-Por tanto:
+no representa necesariamente a la misma persona que:
 
 ```text
-alineación voz-imagen = 0 %
+V002_sample / SPEAKER_01
+```
+## Métricas por género documentado
+
+```powershell
+python src/metrics/gender_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
 ```
 
-no significa:
+Resultado:
 
 ```text
-presencia visual = 0 %
+outputs/gender_metrics.json
 ```
-
-Significa que el sistema no puede atribuir de forma suficientemente fiable la voz activa a una única figura visual dominante.
 
 ---
 
-# Anotación manual de participantes
+# Anotación de participantes
 
-La relación entre los clusters de voz y los participantes está documentada manualmente en:
+La relación entre clusters de voz y participantes está documentada en:
 
 ```text
 config/participants.json
 ```
 
-La estructura utilizada es:
+Ejemplo:
 
 ```json
 {
@@ -1101,28 +633,7 @@ La estructura utilizada es:
 }
 ```
 
-## Significado de los campos
-
-```text
-participant
-Identificador anónimo de participante dentro de un vídeo.
-
-declared_gender
-Categoría documentada en una fuente oficial.
-
-speaker_mapping_verified
-Indica si la relación SPEAKER_XX ↔ participante fue revisada manualmente.
-
-speaker_mapping_method
-Método utilizado para comprobar la correspondencia.
-
-gender_source
-Tipo de fuente utilizada para documentar el género.
-```
-
-Los IDs de participante son locales a cada vídeo.
-
-Por ejemplo:
+Los identificadores de participante son locales a cada vídeo.
 
 ```text
 V001_sample / participant_01
@@ -1134,124 +645,148 @@ no representa necesariamente a la misma persona que:
 V002_sample / participant_01
 ```
 
-## Principio ético
+La relación speaker-participante se revisa manualmente mediante varios intervalos de audio y vídeo.
 
-El género no se obtiene mediante:
+---
+
+# Casos audiovisuales del MVP
+
+## V001
+
+Panel con varios participantes y cambios de plano.
+
+## V002
+
+Panel acompañado de una ronda de preguntas y voces de la audiencia fuera de plano.
+
+## V003
+
+Panel con varios participantes y una realización audiovisual dinámica.
+
+## V004
+
+Panel presencial con plano grupal persistente.
+
+## V005
+
+Panel con varias personas visibles simultáneamente.
+
+V004 y V005 producen principalmente:
 
 ```text
-apariencia
-voz
-nombre
-reconocimiento facial
-clasificación automática
-LLM
+ambiguous_group_shot
 ```
 
-La asociación `SPEAKER_XX ↔ participante` se realiza mediante revisión manual de audio y vídeo.
+Esto no significa que las personas no estén visibles. Significa que la realización no permite seleccionar de manera fiable una única figura visual dominante.
 
-El género solo se incorpora desde información documentada. Cuando no existe evidencia suficiente, debe utilizarse:
+---
+# OCR opcional
+
+Existe un módulo experimental de OCR:
 
 ```text
-unknown
+src/ocr/extract_labels.py
+```
+
+Se utiliza únicamente cuando el vídeo contiene rótulos visibles con nombres o roles.
+
+En vídeos sin rótulos no se intenta inferir identidad mediante atributos visuales.
+
+---
+
+# Ética y privacidad
+
+El proyecto sigue los siguientes principios:
+
+- no utiliza reconocimiento facial;
+- no utiliza biometría para identificar participantes;
+- no infiere género a partir de imágenes;
+- no infiere género a partir de voz;
+- no infiere género a partir de nombres;
+- los track IDs son anónimos y temporales;
+- los clusters de voz son identificadores técnicos;
+- las asociaciones ambiguas no se fuerzan;
+- la categoría `unknown` se conserva cuando no existe evidencia;
+- los resultados se presentan de forma agregada;
+- la clasificación semántica se limita al texto.
+
+La perspectiva de género condiciona tanto las métricas como las decisiones de diseño del sistema.
+
+---
+# Limitaciones
+
+- El corpus contiene únicamente cinco fragmentos seleccionados.
+- Los resultados no representan todas las conferencias tecnológicas.
+- Pyannote puede generar microsegmentos o fragmentar una misma voz.
+- Los cambios de cámara pueden fragmentar los tracklets.
+- Las preguntas de la audiencia pueden no tener representación visual.
+- Los planos grupales pueden producir `ambiguous_group_shot`.
+- La alineación voz-imagen no equivale a presencia visual.
+- La clasificación semántica depende del modelo utilizado.
+- La asociación speaker-participante requiere revisión humana.
+- La validación experimental debe ampliarse con métricas formales de diarización, transcripción y alineación.
+
+---
+
+# Estructura del repositorio
+
+```text
+.
+├── app.py
+├── dashboard/
+├── scripts/
+│   └── run_pipeline.py
+├── src/
+│   ├── audio/
+│   ├── fusion/
+│   ├── metrics/
+│   ├── ocr/
+│   ├── semantic/
+│   └── video/
+├── config/
+│   ├── participants.json
+│   └── videos.json
+├── outputs/
+├── data/
+├── .streamlit/
+├── requirements.txt
+├── requirements-dashboard.txt
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-# Métricas agregadas por género
+# Dependencias de terceros
 
-Las métricas se generan con:
+Principales componentes utilizados:
 
-```powershell
-python src/metrics/gender_metrics.py V001_sample V002_sample V003_sample V004_sample V005_sample
-```
+| Componente | Uso |
+|---|---|
+| FFmpeg | Extracción y normalización de audio |
+| pyannote.audio | Diarización |
+| faster-whisper | Transcripción |
+| Ultralytics YOLO | Detección de personas |
+| ByteTrack | Tracking temporal |
+| OpenCV | Procesamiento de vídeo |
+| EasyOCR | OCR opcional |
+| OVHcloud AI Endpoints | Acceso al modelo semántico |
+| Mistral | Clasificación semántica |
+| Streamlit | Dashboard |
+| Plotly | Visualización |
 
-Resultado:
+Las licencias concretas de las dependencias y de los vídeos utilizados deben revisarse en sus fuentes oficiales antes de reutilizar o redistribuir material.
 
-```text
-outputs/gender_metrics.json
-```
+---
 
-## Resultados actuales
+# Licencia
 
-Se han analizado:
+El código del proyecto se distribuye bajo la licencia indicada en:
 
-```text
-5 vídeos
-30 clusters de voz
-2.834,92 segundos de habla
-aproximadamente 47 minutos y 15 segundos
-```
-
-La cobertura declarada actualmente es:
-
-```text
-30 speakers con mapping verificado
-100 % del tiempo hablado con mapping anotado
-```
-
-Distribución del tiempo de habla:
-
-```text
-woman
-1.017,00 segundos
-35,87 % del tiempo hablado
-
-man
-1.817,92 segundos
-64,13 % del tiempo hablado
-```
-
-Control de turnos:
-
-```text
-woman
-27 turnos
-2 aperturas
-2 cierres
-
-man
-50 turnos
-3 aperturas
-3 cierres
-```
-
-Alineación voz-imagen:
-
-```text
-woman
-28,33 %
-
-man
-29,37 %
-```
-
-## Interpretación correcta
-
-Los resultados no se deben presentar como una conclusión general sobre todas las conferencias técnicas.
-
-La formulación recomendada es:
-
-> En los cinco fragmentos seleccionados para el MVP, las intervenciones asociadas manualmente a participantes documentadas como mujeres representan el 35,87 % del tiempo de habla analizado.
-
-La alineación voz-imagen tampoco representa tiempo total visible.
+text
+LICENSE
 
 
-# Dashboard interactivo
-Incluimos un dashboard desarrollado con Streamlit para explorar los resultados del análisis multimodal.
-El dashboard utiliza directamente:
-```text
-outputs/aggregate_metrics.json
-outputs/gender_metrics.json
-```
-NO es necesario volver a ejecutar la diarización, transcripción, tracking ni análisis semántico para visualizar los resultados.
+Los vídeos y datasets mantienen sus propias licencias y condiciones de uso.
 
-## Ejecutar únicamente el dashboard:
-Activar entorno virtual y ejecutar:
-```
-pip -m streamlit run app.py
-```
-
-La aplicación se abrirá normalmente en : http://localhost:8501
-
-
-
+La licencia del código no modifica ni sustituye las licencias aplicables al material audiovisual o a los modelos de terceros.
