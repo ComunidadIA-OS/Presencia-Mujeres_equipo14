@@ -1234,3 +1234,24 @@ La formulación recomendada es:
 > En los cinco fragmentos seleccionados para el MVP, las intervenciones asociadas manualmente a participantes documentadas como mujeres representan el 35,87 % del tiempo de habla analizado.
 
 La alineación voz-imagen tampoco representa tiempo total visible.
+
+
+# Dashboard interactivo
+Incluimos un dashboard desarrollado con Streamlit para explorar los resultados del análisis multimodal.
+El dashboard utiliza directamente:
+```text
+outputs/aggregate_metrics.json
+outputs/gender_metrics.json
+```
+NO es necesario volver a ejecutar la diarización, transcripción, tracking ni análisis semántico para visualizar los resultados.
+
+## Ejecutar únicamente el dashboard:
+Activar entorno virtual y ejecutar:
+```
+pip -m streamlit run app.py
+```
+
+La aplicación se abrirá normalmente en : http://localhost:8501
+
+
+
