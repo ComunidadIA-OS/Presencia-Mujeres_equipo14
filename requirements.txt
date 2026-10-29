@@ -1,0 +1,12 @@
+pyannote.audio
+ultralytics
+faster-whisper
+av<19
+opencv-python
+easyocr
+openai
+python-dotenv
+pandas
+plotly
+streamlit
+streamlit-option-menu
