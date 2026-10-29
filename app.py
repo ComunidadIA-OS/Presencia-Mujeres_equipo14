@@ -19,7 +19,7 @@ st.set_page_config(
 
 
 try:
-    aggregate_data, gender_data = (
+    aggregate_data, gender_data, participants_data = (
         load_dashboard_data()
     )
 
@@ -138,7 +138,7 @@ if navigation == "Resumen":
 elif navigation == "Comparación por vídeo":
 
     render_video_comparison(
-        aggregate_data
+        aggregate_data, participants_data
     )
 
 

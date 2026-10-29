@@ -24,7 +24,7 @@ def render_methodology():
  │    └── OVHcloud AI Endpoints / Mistral
  │
  └── ANNOTATION
-      └── manual speaker-participant mappingç
+      └── manual speaker-participant mapping
 
     """)
 

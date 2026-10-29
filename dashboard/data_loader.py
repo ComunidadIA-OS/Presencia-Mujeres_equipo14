@@ -9,6 +9,8 @@ AGGREGATE_PATH = (OUTPUT_DIR/"aggregate_metrics.json")
 
 GENDER_PATH = (OUTPUT_DIR/"gender_metrics.json")
 
+PARTICIPANTS_PATH = Path("config/participants.json")
+
 @st.cache_data
 def load_json(path):
     if not path.exists():
@@ -21,5 +23,6 @@ def load_json(path):
 def load_dashboard_data():
     aggregate_data = load_json(AGGREGATE_PATH)
     gender_data = load_json(GENDER_PATH)
+    participants_data = load_json(PARTICIPANTS_PATH)
 
-    return aggregate_data, gender_data
+    return aggregate_data, gender_data, participants_data
