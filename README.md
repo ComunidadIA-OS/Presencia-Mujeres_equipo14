@@ -2,7 +2,7 @@
 > Quién habla, cuánto, cuándo, con qué visibilidad y qué contenido aporta.
 
 ## Equipo 14
-** Datitas**
+**Datitas**
 ### Autoras:
 - Sara Piñas
 - Afina Nurova
@@ -781,12 +781,12 @@ Las licencias concretas de las dependencias y de los vídeos utilizados deben re
 
 # Licencia
 
-El código del proyecto se distribuye bajo la licencia indicada en:
 
-text
-LICENSE
+El código de este proyecto se distribuye bajo la **licencia Apache 2.0**
+(ver [LICENSE](LICENSE)). El aviso de copyright está en [NOTICE](NOTICE).
 
-
+Los vídeos y los datasets conservan sus propias licencias y no se redistribuyen en este
+repositorio, solo se enlazan. La licencia del código no modifica ni sustituye las licencias
+aplicables al material audiovisual ni a los modelos de terceros.
 Los vídeos y datasets mantienen sus propias licencias y condiciones de uso.
 
-La licencia del código no modifica ni sustituye las licencias aplicables al material audiovisual o a los modelos de terceros.
