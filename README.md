@@ -727,6 +727,14 @@ La perspectiva de género condiciona tanto las métricas como las decisiones de 
 - La validación experimental debe ampliarse con métricas formales de diarización, transcripción y alineación.
 
 ---
+# Hoja de ruta
+
+- [ ] Ampliar el corpus de los 5 vídeos del MVP a 15-20, con más formatos (debates, lightning talks).
+- [ ] Sustituir YOLO por un detector con licencia permisiva (o publicar bajo licencia compatible con AGPL).
+- [ ] Añadir *active speaker detection* (movimiento de labios) a la alineación hablante-imagen.
+- [ ] Pesos configurables del índice compuesto y análisis de sensibilidad.
+- [ ] Evaluación de impacto (DPIA) y acuerdos con organizadores para un despliegue real.
+- [ ] Soporte de modelos abiertos locales además de la API compatible con OpenAI.
 
 # Estructura del repositorio
 
@@ -761,22 +769,26 @@ La perspectiva de género condiciona tanto las métricas como las decisiones de 
 
 Principales componentes utilizados:
 
-| Componente | Uso |
-|---|---|
-| FFmpeg | Extracción y normalización de audio |
-| pyannote.audio | Diarización |
-| faster-whisper | Transcripción |
-| Ultralytics YOLO | Detección de personas |
-| ByteTrack | Tracking temporal |
-| OpenCV | Procesamiento de vídeo |
-| EasyOCR | OCR opcional |
-| OVHcloud AI Endpoints | Acceso al modelo semántico |
-| Mistral | Clasificación semántica |
-| Streamlit | Dashboard |
-| Plotly | Visualización |
+| Componente | Uso | Licencia |
+|---|---|---|
+| FFmpeg | extracción y normalización de audio | LGPL-2.1+ (o GPL, según la compilación) |
+| pyannote.audio | diarización | MIT (los modelos tienen condiciones propias en Hugging Face) |
+| faster-whisper | transcripción | MIT |
+| Ultralytics YOLO | detección de personas | **AGPL-3.0** (ver nota) |
+| ByteTrack | seguimiento temporal | MIT |
+| OpenCV | procesamiento de vídeo | Apache-2.0 |
+| EasyOCR (opcional) | OCR | Apache-2.0 |
+| OVHcloud AI Endpoints + Mistral | clasificación semántica | depende del modelo servido; ver el catálogo de OVHcloud |
+| Streamlit | dashboard | Apache-2.0 |
+| Plotly | visualización | MIT |
 
-Las licencias concretas de las dependencias y de los vídeos utilizados deben revisarse en sus fuentes oficiales antes de reutilizar o redistribuir material.
+> **Nota sobre Ultralytics (AGPL-3.0):** se usa como dependencia y su código no se redistribuye
+> en este repositorio. Es una licencia *copyleft* fuerte, que puede afectar a quien redistribuya
+> o despliegue como servicio una obra que la combine. Por eso, en la hoja de ruta se contempla
+> sustituir el detector por uno con licencia permisiva.
 
+Las licencias concretas de las dependencias y de los vídeos deben revisarse en sus fuentes
+oficiales.
 ---
 
 # Licencia
