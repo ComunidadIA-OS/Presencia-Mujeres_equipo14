@@ -1,0 +1,227 @@
+[
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2.174,
+    "end": 95.24,
+    "duration": 93.066,
+    "text": "Yeah, so it's been a very interesting, I think, decade. On one, I think you had talked about data science Africa way. In some ways, it was one of the pioneers in kind of building up how grassroots training the trainers workshops that's going back to 2015. We started deep learning in Daba in 2017 to strengthen African machine learning as, I guess we're going to take it as more an umbrella community. It brings in all of the communities together every year as an annual gathering. So the deep learning in Daba, for example, is going to be in Kigali in about a week and a half. Then we're expecting a thousand AI researchers and developers in Kigali and they represent all these many, many grassroots communities across the continent. When it comes to language, we then fast forward from 2015 to 2017, 2019 at the deep learning in Daba there, basically then the beginning of Masakani. Masakani Research Foundation is a distributed research network of natural language processing and linguistics researchers who focus on African languages. I think at the moment, we've reached about 3 ,000 people who are working and through that network, it's allowed people to really find a place where they can practice together, do research together, find each other, use their common interests to really push the",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 95.999,
+    "end": 118.882,
+    "duration": 22.883,
+    "text": "of what's possible in African natural language processing plus AI, plus linguistics. I think a milestone that I think has been reached is that at last week's ACL conference where Joyce was one of the program chairs, I think the Masakani network, through the Masakani network, there were four best papers.",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 120.502,
+    "end": 124.771,
+    "duration": 4.269,
+    "text": "these are the biggest global conference on natural language processing in the world.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 126.256,
+    "end": 129.698,
+    "duration": 3.443,
+    "text": "Right, so just showing you that you can focus kind of on",
+    "content_type": "moderation",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 130.306,
+    "end": 158.403,
+    "duration": 28.097,
+    "text": "work here, on the languages here, building up better tools, seeing people trying out different things because there is also this question of like, are we meeting the communities where they are? Wikipedia editors and users are a community that we should be finding ways that we're better serving depending on what are the tools that they actually need. And there's many, many other things. And just for context for everybody, there's 2 ,000 plus African languages.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 159.112,
+    "end": 184.593,
+    "duration": 25.481,
+    "text": "Right, so that's kind of the part of what we're trying to deal with and build on and all those parts. So the grassroots has been a great way to break out the silos, break out the parts of if you're sitting in an individual institution, you're very limited in kind of the resources that you have. But collectively, I think Masakani is showing you don't even need necessarily money. It was really people who were interested in working on those problems. I think I'll stop there for now.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 185.639,
+    "end": 198.818,
+    "duration": 13.179,
+    "text": "I think in addition to that, I think I see this, we're doing a project I think closely to what because he has said around the next voices project where we kind of started out by building these speech recognition models for 36 African languages.",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 199.325,
+    "end": 215.103,
+    "duration": 15.778,
+    "text": "And we only have our languages in Uganda, but we had to source for different datasets on the continent. Thanks to Mozilla Common Voice, again, we started by introducing and putting African languages on Mozilla. So there's Luganda, there's Wahili, there are several African languages",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 215.137,
+    "end": 221.296,
+    "duration": 6.159,
+    "text": "as well. And these are open source, so whoever is interested really in building out models, the datasets are there.",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 221.515,
+    "end": 228.13,
+    "duration": 6.615,
+    "text": "But back to the point of trying to get these datasets from the community. So when you go out and you say, I want to build a language, for example, in Bambara,",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 228.333,
+    "end": 240.162,
+    "duration": 11.829,
+    "text": "which is a Western African language. It's very hard. But when you have this community of experts or this community of researchers that you're working with, then it's very easy to tap into that, to reach out and say,",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 240.736,
+    "end": 260.817,
+    "duration": 20.081,
+    "text": "you give us the datasets? Can we build models? And when we built out the models, it wasn't enough that we have these models performing with what metrics we call from our end, like what error rates, which is really a technical word. We sent out the models to the communities that speak these languages and told them, can you evaluate these models? Because we really wanted to understand",
+    "content_type": "question",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 260.885,
+    "end": 263.804,
+    "duration": 2.919,
+    "text": "where do the models work? Where do the models fail?",
+    "content_type": "question",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 264.057,
+    "end": 301.435,
+    "duration": 37.378,
+    "text": "And from that analysis, it was interesting to see that people were complaining about commas and full stops from models. And I'm thinking, is that what is important for a speech model? But what is important to me as an AI researcher is maybe different from what a community person is who wants to have a correct transcript from a speech model. So that interaction with the community helps us to refine and rebuild the models that we are looking at. But also, just to mention the bit around the work that we've done with assembly committees, and I think we were talking about this earlier, that when you want to collect a dataset, you really have to work",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 301.773,
+    "end": 344.467,
+    "duration": 42.694,
+    "text": "the community. You can't just take your text and throw it in a module that's openly available. It does the translation for you and then you think that is going to work well. So working with the people to get this dataset to translate, but to even do a quality check on the translation that a human being has done, has been very helpful. Because many times you find that when you're trying to translate many times, many of them are scientific. And maybe there aren't even words in your local language that can be translated into that, that the word can be translated into and so creating these dictionaries, understanding these words. Like if I remember last time at Data Science Africa, someone ran a video, can you say AI in your local language?",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 345.378,
+    "end": 374.082,
+    "duration": 28.704,
+    "text": "I'm like, okay, what's AI in Uganda? I don't know, you know, things like that. But AI is just one of them. There's just so many words that are coming up for which people want to understand what this technology means in their language. If you want to preach on Wikimedia, they want to go and search and understand. But you have the community, you have the linguists. Because as computer scientists, we might not know these things, but you can work with the linguists to collaboratively build out these datasets and acknowledge them. I find that valuable",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 374.47,
+    "end": 400.508,
+    "duration": 26.038,
+    "text": "terms of acknowledging as part of that, when we write papers and we've collected data from the community, we'll put you on the paper. Because you were a central part of creating this data set of bringing us together to the point where we are at the motto end. It all started from the datasets. Yeah, so there's a lot I think we can say from the work that we've been doing around creating these resources and what it means for us as African researchers on NLP. Yeah.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 401.403,
+    "end": 405.959,
+    "duration": 4.556,
+    "text": "Thank you for sharing that. I think this community approach to AI kind",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 406.28,
+    "end": 411.376,
+    "duration": 5.096,
+    "text": "really also means that you're responding to what's needed versus kind of just technology for technology sake.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 411.781,
+    "end": 419.83,
+    "duration": 8.049,
+    "text": "taking a little bit of the flip side, we have seen that a lot of the major AI models and systems have come from the west.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 420.151,
+    "end": 430.478,
+    "duration": 10.328,
+    "text": "So what are some approaches to building models that are actually accountable and independently owned, including from some of the communities here and across the global south?",
+    "content_type": "question",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 430.951,
+    "end": 433.178,
+    "duration": 2.228,
+    "text": "Maybe I can turn it to Selena and Job.",
+    "content_type": "moderation",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 434.444,
+    "end": 462.44,
+    "duration": 27.996,
+    "text": "sure. Most of these AI models, like chat GPT or GPT models, cloud AI, Gemini and so on, are basically trained on data that is from the western world that reflects the western logic in terms of language and even values. And as Vukosi and Joyce mentioned,",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 464.026,
+    "end": 467.232,
+    "duration": 3.206,
+    "text": "African societies, for instance, is made up of,",
+    "content_type": "technical_explanation",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 467.975,
+    "end": 476.463,
+    "duration": 8.488,
+    "text": "it's very complex and it's very diverse, 2 ,000 languages around the continent.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "videos_analyzed": 5,
+  "video_ids": [
+    "V001_sample",
+    "V002_sample",
+    "V003_sample",
+    "V004_sample",
+    "V005_sample"
+  ],
+  "videos": {
+    "V001_sample": {
+      "number_of_speakers": 4,
+      "total_speaking_time_seconds": 459.303,
+      "opening_speaker": "SPEAKER_03",
+      "closing_speaker": "SPEAKER_02",
+      "main_speaker": {
+        "speaker": "SPEAKER_01",
+        "speaking_percentage": 46.02
+      },
+      "speaking_distribution": {
+        "SPEAKER_00": 6.59,
+        "SPEAKER_01": 46.02,
+        "SPEAKER_02": 8.8,
+        "SPEAKER_03": 38.59
+      },
+      "average_visual_alignment_percentage": 48.41,
+      "content_distribution_percentage": {
+        "opinion": 64.27,
+        "question": 8.71,
+        "moderation": 1.24,
+        "technical_explanation": 25.78
+      },
+      "technical_weight_percentage": {
+        "low": 29.96,
+        "medium": 70.04,
+        "high": 0.0
+      }
+    },
+    "V002_sample": {
+      "number_of_speakers": 11,
+      "total_speaking_time_seconds": 1010.478,
+      "opening_speaker": "SPEAKER_06",
+      "closing_speaker": "SPEAKER_00",
+      "main_speaker": {
+        "speaker": "SPEAKER_06",
+        "speaking_percentage": 20.0
+      },
+      "speaking_distribution": {
+        "SPEAKER_00": 0.76,
+        "SPEAKER_01": 19.32,
+        "SPEAKER_02": 14.48,
+        "SPEAKER_03": 12.8,
+        "SPEAKER_04": 3.64,
+        "SPEAKER_05": 5.72,
+        "SPEAKER_06": 20.0,
+        "SPEAKER_07": 5.96,
+        "SPEAKER_08": 3.17,
+        "SPEAKER_09": 8.53,
+        "SPEAKER_10": 5.62
+      },
+      "average_visual_alignment_percentage": 19.16,
+      "content_distribution_percentage": {
+        "organizational": 2.03,
+        "moderation": 1.6,
+        "opinion": 81.36,
+        "other": 2.56,
+        "question": 9.8,
+        "closing": 2.65
+      },
+      "technical_weight_percentage": {
+        "low": 66.27,
+        "medium": 33.73,
+        "high": 0.0
+      }
+    },
+    "V003_sample": {
+      "number_of_speakers": 6,
+      "total_speaking_time_seconds": 454.88,
+      "opening_speaker": "SPEAKER_02",
+      "closing_speaker": "SPEAKER_00",
+      "main_speaker": {
+        "speaker": "SPEAKER_02",
+        "speaking_percentage": 23.2
+      },
+      "speaking_distribution": {
+        "SPEAKER_00": 7.52,
+        "SPEAKER_01": 19.02,
+        "SPEAKER_02": 23.2,
+        "SPEAKER_03": 6.97,
+        "SPEAKER_04": 21.37,
+        "SPEAKER_05": 21.92
+      },
+      "average_visual_alignment_percentage": 89.27,
+      "content_distribution_percentage": {
+        "moderation": 1.02,
+        "opinion": 58.35,
+        "other": 0.53,
+        "answer": 1.16,
+        "question": 35.73,
+        "organizational": 3.04,
+        "introduction": 0.18
+      },
+      "technical_weight_percentage": {
+        "low": 95.06,
+        "medium": 4.94,
+        "high": 0.0
+      }
+    },
+    "V004_sample": {
+      "number_of_speakers": 4,
+      "total_speaking_time_seconds": 459.337,
+      "opening_speaker": "SPEAKER_03",
+      "closing_speaker": "SPEAKER_00",
+      "main_speaker": {
+        "speaker": "SPEAKER_00",
+        "speaking_percentage": 37.13
+      },
+      "speaking_distribution": {
+        "SPEAKER_00": 37.13,
+        "SPEAKER_01": 13.24,
+        "SPEAKER_02": 16.87,
+        "SPEAKER_03": 32.76
+      },
+      "average_visual_alignment_percentage": 0.0,
+      "content_distribution_percentage": {
+        "opinion": 46.34,
+        "technical_explanation": 40.26,
+        "other": 6.58,
+        "moderation": 0.57,
+        "question": 5.29,
+        "closing": 0.96
+      },
+      "technical_weight_percentage": {
+        "low": 48.42,
+        "medium": 51.58,
+        "high": 0.0
+      }
+    },
+    "V005_sample": {
+      "number_of_speakers": 5,
+      "total_speaking_time_seconds": 450.931,
+      "opening_speaker": "SPEAKER_00",
+      "closing_speaker": "SPEAKER_01",
+      "main_speaker": {
+        "speaker": "SPEAKER_04",
+        "speaking_percentage": 36.08
+      },
+      "speaking_distribution": {
+        "SPEAKER_00": 11.9,
+        "SPEAKER_01": 14.67,
+        "SPEAKER_02": 19.27,
+        "SPEAKER_03": 18.08,
+        "SPEAKER_04": 36.08
+      },
+      "average_visual_alignment_percentage": 0.0,
+      "content_distribution_percentage": {
+        "opinion": 69.55,
+        "question": 22.28,
+        "other": 3.29,
+        "technical_explanation": 4.88
+      },
+      "technical_weight_percentage": {
+        "low": 50.84,
+        "medium": 49.16,
+        "high": 0.0
+      }
+    }
+  }
+}

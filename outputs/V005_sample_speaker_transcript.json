@@ -1,0 +1,410 @@
+[
+  {
+    "speaker": "SPEAKER_00",
+    "start": 0.031,
+    "end": 11.978,
+    "duration": 11.948,
+    "text": "smart and uses a lot more software and they are working with a lot more software and that's really not their core business so far and they tend to be looking at",
+    "word_count": 32
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 12.299,
+    "end": 36.903,
+    "duration": 24.604,
+    "text": "software development and the risks, the risks they assume open -source software has from a totally different perspective so with these types of companies you would still hear questions like well how can we even use open -source software there's a copy left in there and all of that is a really big risk so you kind of have to find out where do they stand, how far along in this",
+    "word_count": 71
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 37.662,
+    "end": 54.757,
+    "duration": 17.094,
+    "text": "are they, how much have they looked into this, what type of developers are they working with, how knowledgeable are they and how much are they pushing, are there maybe differences in the different areas they are working in so yeah that's a big spectrum I would say.",
+    "word_count": 48
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 55.685,
+    "end": 64.122,
+    "duration": 8.438,
+    "text": "so I want to connect that up to ask John because when you talk about this risk reward and analyzing that",
+    "word_count": 21
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 64.173,
+    "end": 67.514,
+    "duration": 3.341,
+    "text": "I think from the activist side you probably look at this a little bit differently",
+    "word_count": 15
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 67.565,
+    "end": 74.956,
+    "duration": 7.391,
+    "text": "so the reward I would guess to the activist, I know this is true, that the reward is that",
+    "word_count": 19
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 75.192,
+    "end": 95.915,
+    "duration": 20.722,
+    "text": "copy -lefted software being in these devices it means software freedom for people to get the devices with the source code correctly but of course the risk is the risk of non -compliance and in your world that means software users don't get freedom so when you look at this how do you reconcile all that question of risk and",
+    "word_count": 60
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 96.1,
+    "end": 102.698,
+    "duration": 6.598,
+    "text": "help to educate and explain to people that the risk is really a reward because your customers get software freedom.",
+    "word_count": 20
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 104.909,
+    "end": 108.487,
+    "duration": 3.578,
+    "text": "Yeah and I think that it's important for anybody distributing",
+    "word_count": 10
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 108.638,
+    "end": 114.747,
+    "duration": 6.109,
+    "text": "particularly copy -left software to understand that this dynamic is what gave them that software to begin with",
+    "word_count": 18
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 115.591,
+    "end": 116.232,
+    "duration": 0.641,
+    "text": "so",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 116.806,
+    "end": 126.492,
+    "duration": 9.686,
+    "text": "risk of non -compliance you know on one end an important part of it is that you're not respecting your your users your customers anybody that's receiving the software from you",
+    "word_count": 31
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 127.15,
+    "end": 131.318,
+    "duration": 4.168,
+    "text": "you're also sort of in a long -term way undermining your own business model",
+    "word_count": 14
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 131.943,
+    "end": 144.194,
+    "duration": 12.251,
+    "text": "this collaboration model is what created the software that you're using that you're able to ship with your products and if you're not doing that properly then you're not enabling possible participation by other people",
+    "word_count": 35
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 144.667,
+    "end": 148.666,
+    "duration": 3.999,
+    "text": "not enabling bug reports you're not enabling the entire culture that",
+    "word_count": 11
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 149.138,
+    "end": 151.18,
+    "duration": 2.042,
+    "text": "this thing that you're able to use",
+    "word_count": 7
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 151.788,
+    "end": 155.416,
+    "duration": 3.628,
+    "text": "yeah it is you know for us it's more than just I think the rest from a",
+    "word_count": 17
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 155.602,
+    "end": 156.513,
+    "duration": 0.911,
+    "text": "very short",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 158.217,
+    "end": 159.162,
+    "duration": 0.945,
+    "text": "the",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 159.365,
+    "end": 163.837,
+    "duration": 4.472,
+    "text": "company perspective is possibly being sued or you know",
+    "word_count": 9
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 164.292,
+    "end": 167.87,
+    "duration": 3.577,
+    "text": "to go through a complicated legal conversation with somebody",
+    "word_count": 9
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 168.46,
+    "end": 176.982,
+    "duration": 8.522,
+    "text": "that is certainly a risk that that people should worry about and one of the things that we do is the enforcement at the FSF on that can do software that we hope copyright over",
+    "word_count": 35
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 177.404,
+    "end": 178.383,
+    "duration": 0.979,
+    "text": "really",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 179.463,
+    "end": 186.415,
+    "duration": 6.952,
+    "text": "want everybody to participate in this process and treat these this process is something that benefits them",
+    "word_count": 17
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 186.533,
+    "end": 187.765,
+    "duration": 1.232,
+    "text": "and",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 188.153,
+    "end": 190.162,
+    "duration": 2.008,
+    "text": "know creates a level playing field",
+    "word_count": 6
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 190.398,
+    "end": 191.073,
+    "duration": 0.675,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 191.528,
+    "end": 196.692,
+    "duration": 5.164,
+    "text": "competitor of yours is getting an advantage either by skipping out on some of the requirements here",
+    "word_count": 17
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 198.413,
+    "end": 219.592,
+    "duration": 21.178,
+    "text": "I want to go go back to Pidge because that interesting thing about the competitor issues one of the important things about free software and copy left in particular is it assures that everybody's on equal footing so Pidge when you're looking at this as from an embedded side of building these firmwares and checking the compliance of the firmwares and checking they build",
+    "word_count": 64
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 220.233,
+    "end": 228.333,
+    "duration": 8.1,
+    "text": "what concerns do you have as you're doing the analysis to sort of get to the conclusion of well does the source code really work and",
+    "word_count": 26
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 228.4,
+    "end": 233.783,
+    "duration": 5.383,
+    "text": "you know are we putting something out there that can actually be collaborated over as far as a technological solution",
+    "word_count": 20
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 233.986,
+    "end": 250.22,
+    "duration": 16.234,
+    "text": "just kind of meets the bare minimum of the requirements which might not necessarily inspire that kind of collaboration can you talk a little bit about how that divide gets handled when you're doing this kind of work both as an upstream and you know for a client who's asking those questions.",
+    "word_count": 52
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 252.363,
+    "end": 265.323,
+    "duration": 12.96,
+    "text": "So I'm going to plug the project that I work on doctor project in that I have to because when I wrote the initial pass through the license compliant stuff and",
+    "word_count": 31
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 265.508,
+    "end": 286.383,
+    "duration": 20.874,
+    "text": "I was told to write that I was told to go talk to the lawyers about this and I'm like screw that I'm going to go talk to Bradley because he's one doing license compliance you remember the conversation I'm sure and I went and talked to the lawyers and then I talked to Bradley and then it was like okay this is what he's looking at. So from my perspective the",
+    "word_count": 72
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 286.703,
+    "end": 287.952,
+    "duration": 1.249,
+    "text": "that",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 288.543,
+    "end": 301.385,
+    "duration": 12.842,
+    "text": "project gives should also be able to be inputs as well so that people can do this and it makes sense from an embedded perspective because you know if you look at where embedded scaling like",
+    "word_count": 36
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 301.823,
+    "end": 307.983,
+    "duration": 6.159,
+    "text": "your refrigerator is embedded you know refrigerators last what 10 years I don't want to be",
+    "word_count": 16
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 308.54,
+    "end": 316.184,
+    "duration": 7.644,
+    "text": "firmware for 10 years I want the community to go out and do it so from my perspective it goes",
+    "word_count": 20
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 317.112,
+    "end": 338.51,
+    "duration": 21.398,
+    "text": "compliance at the top of the stack but it goes all the way down to the bottom of the build system and ensuring that the things that come out of the top of the stack are able for the community to go take those and regenerate them all from scratch now there are folks that do not like doing that and I tell them to suck it up",
+    "word_count": 68
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 338.763,
+    "end": 342.543,
+    "duration": 3.78,
+    "text": "because you know it makes no sense not to do that.",
+    "word_count": 11
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 344.062,
+    "end": 380.798,
+    "duration": 36.737,
+    "text": "So that brings me back to a couple of things that Davide was saying so there is this and you know I always promise I'll ask a few hard questions so this may be a hard one so but you mentioned a lot of these initiatives in your initial comments there that are out there we're related to bill of materials and trying to get just a list of licenses which I think everybody would agree is the first step you have to do one of the concerns and I'll show a little bit of my bias here I've had is that is kind of what Pidge is saying is that that's a necessary but not sufficient thing to really get a compliant source code software build",
+    "word_count": 127
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 381.136,
+    "end": 385.0,
+    "duration": 3.864,
+    "text": "can you talk a little bit Davide how you're treating this inside of a company",
+    "word_count": 15
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 385.388,
+    "end": 400.745,
+    "duration": 15.356,
+    "text": "you're looking out there to say well okay we do need to get that bill of materials together but then we have to get a source release that actually works and then our customers can rebuild and reinstall the software onto our devices in the field which I think we all agree as a technologically",
+    "word_count": 55
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 401.065,
+    "end": 402.77,
+    "duration": 1.704,
+    "text": "thing to do",
+    "word_count": 3
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 402.938,
+    "end": 410.6,
+    "duration": 7.661,
+    "text": "are you looking at that and addressing that when so much of the compliance focus is just on that initial step and sometimes misses that later step.",
+    "word_count": 27
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 412.405,
+    "end": 416.033,
+    "duration": 3.628,
+    "text": "So I think those are complementary",
+    "word_count": 6
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 416.573,
+    "end": 427.745,
+    "duration": 11.171,
+    "text": "and you know it's hard to just draw a line right and I think it kind of goes back to a couple of things number one why a company is in open source",
+    "word_count": 33
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 428.47,
+    "end": 449.783,
+    "duration": 21.313,
+    "text": "so I think unless you're really 1970s software company that still believes that you know the value is in the software itself I think most of the software companies today has moved past the idea that you monetize the software itself and it's about monetizing what's on top through value at services etc etc so in that perspective software becomes the vehicle",
+    "word_count": 62
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 450.29,
+    "end": 473.864,
+    "duration": 23.574,
+    "text": "you know value at services and monetization so I mean you don't want to take any risks I mean you want to be complying until the very end of it because you actually won't meet people to use more and more and more of the software that you contribute because by using that that becomes the vehicle for you for an upsell right so when the business comes into the picture now you understand that that's not a cost",
+    "word_count": 79
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 474.117,
+    "end": 479.011,
+    "duration": 4.894,
+    "text": "screw it you got to suck it up no it's not a cost it's actually a value you want to do that",
+    "word_count": 22
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 479.905,
+    "end": 481.458,
+    "duration": 1.553,
+    "text": "then as you started doing",
+    "word_count": 5
+  }
+]

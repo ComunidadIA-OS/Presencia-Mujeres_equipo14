@@ -1,0 +1,183 @@
+{
+  "video_id": "V004_sample",
+  "configuration": {
+    "minimum_segment_duration": 0.5,
+    "maximum_turn_gap": 1.0
+  },
+  "summary": {
+    "number_of_speakers": 4,
+    "total_speaking_time": 459.337,
+    "opening_speaker": "SPEAKER_03",
+    "closing_speaker": "SPEAKER_00",
+    "valid_audio_segments": 55,
+    "merged_turns": 14
+  },
+  "speakers": {
+    "SPEAKER_00": {
+      "speaking_time": 170.556,
+      "speaking_percentage": 37.13,
+      "raw_segments": 16,
+      "turns": 4,
+      "average_turn_duration": 43.525,
+      "maximum_turn_duration": 92.205,
+      "minimum_turn_duration": 14.647,
+      "opens_video": false,
+      "closes_video": true,
+      "visual_alignment": {
+        "evaluated_segments": 16,
+        "aligned_segments": 0,
+        "ambiguous_segments": 16,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 1,
+        "evaluated_duration": 170.556,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 131.369,
+          "end": 223.574,
+          "duration": 92.205
+        },
+        {
+          "start": 245.613,
+          "end": 289.336,
+          "duration": 43.723
+        },
+        {
+          "start": 435.997,
+          "end": 459.52,
+          "duration": 23.523
+        },
+        {
+          "start": 469.477,
+          "end": 484.124,
+          "duration": 14.647
+        }
+      ]
+    },
+    "SPEAKER_01": {
+      "speaking_time": 60.818,
+      "speaking_percentage": 13.24,
+      "raw_segments": 7,
+      "turns": 3,
+      "average_turn_duration": 20.858,
+      "maximum_turn_duration": 33.987,
+      "minimum_turn_duration": 6.514,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 7,
+        "aligned_segments": 0,
+        "ambiguous_segments": 7,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 60.818,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 96.488,
+          "end": 130.475,
+          "duration": 33.987
+        },
+        {
+          "start": 413.806,
+          "end": 435.878,
+          "duration": 22.072
+        },
+        {
+          "start": 462.271,
+          "end": 468.785,
+          "duration": 6.514
+        }
+      ]
+    },
+    "SPEAKER_02": {
+      "speaking_time": 77.488,
+      "speaking_percentage": 16.87,
+      "raw_segments": 19,
+      "turns": 3,
+      "average_turn_duration": 28.789,
+      "maximum_turn_duration": 84.207,
+      "minimum_turn_duration": 0.743,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 19,
+        "aligned_segments": 0,
+        "ambiguous_segments": 19,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 1,
+        "evaluated_duration": 77.488,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 309.434,
+          "end": 310.852,
+          "duration": 1.418
+        },
+        {
+          "start": 312.117,
+          "end": 312.86,
+          "duration": 0.743
+        },
+        {
+          "start": 329.245,
+          "end": 413.452,
+          "duration": 84.207
+        }
+      ]
+    },
+    "SPEAKER_03": {
+      "speaking_time": 150.475,
+      "speaking_percentage": 32.76,
+      "raw_segments": 13,
+      "turns": 4,
+      "average_turn_duration": 38.559,
+      "maximum_turn_duration": 95.529,
+      "minimum_turn_duration": 16.082,
+      "opens_video": true,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 13,
+        "aligned_segments": 0,
+        "ambiguous_segments": 13,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 2,
+        "evaluated_duration": 150.475,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 0.031,
+          "end": 95.56,
+          "duration": 95.529
+        },
+        {
+          "start": 223.422,
+          "end": 245.444,
+          "duration": 22.022
+        },
+        {
+          "start": 289.336,
+          "end": 309.94,
+          "duration": 20.604
+        },
+        {
+          "start": 311.948,
+          "end": 328.03,
+          "duration": 16.082
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "videos_analyzed": [
+    "V001_sample",
+    "V002_sample",
+    "V003_sample",
+    "V004_sample",
+    "V005_sample"
+  ],
+  "mapping_coverage": {
+    "total_speakers": 30,
+    "verified_speakers": 30,
+    "total_speaking_time_seconds": 2834.929,
+    "verified_speaking_time_seconds": 2834.929,
+    "verified_speaking_time_percentage": 100.0
+  },
+  "global": {
+    "woman": {
+      "speaking_time_seconds": 1017.004,
+      "speaking_percentage": 35.87,
+      "turns": 27,
+      "opening_count": 2,
+      "closing_count": 2,
+      "visual_alignment_percentage": 28.33,
+      "mapped_speakers": 9,
+      "content_duration_seconds": {
+        "opinion": 709.102,
+        "question": 108.522,
+        "moderation": 24.234,
+        "technical_explanation": 128.082,
+        "other": 20.79,
+        "closing": 23.338,
+        "introduction": 0.81,
+        "organizational": 2.126
+      },
+      "content_percentage": {
+        "opinion": 69.72,
+        "question": 10.67,
+        "moderation": 2.38,
+        "technical_explanation": 12.59,
+        "other": 2.04,
+        "closing": 2.29,
+        "introduction": 0.08,
+        "organizational": 0.21
+      },
+      "technical_weight_duration_seconds": {
+        "low": 674.795,
+        "medium": 342.209,
+        "high": 0.0
+      },
+      "technical_weight_percentage": {
+        "low": 66.35,
+        "medium": 33.65,
+        "high": 0.0
+      }
+    },
+    "man": {
+      "speaking_time_seconds": 1817.925,
+      "speaking_percentage": 64.13,
+      "turns": 50,
+      "opening_count": 3,
+      "closing_count": 3,
+      "visual_alignment_percentage": 29.37,
+      "mapped_speakers": 21,
+      "content_duration_seconds": {
+        "opinion": 1127.82,
+        "technical_explanation": 196.628,
+        "moderation": 3.443,
+        "organizational": 30.425,
+        "closing": 5.535,
+        "other": 50.27,
+        "question": 308.713,
+        "answer": 5.248
+      },
+      "content_percentage": {
+        "opinion": 65.26,
+        "technical_explanation": 11.38,
+        "moderation": 0.2,
+        "organizational": 1.76,
+        "closing": 0.32,
+        "other": 2.91,
+        "question": 17.86,
+        "answer": 0.3
+      },
+      "technical_weight_duration_seconds": {
+        "low": 957.196,
+        "medium": 770.886,
+        "high": 0.0
+      },
+      "technical_weight_percentage": {
+        "low": 55.39,
+        "medium": 44.61,
+        "high": 0.0
+      }
+    },
+    "another_declared_gender": {
+      "speaking_time_seconds": 0.0,
+      "speaking_percentage": 0.0,
+      "turns": 0,
+      "opening_count": 0,
+      "closing_count": 0,
+      "visual_alignment_percentage": 0.0,
+      "mapped_speakers": 0,
+      "content_duration_seconds": {},
+      "content_percentage": {},
+      "technical_weight_duration_seconds": {
+        "low": 0.0,
+        "medium": 0.0,
+        "high": 0.0
+      },
+      "technical_weight_percentage": {
+        "low": 0.0,
+        "medium": 0.0,
+        "high": 0.0
+      }
+    },
+    "unknown": {
+      "speaking_time_seconds": 0.0,
+      "speaking_percentage": 0.0,
+      "turns": 0,
+      "opening_count": 0,
+      "closing_count": 0,
+      "visual_alignment_percentage": 0.0,
+      "mapped_speakers": 0,
+      "content_duration_seconds": {},
+      "content_percentage": {},
+      "technical_weight_duration_seconds": {
+        "low": 0.0,
+        "medium": 0.0,
+        "high": 0.0
+      },
+      "technical_weight_percentage": {
+        "low": 0.0,
+        "medium": 0.0,
+        "high": 0.0
+      }
+    }
+  },
+  "videos": {
+    "V001_sample": {
+      "woman": {
+        "speaking_time_seconds": 241.631,
+        "speaking_percentage": 52.61,
+        "turns": 2,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 65.09,
+        "mapped_speakers": 2,
+        "content_duration_seconds": {
+          "opinion": 177.523,
+          "question": 39.943,
+          "moderation": 2.228,
+          "technical_explanation": 21.937
+        },
+        "content_percentage": {
+          "opinion": 73.47,
+          "question": 16.53,
+          "moderation": 0.92,
+          "technical_explanation": 9.08
+        },
+        "technical_weight_duration_seconds": {
+          "low": 64.411,
+          "medium": 177.22,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 26.66,
+          "medium": 73.34,
+          "high": 0.0
+        }
+      },
+      "man": {
+        "speaking_time_seconds": 217.672,
+        "speaking_percentage": 47.39,
+        "turns": 4,
+        "opening_count": 1,
+        "closing_count": 1,
+        "visual_alignment_percentage": 29.9,
+        "mapped_speakers": 2,
+        "content_duration_seconds": {
+          "opinion": 117.214,
+          "technical_explanation": 96.272,
+          "moderation": 3.443
+        },
+        "content_percentage": {
+          "opinion": 54.03,
+          "technical_explanation": 44.38,
+          "moderation": 1.59
+        },
+        "technical_weight_duration_seconds": {
+          "low": 72.984,
+          "medium": 143.945,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 33.64,
+          "medium": 66.36,
+          "high": 0.0
+        }
+      },
+      "another_declared_gender": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "unknown": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "V002_sample": {
+      "woman": {
+        "speaking_time_seconds": 324.541,
+        "speaking_percentage": 32.12,
+        "turns": 14,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 12.31,
+        "mapped_speakers": 2,
+        "content_duration_seconds": {
+          "moderation": 14.8,
+          "opinion": 263.739,
+          "other": 11.02,
+          "question": 11.644,
+          "closing": 23.338
+        },
+        "content_percentage": {
+          "moderation": 4.56,
+          "opinion": 81.27,
+          "other": 3.4,
+          "question": 3.59,
+          "closing": 7.19
+        },
+        "technical_weight_duration_seconds": {
+          "low": 324.541,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 100.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "man": {
+        "speaking_time_seconds": 685.937,
+        "speaking_percentage": 67.88,
+        "turns": 25,
+        "opening_count": 1,
+        "closing_count": 1,
+        "visual_alignment_percentage": 22.4,
+        "mapped_speakers": 9,
+        "content_duration_seconds": {
+          "organizational": 18.765,
+          "opinion": 488.127,
+          "closing": 1.131,
+          "other": 12.623,
+          "question": 78.891
+        },
+        "content_percentage": {
+          "organizational": 3.13,
+          "opinion": 81.42,
+          "closing": 0.19,
+          "other": 2.11,
+          "question": 13.16
+        },
+        "technical_weight_duration_seconds": {
+          "low": 287.804,
+          "medium": 311.733,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 48.0,
+          "medium": 52.0,
+          "high": 0.0
+        }
+      },
+      "another_declared_gender": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "unknown": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "V003_sample": {
+      "woman": {
+        "speaking_time_seconds": 139.724,
+        "speaking_percentage": 30.72,
+        "turns": 5,
+        "opening_count": 1,
+        "closing_count": 1,
+        "visual_alignment_percentage": 65.05,
+        "mapped_speakers": 2,
+        "content_duration_seconds": {
+          "moderation": 4.607,
+          "opinion": 105.182,
+          "question": 26.999,
+          "introduction": 0.81,
+          "organizational": 2.126
+        },
+        "content_percentage": {
+          "moderation": 3.3,
+          "opinion": 75.28,
+          "question": 19.32,
+          "introduction": 0.58,
+          "organizational": 1.52
+        },
+        "technical_weight_duration_seconds": {
+          "low": 139.724,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 100.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "man": {
+        "speaking_time_seconds": 315.156,
+        "speaking_percentage": 69.28,
+        "turns": 4,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 100.0,
+        "mapped_speakers": 4,
+        "content_duration_seconds": {
+          "other": 2.413,
+          "opinion": 159.619,
+          "answer": 5.248,
+          "question": 135.17,
+          "organizational": 11.66
+        },
+        "content_percentage": {
+          "other": 0.77,
+          "opinion": 50.82,
+          "answer": 1.67,
+          "question": 43.03,
+          "organizational": 3.71
+        },
+        "technical_weight_duration_seconds": {
+          "low": 291.7,
+          "medium": 22.41,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 92.87,
+          "medium": 7.13,
+          "high": 0.0
+        }
+      },
+      "another_declared_gender": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "unknown": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "V004_sample": {
+      "woman": {
+        "speaking_time_seconds": 170.556,
+        "speaking_percentage": 37.13,
+        "turns": 4,
+        "opening_count": 0,
+        "closing_count": 1,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 1,
+        "content_duration_seconds": {
+          "opinion": 53.291,
+          "technical_explanation": 106.145,
+          "other": 8.521,
+          "moderation": 2.599
+        },
+        "content_percentage": {
+          "opinion": 31.25,
+          "technical_explanation": 62.23,
+          "other": 5.0,
+          "moderation": 1.52
+        },
+        "technical_weight_duration_seconds": {
+          "low": 64.411,
+          "medium": 106.145,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 37.77,
+          "medium": 62.23,
+          "high": 0.0
+        }
+      },
+      "man": {
+        "speaking_time_seconds": 288.781,
+        "speaking_percentage": 62.87,
+        "turns": 10,
+        "opening_count": 1,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 3,
+        "content_duration_seconds": {
+          "opinion": 159.096,
+          "question": 24.25,
+          "other": 21.65,
+          "technical_explanation": 78.402,
+          "closing": 4.404
+        },
+        "content_percentage": {
+          "opinion": 55.28,
+          "question": 8.43,
+          "other": 7.52,
+          "technical_explanation": 27.24,
+          "closing": 1.53
+        },
+        "technical_weight_duration_seconds": {
+          "low": 157.526,
+          "medium": 130.276,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 54.73,
+          "medium": 45.27,
+          "high": 0.0
+        }
+      },
+      "another_declared_gender": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "unknown": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "V005_sample": {
+      "woman": {
+        "speaking_time_seconds": 140.552,
+        "speaking_percentage": 31.17,
+        "turns": 2,
+        "opening_count": 1,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 2,
+        "content_duration_seconds": {
+          "opinion": 109.367,
+          "question": 29.936,
+          "other": 1.249
+        },
+        "content_percentage": {
+          "opinion": 77.81,
+          "question": 21.3,
+          "other": 0.89
+        },
+        "technical_weight_duration_seconds": {
+          "low": 81.708,
+          "medium": 58.844,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 58.13,
+          "medium": 41.87,
+          "high": 0.0
+        }
+      },
+      "man": {
+        "speaking_time_seconds": 310.379,
+        "speaking_percentage": 68.83,
+        "turns": 7,
+        "opening_count": 0,
+        "closing_count": 1,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 3,
+        "content_duration_seconds": {
+          "opinion": 203.764,
+          "other": 13.584,
+          "question": 70.402,
+          "technical_explanation": 21.954
+        },
+        "content_percentage": {
+          "opinion": 65.79,
+          "other": 4.39,
+          "question": 22.73,
+          "technical_explanation": 7.09
+        },
+        "technical_weight_duration_seconds": {
+          "low": 147.182,
+          "medium": 162.522,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 47.52,
+          "medium": 52.48,
+          "high": 0.0
+        }
+      },
+      "another_declared_gender": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      },
+      "unknown": {
+        "speaking_time_seconds": 0.0,
+        "speaking_percentage": 0.0,
+        "turns": 0,
+        "opening_count": 0,
+        "closing_count": 0,
+        "visual_alignment_percentage": 0.0,
+        "mapped_speakers": 0,
+        "content_duration_seconds": {},
+        "content_percentage": {},
+        "technical_weight_duration_seconds": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        },
+        "technical_weight_percentage": {
+          "low": 0.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    }
+  },
+  "methodology": {
+    "gender_inferred": false,
+    "speaker_mapping": "manual_audio_video_review",
+    "unverified_mapping_category": "unknown"
+  }
+}

@@ -1,0 +1,7371 @@
+{
+  "language": "en",
+  "language_probability": 0.9752,
+  "segments": [
+    {
+      "start": 1.85,
+      "end": 9.91,
+      "duration": 8.06,
+      "text": "Sure. Yeah, so it's been a very interesting, I think, decade. On one, I think you had talked",
+      "words": [
+        {
+          "start": 1.85,
+          "end": 2.37,
+          "word": "Sure."
+        },
+        {
+          "start": 3.39,
+          "end": 3.91,
+          "word": "Yeah,"
+        },
+        {
+          "start": 4.11,
+          "end": 4.27,
+          "word": "so"
+        },
+        {
+          "start": 4.27,
+          "end": 4.61,
+          "word": "it's"
+        },
+        {
+          "start": 4.61,
+          "end": 4.79,
+          "word": "been"
+        },
+        {
+          "start": 4.79,
+          "end": 5.03,
+          "word": "a"
+        },
+        {
+          "start": 5.03,
+          "end": 5.47,
+          "word": "very"
+        },
+        {
+          "start": 5.47,
+          "end": 6.03,
+          "word": "interesting,"
+        },
+        {
+          "start": 6.29,
+          "end": 6.55,
+          "word": "I"
+        },
+        {
+          "start": 6.55,
+          "end": 6.65,
+          "word": "think,"
+        },
+        {
+          "start": 6.69,
+          "end": 7.03,
+          "word": "decade."
+        },
+        {
+          "start": 7.99,
+          "end": 8.51,
+          "word": "On"
+        },
+        {
+          "start": 8.51,
+          "end": 8.71,
+          "word": "one,"
+        },
+        {
+          "start": 9.01,
+          "end": 9.05,
+          "word": "I"
+        },
+        {
+          "start": 9.05,
+          "end": 9.15,
+          "word": "think"
+        },
+        {
+          "start": 9.15,
+          "end": 9.63,
+          "word": "you"
+        },
+        {
+          "start": 9.63,
+          "end": 9.77,
+          "word": "had"
+        },
+        {
+          "start": 9.77,
+          "end": 9.91,
+          "word": "talked"
+        }
+      ]
+    },
+    {
+      "start": 9.91,
+      "end": 16.23,
+      "duration": 6.32,
+      "text": "about data science Africa way. In some ways, it was one of the pioneers in kind of building",
+      "words": [
+        {
+          "start": 9.91,
+          "end": 10.17,
+          "word": "about"
+        },
+        {
+          "start": 10.17,
+          "end": 10.41,
+          "word": "data"
+        },
+        {
+          "start": 10.41,
+          "end": 10.63,
+          "word": "science"
+        },
+        {
+          "start": 10.63,
+          "end": 10.99,
+          "word": "Africa"
+        },
+        {
+          "start": 10.99,
+          "end": 11.73,
+          "word": "way."
+        },
+        {
+          "start": 12.19,
+          "end": 12.27,
+          "word": "In"
+        },
+        {
+          "start": 12.27,
+          "end": 12.51,
+          "word": "some"
+        },
+        {
+          "start": 12.51,
+          "end": 12.71,
+          "word": "ways,"
+        },
+        {
+          "start": 12.75,
+          "end": 12.81,
+          "word": "it"
+        },
+        {
+          "start": 12.81,
+          "end": 12.87,
+          "word": "was"
+        },
+        {
+          "start": 12.87,
+          "end": 13.01,
+          "word": "one"
+        },
+        {
+          "start": 13.01,
+          "end": 13.09,
+          "word": "of"
+        },
+        {
+          "start": 13.09,
+          "end": 13.21,
+          "word": "the"
+        },
+        {
+          "start": 13.21,
+          "end": 13.63,
+          "word": "pioneers"
+        },
+        {
+          "start": 13.63,
+          "end": 14.49,
+          "word": "in"
+        },
+        {
+          "start": 14.49,
+          "end": 15.33,
+          "word": "kind"
+        },
+        {
+          "start": 15.33,
+          "end": 15.91,
+          "word": "of"
+        },
+        {
+          "start": 15.91,
+          "end": 16.23,
+          "word": "building"
+        }
+      ]
+    },
+    {
+      "start": 16.23,
+      "end": 24.35,
+      "duration": 8.12,
+      "text": "up how grassroots training the trainers workshops that's going back to 2015. We started deep",
+      "words": [
+        {
+          "start": 16.23,
+          "end": 16.57,
+          "word": "up"
+        },
+        {
+          "start": 16.57,
+          "end": 18.05,
+          "word": "how"
+        },
+        {
+          "start": 18.05,
+          "end": 18.53,
+          "word": "grassroots"
+        },
+        {
+          "start": 18.53,
+          "end": 19.05,
+          "word": "training"
+        },
+        {
+          "start": 19.05,
+          "end": 19.25,
+          "word": "the"
+        },
+        {
+          "start": 19.25,
+          "end": 19.55,
+          "word": "trainers"
+        },
+        {
+          "start": 19.55,
+          "end": 20.91,
+          "word": "workshops"
+        },
+        {
+          "start": 20.91,
+          "end": 21.47,
+          "word": "that's"
+        },
+        {
+          "start": 21.47,
+          "end": 21.59,
+          "word": "going"
+        },
+        {
+          "start": 21.59,
+          "end": 21.77,
+          "word": "back"
+        },
+        {
+          "start": 21.77,
+          "end": 21.91,
+          "word": "to"
+        },
+        {
+          "start": 21.91,
+          "end": 22.41,
+          "word": "2015."
+        },
+        {
+          "start": 23.19,
+          "end": 23.71,
+          "word": "We"
+        },
+        {
+          "start": 23.71,
+          "end": 24.09,
+          "word": "started"
+        },
+        {
+          "start": 24.09,
+          "end": 24.35,
+          "word": "deep"
+        }
+      ]
+    },
+    {
+      "start": 24.35,
+      "end": 30.27,
+      "duration": 5.92,
+      "text": "learning in Daba in 2017 to strengthen African machine learning as, I guess we're going",
+      "words": [
+        {
+          "start": 24.35,
+          "end": 24.59,
+          "word": "learning"
+        },
+        {
+          "start": 24.59,
+          "end": 24.81,
+          "word": "in"
+        },
+        {
+          "start": 24.81,
+          "end": 25.01,
+          "word": "Daba"
+        },
+        {
+          "start": 25.01,
+          "end": 25.95,
+          "word": "in"
+        },
+        {
+          "start": 25.95,
+          "end": 26.81,
+          "word": "2017"
+        },
+        {
+          "start": 26.81,
+          "end": 27.79,
+          "word": "to"
+        },
+        {
+          "start": 27.79,
+          "end": 28.03,
+          "word": "strengthen"
+        },
+        {
+          "start": 28.03,
+          "end": 28.33,
+          "word": "African"
+        },
+        {
+          "start": 28.33,
+          "end": 28.61,
+          "word": "machine"
+        },
+        {
+          "start": 28.61,
+          "end": 29.01,
+          "word": "learning"
+        },
+        {
+          "start": 29.01,
+          "end": 29.51,
+          "word": "as,"
+        },
+        {
+          "start": 29.73,
+          "end": 29.91,
+          "word": "I"
+        },
+        {
+          "start": 29.91,
+          "end": 29.97,
+          "word": "guess"
+        },
+        {
+          "start": 29.97,
+          "end": 30.17,
+          "word": "we're"
+        },
+        {
+          "start": 30.17,
+          "end": 30.27,
+          "word": "going"
+        }
+      ]
+    },
+    {
+      "start": 30.27,
+      "end": 36.63,
+      "duration": 6.36,
+      "text": "to take it as more an umbrella community. It brings in all of the communities together",
+      "words": [
+        {
+          "start": 30.27,
+          "end": 30.27,
+          "word": "to"
+        },
+        {
+          "start": 30.27,
+          "end": 30.39,
+          "word": "take"
+        },
+        {
+          "start": 30.39,
+          "end": 30.51,
+          "word": "it"
+        },
+        {
+          "start": 30.51,
+          "end": 30.71,
+          "word": "as"
+        },
+        {
+          "start": 30.71,
+          "end": 31.15,
+          "word": "more"
+        },
+        {
+          "start": 31.15,
+          "end": 31.75,
+          "word": "an"
+        },
+        {
+          "start": 31.75,
+          "end": 32.17,
+          "word": "umbrella"
+        },
+        {
+          "start": 32.17,
+          "end": 33.53,
+          "word": "community."
+        },
+        {
+          "start": 34.15,
+          "end": 34.37,
+          "word": "It"
+        },
+        {
+          "start": 34.37,
+          "end": 34.63,
+          "word": "brings"
+        },
+        {
+          "start": 34.63,
+          "end": 34.81,
+          "word": "in"
+        },
+        {
+          "start": 34.81,
+          "end": 35.23,
+          "word": "all"
+        },
+        {
+          "start": 35.23,
+          "end": 35.65,
+          "word": "of"
+        },
+        {
+          "start": 35.65,
+          "end": 35.77,
+          "word": "the"
+        },
+        {
+          "start": 35.77,
+          "end": 36.13,
+          "word": "communities"
+        },
+        {
+          "start": 36.13,
+          "end": 36.63,
+          "word": "together"
+        }
+      ]
+    },
+    {
+      "start": 37.57,
+      "end": 43.09,
+      "duration": 5.52,
+      "text": "every year as an annual gathering. So the deep learning in Daba, for example, is going",
+      "words": [
+        {
+          "start": 37.57,
+          "end": 38.17,
+          "word": "every"
+        },
+        {
+          "start": 38.17,
+          "end": 38.67,
+          "word": "year"
+        },
+        {
+          "start": 38.67,
+          "end": 38.81,
+          "word": "as"
+        },
+        {
+          "start": 38.81,
+          "end": 38.93,
+          "word": "an"
+        },
+        {
+          "start": 38.93,
+          "end": 39.93,
+          "word": "annual"
+        },
+        {
+          "start": 39.93,
+          "end": 40.25,
+          "word": "gathering."
+        },
+        {
+          "start": 40.61,
+          "end": 40.61,
+          "word": "So"
+        },
+        {
+          "start": 40.61,
+          "end": 41.01,
+          "word": "the"
+        },
+        {
+          "start": 41.01,
+          "end": 41.15,
+          "word": "deep"
+        },
+        {
+          "start": 41.15,
+          "end": 41.31,
+          "word": "learning"
+        },
+        {
+          "start": 41.31,
+          "end": 41.51,
+          "word": "in"
+        },
+        {
+          "start": 41.51,
+          "end": 41.61,
+          "word": "Daba,"
+        },
+        {
+          "start": 41.75,
+          "end": 41.79,
+          "word": "for"
+        },
+        {
+          "start": 41.79,
+          "end": 42.15,
+          "word": "example,"
+        },
+        {
+          "start": 42.69,
+          "end": 42.91,
+          "word": "is"
+        },
+        {
+          "start": 42.91,
+          "end": 43.09,
+          "word": "going"
+        }
+      ]
+    },
+    {
+      "start": 43.09,
+      "end": 50.39,
+      "duration": 7.3,
+      "text": "to be in Kigali in about a week and a half. Then we're expecting a thousand AI researchers",
+      "words": [
+        {
+          "start": 43.09,
+          "end": 43.25,
+          "word": "to"
+        },
+        {
+          "start": 43.25,
+          "end": 43.47,
+          "word": "be"
+        },
+        {
+          "start": 43.47,
+          "end": 43.73,
+          "word": "in"
+        },
+        {
+          "start": 43.73,
+          "end": 44.11,
+          "word": "Kigali"
+        },
+        {
+          "start": 44.11,
+          "end": 44.61,
+          "word": "in"
+        },
+        {
+          "start": 44.61,
+          "end": 44.79,
+          "word": "about"
+        },
+        {
+          "start": 44.79,
+          "end": 44.93,
+          "word": "a"
+        },
+        {
+          "start": 44.93,
+          "end": 45.05,
+          "word": "week"
+        },
+        {
+          "start": 45.05,
+          "end": 45.23,
+          "word": "and"
+        },
+        {
+          "start": 45.23,
+          "end": 45.27,
+          "word": "a"
+        },
+        {
+          "start": 45.27,
+          "end": 45.49,
+          "word": "half."
+        },
+        {
+          "start": 45.95,
+          "end": 46.51,
+          "word": "Then"
+        },
+        {
+          "start": 46.51,
+          "end": 46.69,
+          "word": "we're"
+        },
+        {
+          "start": 46.69,
+          "end": 46.99,
+          "word": "expecting"
+        },
+        {
+          "start": 46.99,
+          "end": 47.19,
+          "word": "a"
+        },
+        {
+          "start": 47.19,
+          "end": 47.63,
+          "word": "thousand"
+        },
+        {
+          "start": 47.63,
+          "end": 49.29,
+          "word": "AI"
+        },
+        {
+          "start": 49.29,
+          "end": 50.39,
+          "word": "researchers"
+        }
+      ]
+    },
+    {
+      "start": 50.39,
+      "end": 56.07,
+      "duration": 5.68,
+      "text": "and developers in Kigali and they represent all these many, many grassroots communities",
+      "words": [
+        {
+          "start": 50.39,
+          "end": 50.67,
+          "word": "and"
+        },
+        {
+          "start": 50.67,
+          "end": 51.07,
+          "word": "developers"
+        },
+        {
+          "start": 51.07,
+          "end": 51.67,
+          "word": "in"
+        },
+        {
+          "start": 51.67,
+          "end": 52.13,
+          "word": "Kigali"
+        },
+        {
+          "start": 52.13,
+          "end": 52.87,
+          "word": "and"
+        },
+        {
+          "start": 52.87,
+          "end": 53.13,
+          "word": "they"
+        },
+        {
+          "start": 53.13,
+          "end": 53.51,
+          "word": "represent"
+        },
+        {
+          "start": 53.51,
+          "end": 53.81,
+          "word": "all"
+        },
+        {
+          "start": 53.81,
+          "end": 54.03,
+          "word": "these"
+        },
+        {
+          "start": 54.03,
+          "end": 54.61,
+          "word": "many,"
+        },
+        {
+          "start": 54.65,
+          "end": 54.81,
+          "word": "many"
+        },
+        {
+          "start": 54.81,
+          "end": 55.17,
+          "word": "grassroots"
+        },
+        {
+          "start": 55.17,
+          "end": 56.07,
+          "word": "communities"
+        }
+      ]
+    },
+    {
+      "start": 56.07,
+      "end": 63.69,
+      "duration": 7.62,
+      "text": "across the continent. When it comes to language, we then fast forward from 2015 to 2017, 2019",
+      "words": [
+        {
+          "start": 56.07,
+          "end": 56.47,
+          "word": "across"
+        },
+        {
+          "start": 56.47,
+          "end": 57.13,
+          "word": "the"
+        },
+        {
+          "start": 57.13,
+          "end": 57.57,
+          "word": "continent."
+        },
+        {
+          "start": 58.23,
+          "end": 58.45,
+          "word": "When"
+        },
+        {
+          "start": 58.45,
+          "end": 58.61,
+          "word": "it"
+        },
+        {
+          "start": 58.61,
+          "end": 58.75,
+          "word": "comes"
+        },
+        {
+          "start": 58.75,
+          "end": 58.89,
+          "word": "to"
+        },
+        {
+          "start": 58.89,
+          "end": 59.23,
+          "word": "language,"
+        },
+        {
+          "start": 59.67,
+          "end": 59.85,
+          "word": "we"
+        },
+        {
+          "start": 59.85,
+          "end": 60.11,
+          "word": "then"
+        },
+        {
+          "start": 60.11,
+          "end": 60.33,
+          "word": "fast"
+        },
+        {
+          "start": 60.33,
+          "end": 60.57,
+          "word": "forward"
+        },
+        {
+          "start": 60.57,
+          "end": 60.81,
+          "word": "from"
+        },
+        {
+          "start": 60.81,
+          "end": 61.57,
+          "word": "2015"
+        },
+        {
+          "start": 61.57,
+          "end": 62.11,
+          "word": "to"
+        },
+        {
+          "start": 62.11,
+          "end": 62.61,
+          "word": "2017,"
+        },
+        {
+          "start": 63.07,
+          "end": 63.69,
+          "word": "2019"
+        }
+      ]
+    },
+    {
+      "start": 64.11,
+      "end": 70.41,
+      "duration": 6.3,
+      "text": "at the deep learning in Daba there, basically then the beginning of Masakani. Masakani Research",
+      "words": [
+        {
+          "start": 64.11,
+          "end": 64.47,
+          "word": "at"
+        },
+        {
+          "start": 64.47,
+          "end": 64.65,
+          "word": "the"
+        },
+        {
+          "start": 64.65,
+          "end": 65.05,
+          "word": "deep"
+        },
+        {
+          "start": 65.05,
+          "end": 65.21,
+          "word": "learning"
+        },
+        {
+          "start": 65.21,
+          "end": 65.39,
+          "word": "in"
+        },
+        {
+          "start": 65.39,
+          "end": 65.53,
+          "word": "Daba"
+        },
+        {
+          "start": 65.53,
+          "end": 65.87,
+          "word": "there,"
+        },
+        {
+          "start": 66.21,
+          "end": 66.59,
+          "word": "basically"
+        },
+        {
+          "start": 66.59,
+          "end": 67.01,
+          "word": "then"
+        },
+        {
+          "start": 67.01,
+          "end": 67.23,
+          "word": "the"
+        },
+        {
+          "start": 67.23,
+          "end": 67.61,
+          "word": "beginning"
+        },
+        {
+          "start": 67.61,
+          "end": 67.95,
+          "word": "of"
+        },
+        {
+          "start": 67.95,
+          "end": 68.47,
+          "word": "Masakani."
+        },
+        {
+          "start": 69.23,
+          "end": 69.95,
+          "word": "Masakani"
+        },
+        {
+          "start": 69.95,
+          "end": 70.41,
+          "word": "Research"
+        }
+      ]
+    },
+    {
+      "start": 70.41,
+      "end": 76.13,
+      "duration": 5.72,
+      "text": "Foundation is a distributed research network of natural language processing and linguistics",
+      "words": [
+        {
+          "start": 70.41,
+          "end": 70.79,
+          "word": "Foundation"
+        },
+        {
+          "start": 70.79,
+          "end": 71.55,
+          "word": "is"
+        },
+        {
+          "start": 71.55,
+          "end": 71.67,
+          "word": "a"
+        },
+        {
+          "start": 71.67,
+          "end": 72.07,
+          "word": "distributed"
+        },
+        {
+          "start": 72.07,
+          "end": 72.63,
+          "word": "research"
+        },
+        {
+          "start": 72.63,
+          "end": 73.35,
+          "word": "network"
+        },
+        {
+          "start": 73.35,
+          "end": 73.85,
+          "word": "of"
+        },
+        {
+          "start": 73.85,
+          "end": 74.09,
+          "word": "natural"
+        },
+        {
+          "start": 74.09,
+          "end": 74.39,
+          "word": "language"
+        },
+        {
+          "start": 74.39,
+          "end": 74.83,
+          "word": "processing"
+        },
+        {
+          "start": 74.83,
+          "end": 75.65,
+          "word": "and"
+        },
+        {
+          "start": 75.65,
+          "end": 76.13,
+          "word": "linguistics"
+        }
+      ]
+    },
+    {
+      "start": 76.13,
+      "end": 81.33,
+      "duration": 5.2,
+      "text": "researchers who focus on African languages. I think at the moment, we've reached about",
+      "words": [
+        {
+          "start": 76.13,
+          "end": 76.63,
+          "word": "researchers"
+        },
+        {
+          "start": 76.63,
+          "end": 77.01,
+          "word": "who"
+        },
+        {
+          "start": 77.01,
+          "end": 77.27,
+          "word": "focus"
+        },
+        {
+          "start": 77.27,
+          "end": 77.55,
+          "word": "on"
+        },
+        {
+          "start": 77.55,
+          "end": 77.77,
+          "word": "African"
+        },
+        {
+          "start": 77.77,
+          "end": 78.25,
+          "word": "languages."
+        },
+        {
+          "start": 79.43,
+          "end": 79.71,
+          "word": "I"
+        },
+        {
+          "start": 79.71,
+          "end": 79.85,
+          "word": "think"
+        },
+        {
+          "start": 79.85,
+          "end": 80.11,
+          "word": "at"
+        },
+        {
+          "start": 80.11,
+          "end": 80.19,
+          "word": "the"
+        },
+        {
+          "start": 80.19,
+          "end": 80.41,
+          "word": "moment,"
+        },
+        {
+          "start": 80.61,
+          "end": 80.97,
+          "word": "we've"
+        },
+        {
+          "start": 80.97,
+          "end": 81.15,
+          "word": "reached"
+        },
+        {
+          "start": 81.15,
+          "end": 81.33,
+          "word": "about"
+        }
+      ]
+    },
+    {
+      "start": 81.33,
+      "end": 86.39,
+      "duration": 5.06,
+      "text": "3,000 people who are working and through that network, it's allowed people to really find",
+      "words": [
+        {
+          "start": 81.33,
+          "end": 81.57,
+          "word": "3"
+        },
+        {
+          "start": 81.57,
+          "end": 81.83,
+          "word": ",000"
+        },
+        {
+          "start": 81.83,
+          "end": 82.15,
+          "word": "people"
+        },
+        {
+          "start": 82.15,
+          "end": 82.77,
+          "word": "who"
+        },
+        {
+          "start": 82.77,
+          "end": 82.91,
+          "word": "are"
+        },
+        {
+          "start": 82.91,
+          "end": 83.23,
+          "word": "working"
+        },
+        {
+          "start": 83.23,
+          "end": 83.61,
+          "word": "and"
+        },
+        {
+          "start": 83.61,
+          "end": 83.91,
+          "word": "through"
+        },
+        {
+          "start": 83.91,
+          "end": 84.17,
+          "word": "that"
+        },
+        {
+          "start": 84.17,
+          "end": 84.57,
+          "word": "network,"
+        },
+        {
+          "start": 84.57,
+          "end": 84.87,
+          "word": "it's"
+        },
+        {
+          "start": 84.87,
+          "end": 85.05,
+          "word": "allowed"
+        },
+        {
+          "start": 85.05,
+          "end": 85.47,
+          "word": "people"
+        },
+        {
+          "start": 85.47,
+          "end": 85.89,
+          "word": "to"
+        },
+        {
+          "start": 85.89,
+          "end": 86.07,
+          "word": "really"
+        },
+        {
+          "start": 86.07,
+          "end": 86.39,
+          "word": "find"
+        }
+      ]
+    },
+    {
+      "start": 86.39,
+      "end": 91.71,
+      "duration": 5.32,
+      "text": "a place where they can practice together, do research together, find each other, use",
+      "words": [
+        {
+          "start": 86.39,
+          "end": 86.69,
+          "word": "a"
+        },
+        {
+          "start": 86.69,
+          "end": 86.95,
+          "word": "place"
+        },
+        {
+          "start": 86.95,
+          "end": 87.19,
+          "word": "where"
+        },
+        {
+          "start": 87.19,
+          "end": 87.33,
+          "word": "they"
+        },
+        {
+          "start": 87.33,
+          "end": 87.47,
+          "word": "can"
+        },
+        {
+          "start": 87.47,
+          "end": 87.91,
+          "word": "practice"
+        },
+        {
+          "start": 87.91,
+          "end": 88.31,
+          "word": "together,"
+        },
+        {
+          "start": 88.81,
+          "end": 89.05,
+          "word": "do"
+        },
+        {
+          "start": 89.05,
+          "end": 89.37,
+          "word": "research"
+        },
+        {
+          "start": 89.37,
+          "end": 89.67,
+          "word": "together,"
+        },
+        {
+          "start": 89.87,
+          "end": 90.05,
+          "word": "find"
+        },
+        {
+          "start": 90.05,
+          "end": 90.31,
+          "word": "each"
+        },
+        {
+          "start": 90.31,
+          "end": 90.57,
+          "word": "other,"
+        },
+        {
+          "start": 91.05,
+          "end": 91.71,
+          "word": "use"
+        }
+      ]
+    },
+    {
+      "start": 91.71,
+      "end": 100.81,
+      "duration": 9.1,
+      "text": "their common interests to really push the limits of what's possible in African natural",
+      "words": [
+        {
+          "start": 91.71,
+          "end": 92.01,
+          "word": "their"
+        },
+        {
+          "start": 92.01,
+          "end": 92.25,
+          "word": "common"
+        },
+        {
+          "start": 92.25,
+          "end": 92.59,
+          "word": "interests"
+        },
+        {
+          "start": 92.59,
+          "end": 92.85,
+          "word": "to"
+        },
+        {
+          "start": 92.85,
+          "end": 93.17,
+          "word": "really"
+        },
+        {
+          "start": 93.17,
+          "end": 93.81,
+          "word": "push"
+        },
+        {
+          "start": 93.81,
+          "end": 94.47,
+          "word": "the"
+        },
+        {
+          "start": 94.47,
+          "end": 96.47,
+          "word": "limits"
+        },
+        {
+          "start": 96.47,
+          "end": 97.17,
+          "word": "of"
+        },
+        {
+          "start": 97.17,
+          "end": 97.51,
+          "word": "what's"
+        },
+        {
+          "start": 97.51,
+          "end": 97.93,
+          "word": "possible"
+        },
+        {
+          "start": 97.93,
+          "end": 98.55,
+          "word": "in"
+        },
+        {
+          "start": 98.55,
+          "end": 99.57,
+          "word": "African"
+        },
+        {
+          "start": 99.57,
+          "end": 100.81,
+          "word": "natural"
+        }
+      ]
+    },
+    {
+      "start": 100.81,
+      "end": 108.41,
+      "duration": 7.6,
+      "text": "language processing plus AI, plus linguistics. I think a milestone that I think has been",
+      "words": [
+        {
+          "start": 100.81,
+          "end": 101.15,
+          "word": "language"
+        },
+        {
+          "start": 101.15,
+          "end": 101.73,
+          "word": "processing"
+        },
+        {
+          "start": 101.73,
+          "end": 102.07,
+          "word": "plus"
+        },
+        {
+          "start": 102.07,
+          "end": 102.39,
+          "word": "AI,"
+        },
+        {
+          "start": 102.87,
+          "end": 103.13,
+          "word": "plus"
+        },
+        {
+          "start": 103.13,
+          "end": 103.73,
+          "word": "linguistics."
+        },
+        {
+          "start": 104.45,
+          "end": 104.91,
+          "word": "I"
+        },
+        {
+          "start": 104.91,
+          "end": 105.55,
+          "word": "think"
+        },
+        {
+          "start": 105.55,
+          "end": 105.71,
+          "word": "a"
+        },
+        {
+          "start": 105.71,
+          "end": 106.13,
+          "word": "milestone"
+        },
+        {
+          "start": 106.13,
+          "end": 106.63,
+          "word": "that"
+        },
+        {
+          "start": 106.63,
+          "end": 107.43,
+          "word": "I"
+        },
+        {
+          "start": 107.43,
+          "end": 107.59,
+          "word": "think"
+        },
+        {
+          "start": 107.59,
+          "end": 107.93,
+          "word": "has"
+        },
+        {
+          "start": 107.93,
+          "end": 108.41,
+          "word": "been"
+        }
+      ]
+    },
+    {
+      "start": 108.41,
+      "end": 114.55,
+      "duration": 6.14,
+      "text": "reached is that at last week's ACL conference where Joyce was one of the program chairs, I",
+      "words": [
+        {
+          "start": 108.41,
+          "end": 108.69,
+          "word": "reached"
+        },
+        {
+          "start": 108.69,
+          "end": 109.29,
+          "word": "is"
+        },
+        {
+          "start": 109.29,
+          "end": 109.51,
+          "word": "that"
+        },
+        {
+          "start": 109.51,
+          "end": 109.71,
+          "word": "at"
+        },
+        {
+          "start": 109.71,
+          "end": 109.95,
+          "word": "last"
+        },
+        {
+          "start": 109.95,
+          "end": 110.49,
+          "word": "week's"
+        },
+        {
+          "start": 110.49,
+          "end": 111.13,
+          "word": "ACL"
+        },
+        {
+          "start": 111.13,
+          "end": 111.61,
+          "word": "conference"
+        },
+        {
+          "start": 111.61,
+          "end": 111.95,
+          "word": "where"
+        },
+        {
+          "start": 111.95,
+          "end": 112.91,
+          "word": "Joyce"
+        },
+        {
+          "start": 112.91,
+          "end": 113.09,
+          "word": "was"
+        },
+        {
+          "start": 113.09,
+          "end": 113.21,
+          "word": "one"
+        },
+        {
+          "start": 113.21,
+          "end": 113.27,
+          "word": "of"
+        },
+        {
+          "start": 113.27,
+          "end": 113.37,
+          "word": "the"
+        },
+        {
+          "start": 113.37,
+          "end": 113.65,
+          "word": "program"
+        },
+        {
+          "start": 113.65,
+          "end": 114.03,
+          "word": "chairs,"
+        },
+        {
+          "start": 114.53,
+          "end": 114.55,
+          "word": "I"
+        }
+      ]
+    },
+    {
+      "start": 114.55,
+      "end": 118.65,
+      "duration": 4.1,
+      "text": "think the Masakani network, through the Masakani network, there were four best papers.",
+      "words": [
+        {
+          "start": 114.55,
+          "end": 114.71,
+          "word": "think"
+        },
+        {
+          "start": 114.71,
+          "end": 115.07,
+          "word": "the"
+        },
+        {
+          "start": 115.07,
+          "end": 115.77,
+          "word": "Masakani"
+        },
+        {
+          "start": 115.77,
+          "end": 116.47,
+          "word": "network,"
+        },
+        {
+          "start": 116.57,
+          "end": 116.65,
+          "word": "through"
+        },
+        {
+          "start": 116.65,
+          "end": 116.73,
+          "word": "the"
+        },
+        {
+          "start": 116.73,
+          "end": 117.03,
+          "word": "Masakani"
+        },
+        {
+          "start": 117.03,
+          "end": 117.43,
+          "word": "network,"
+        },
+        {
+          "start": 117.65,
+          "end": 117.81,
+          "word": "there"
+        },
+        {
+          "start": 117.81,
+          "end": 117.93,
+          "word": "were"
+        },
+        {
+          "start": 117.93,
+          "end": 118.11,
+          "word": "four"
+        },
+        {
+          "start": 118.11,
+          "end": 118.35,
+          "word": "best"
+        },
+        {
+          "start": 118.35,
+          "end": 118.65,
+          "word": "papers."
+        }
+      ]
+    },
+    {
+      "start": 120.19,
+      "end": 124.61,
+      "duration": 4.42,
+      "text": "Right, these are the biggest global conference on natural language processing in the world.",
+      "words": [
+        {
+          "start": 120.19,
+          "end": 120.69,
+          "word": "Right,"
+        },
+        {
+          "start": 120.79,
+          "end": 120.91,
+          "word": "these"
+        },
+        {
+          "start": 120.91,
+          "end": 121.05,
+          "word": "are"
+        },
+        {
+          "start": 121.05,
+          "end": 121.15,
+          "word": "the"
+        },
+        {
+          "start": 121.15,
+          "end": 121.47,
+          "word": "biggest"
+        },
+        {
+          "start": 121.47,
+          "end": 121.99,
+          "word": "global"
+        },
+        {
+          "start": 121.99,
+          "end": 122.83,
+          "word": "conference"
+        },
+        {
+          "start": 122.83,
+          "end": 123.11,
+          "word": "on"
+        },
+        {
+          "start": 123.11,
+          "end": 123.35,
+          "word": "natural"
+        },
+        {
+          "start": 123.35,
+          "end": 123.67,
+          "word": "language"
+        },
+        {
+          "start": 123.67,
+          "end": 124.03,
+          "word": "processing"
+        },
+        {
+          "start": 124.03,
+          "end": 124.29,
+          "word": "in"
+        },
+        {
+          "start": 124.29,
+          "end": 124.41,
+          "word": "the"
+        },
+        {
+          "start": 124.41,
+          "end": 124.61,
+          "word": "world."
+        }
+      ]
+    },
+    {
+      "start": 126.21,
+      "end": 131.69,
+      "duration": 5.48,
+      "text": "Right, so just showing you that you can focus kind of on the work here, on the",
+      "words": [
+        {
+          "start": 126.21,
+          "end": 126.77,
+          "word": "Right,"
+        },
+        {
+          "start": 127.17,
+          "end": 127.39,
+          "word": "so"
+        },
+        {
+          "start": 127.39,
+          "end": 127.65,
+          "word": "just"
+        },
+        {
+          "start": 127.65,
+          "end": 127.91,
+          "word": "showing"
+        },
+        {
+          "start": 127.91,
+          "end": 128.05,
+          "word": "you"
+        },
+        {
+          "start": 128.05,
+          "end": 128.23,
+          "word": "that"
+        },
+        {
+          "start": 128.23,
+          "end": 128.37,
+          "word": "you"
+        },
+        {
+          "start": 128.37,
+          "end": 128.51,
+          "word": "can"
+        },
+        {
+          "start": 128.51,
+          "end": 128.81,
+          "word": "focus"
+        },
+        {
+          "start": 128.81,
+          "end": 129.11,
+          "word": "kind"
+        },
+        {
+          "start": 129.11,
+          "end": 129.21,
+          "word": "of"
+        },
+        {
+          "start": 129.21,
+          "end": 129.49,
+          "word": "on"
+        },
+        {
+          "start": 129.49,
+          "end": 130.47,
+          "word": "the"
+        },
+        {
+          "start": 130.47,
+          "end": 130.77,
+          "word": "work"
+        },
+        {
+          "start": 130.77,
+          "end": 131.19,
+          "word": "here,"
+        },
+        {
+          "start": 131.41,
+          "end": 131.53,
+          "word": "on"
+        },
+        {
+          "start": 131.53,
+          "end": 131.69,
+          "word": "the"
+        }
+      ]
+    },
+    {
+      "start": 131.69,
+      "end": 137.05,
+      "duration": 5.36,
+      "text": "languages here, building up better tools, seeing people trying out different things",
+      "words": [
+        {
+          "start": 131.69,
+          "end": 132.01,
+          "word": "languages"
+        },
+        {
+          "start": 132.01,
+          "end": 132.29,
+          "word": "here,"
+        },
+        {
+          "start": 132.65,
+          "end": 132.93,
+          "word": "building"
+        },
+        {
+          "start": 132.93,
+          "end": 133.11,
+          "word": "up"
+        },
+        {
+          "start": 133.11,
+          "end": 133.31,
+          "word": "better"
+        },
+        {
+          "start": 133.31,
+          "end": 133.83,
+          "word": "tools,"
+        },
+        {
+          "start": 134.37,
+          "end": 134.97,
+          "word": "seeing"
+        },
+        {
+          "start": 134.97,
+          "end": 135.45,
+          "word": "people"
+        },
+        {
+          "start": 135.45,
+          "end": 135.87,
+          "word": "trying"
+        },
+        {
+          "start": 135.87,
+          "end": 136.15,
+          "word": "out"
+        },
+        {
+          "start": 136.15,
+          "end": 136.69,
+          "word": "different"
+        },
+        {
+          "start": 136.69,
+          "end": 137.05,
+          "word": "things"
+        }
+      ]
+    },
+    {
+      "start": 137.05,
+      "end": 140.99,
+      "duration": 3.94,
+      "text": "because there is also this question of like, are we meeting the communities where they",
+      "words": [
+        {
+          "start": 137.05,
+          "end": 137.35,
+          "word": "because"
+        },
+        {
+          "start": 137.35,
+          "end": 137.79,
+          "word": "there"
+        },
+        {
+          "start": 137.79,
+          "end": 138.01,
+          "word": "is"
+        },
+        {
+          "start": 138.01,
+          "end": 138.21,
+          "word": "also"
+        },
+        {
+          "start": 138.21,
+          "end": 138.41,
+          "word": "this"
+        },
+        {
+          "start": 138.41,
+          "end": 138.65,
+          "word": "question"
+        },
+        {
+          "start": 138.65,
+          "end": 138.85,
+          "word": "of"
+        },
+        {
+          "start": 138.85,
+          "end": 138.99,
+          "word": "like,"
+        },
+        {
+          "start": 139.01,
+          "end": 139.17,
+          "word": "are"
+        },
+        {
+          "start": 139.17,
+          "end": 139.31,
+          "word": "we"
+        },
+        {
+          "start": 139.31,
+          "end": 139.59,
+          "word": "meeting"
+        },
+        {
+          "start": 139.59,
+          "end": 139.77,
+          "word": "the"
+        },
+        {
+          "start": 139.77,
+          "end": 140.23,
+          "word": "communities"
+        },
+        {
+          "start": 140.23,
+          "end": 140.81,
+          "word": "where"
+        },
+        {
+          "start": 140.81,
+          "end": 140.99,
+          "word": "they"
+        }
+      ]
+    },
+    {
+      "start": 140.99,
+      "end": 148.31,
+      "duration": 7.32,
+      "text": "are? Wikipedia editors and users are a community that we should be finding ways that we're",
+      "words": [
+        {
+          "start": 140.99,
+          "end": 141.25,
+          "word": "are?"
+        },
+        {
+          "start": 142.31,
+          "end": 142.83,
+          "word": "Wikipedia"
+        },
+        {
+          "start": 142.83,
+          "end": 144.07,
+          "word": "editors"
+        },
+        {
+          "start": 144.07,
+          "end": 144.41,
+          "word": "and"
+        },
+        {
+          "start": 144.41,
+          "end": 144.79,
+          "word": "users"
+        },
+        {
+          "start": 144.79,
+          "end": 145.41,
+          "word": "are"
+        },
+        {
+          "start": 145.41,
+          "end": 145.65,
+          "word": "a"
+        },
+        {
+          "start": 145.65,
+          "end": 145.97,
+          "word": "community"
+        },
+        {
+          "start": 145.97,
+          "end": 146.31,
+          "word": "that"
+        },
+        {
+          "start": 146.31,
+          "end": 146.57,
+          "word": "we"
+        },
+        {
+          "start": 146.57,
+          "end": 146.79,
+          "word": "should"
+        },
+        {
+          "start": 146.79,
+          "end": 146.93,
+          "word": "be"
+        },
+        {
+          "start": 146.93,
+          "end": 147.19,
+          "word": "finding"
+        },
+        {
+          "start": 147.19,
+          "end": 147.59,
+          "word": "ways"
+        },
+        {
+          "start": 147.59,
+          "end": 148.11,
+          "word": "that"
+        },
+        {
+          "start": 148.11,
+          "end": 148.31,
+          "word": "we're"
+        }
+      ]
+    },
+    {
+      "start": 148.31,
+      "end": 153.39,
+      "duration": 5.08,
+      "text": "better serving depending on what are the tools that they actually need. And there's",
+      "words": [
+        {
+          "start": 148.31,
+          "end": 148.55,
+          "word": "better"
+        },
+        {
+          "start": 148.55,
+          "end": 149.03,
+          "word": "serving"
+        },
+        {
+          "start": 149.03,
+          "end": 149.63,
+          "word": "depending"
+        },
+        {
+          "start": 149.63,
+          "end": 149.91,
+          "word": "on"
+        },
+        {
+          "start": 149.91,
+          "end": 150.15,
+          "word": "what"
+        },
+        {
+          "start": 150.15,
+          "end": 150.69,
+          "word": "are"
+        },
+        {
+          "start": 150.69,
+          "end": 150.81,
+          "word": "the"
+        },
+        {
+          "start": 150.81,
+          "end": 151.11,
+          "word": "tools"
+        },
+        {
+          "start": 151.11,
+          "end": 151.35,
+          "word": "that"
+        },
+        {
+          "start": 151.35,
+          "end": 151.51,
+          "word": "they"
+        },
+        {
+          "start": 151.51,
+          "end": 151.81,
+          "word": "actually"
+        },
+        {
+          "start": 151.81,
+          "end": 152.23,
+          "word": "need."
+        },
+        {
+          "start": 152.83,
+          "end": 152.99,
+          "word": "And"
+        },
+        {
+          "start": 152.99,
+          "end": 153.39,
+          "word": "there's"
+        }
+      ]
+    },
+    {
+      "start": 153.39,
+      "end": 157.43,
+      "duration": 4.04,
+      "text": "many, many other things. And just for context for everybody, there's 2,000 plus",
+      "words": [
+        {
+          "start": 153.39,
+          "end": 153.61,
+          "word": "many,"
+        },
+        {
+          "start": 153.67,
+          "end": 153.83,
+          "word": "many"
+        },
+        {
+          "start": 153.83,
+          "end": 154.05,
+          "word": "other"
+        },
+        {
+          "start": 154.05,
+          "end": 154.37,
+          "word": "things."
+        },
+        {
+          "start": 154.59,
+          "end": 154.73,
+          "word": "And"
+        },
+        {
+          "start": 154.73,
+          "end": 154.91,
+          "word": "just"
+        },
+        {
+          "start": 154.91,
+          "end": 155.07,
+          "word": "for"
+        },
+        {
+          "start": 155.07,
+          "end": 155.39,
+          "word": "context"
+        },
+        {
+          "start": 155.39,
+          "end": 155.61,
+          "word": "for"
+        },
+        {
+          "start": 155.61,
+          "end": 155.95,
+          "word": "everybody,"
+        },
+        {
+          "start": 156.23,
+          "end": 156.37,
+          "word": "there's"
+        },
+        {
+          "start": 156.37,
+          "end": 156.55,
+          "word": "2"
+        },
+        {
+          "start": 156.55,
+          "end": 156.93,
+          "word": ",000"
+        },
+        {
+          "start": 156.93,
+          "end": 157.43,
+          "word": "plus"
+        }
+      ]
+    },
+    {
+      "start": 157.43,
+      "end": 162.93,
+      "duration": 5.5,
+      "text": "African languages. Right, so that's kind of the part of what we're trying to deal",
+      "words": [
+        {
+          "start": 157.43,
+          "end": 157.71,
+          "word": "African"
+        },
+        {
+          "start": 157.71,
+          "end": 158.11,
+          "word": "languages."
+        },
+        {
+          "start": 159.07,
+          "end": 159.35,
+          "word": "Right,"
+        },
+        {
+          "start": 159.43,
+          "end": 159.53,
+          "word": "so"
+        },
+        {
+          "start": 159.53,
+          "end": 159.79,
+          "word": "that's"
+        },
+        {
+          "start": 159.79,
+          "end": 160.05,
+          "word": "kind"
+        },
+        {
+          "start": 160.05,
+          "end": 160.17,
+          "word": "of"
+        },
+        {
+          "start": 160.17,
+          "end": 160.51,
+          "word": "the"
+        },
+        {
+          "start": 160.51,
+          "end": 161.65,
+          "word": "part"
+        },
+        {
+          "start": 161.65,
+          "end": 161.87,
+          "word": "of"
+        },
+        {
+          "start": 161.87,
+          "end": 162.15,
+          "word": "what"
+        },
+        {
+          "start": 162.15,
+          "end": 162.35,
+          "word": "we're"
+        },
+        {
+          "start": 162.35,
+          "end": 162.57,
+          "word": "trying"
+        },
+        {
+          "start": 162.57,
+          "end": 162.73,
+          "word": "to"
+        },
+        {
+          "start": 162.73,
+          "end": 162.93,
+          "word": "deal"
+        }
+      ]
+    },
+    {
+      "start": 162.93,
+      "end": 168.89,
+      "duration": 5.96,
+      "text": "with and build on and all those parts. So the grassroots has been a great way to break out",
+      "words": [
+        {
+          "start": 162.93,
+          "end": 163.11,
+          "word": "with"
+        },
+        {
+          "start": 163.11,
+          "end": 163.37,
+          "word": "and"
+        },
+        {
+          "start": 163.37,
+          "end": 163.87,
+          "word": "build"
+        },
+        {
+          "start": 163.87,
+          "end": 164.15,
+          "word": "on"
+        },
+        {
+          "start": 164.15,
+          "end": 164.61,
+          "word": "and"
+        },
+        {
+          "start": 164.61,
+          "end": 164.79,
+          "word": "all"
+        },
+        {
+          "start": 164.79,
+          "end": 164.97,
+          "word": "those"
+        },
+        {
+          "start": 164.97,
+          "end": 165.23,
+          "word": "parts."
+        },
+        {
+          "start": 165.51,
+          "end": 165.51,
+          "word": "So"
+        },
+        {
+          "start": 165.51,
+          "end": 165.83,
+          "word": "the"
+        },
+        {
+          "start": 165.83,
+          "end": 166.11,
+          "word": "grassroots"
+        },
+        {
+          "start": 166.11,
+          "end": 166.39,
+          "word": "has"
+        },
+        {
+          "start": 166.39,
+          "end": 166.53,
+          "word": "been"
+        },
+        {
+          "start": 166.53,
+          "end": 166.87,
+          "word": "a"
+        },
+        {
+          "start": 166.87,
+          "end": 167.37,
+          "word": "great"
+        },
+        {
+          "start": 167.37,
+          "end": 167.83,
+          "word": "way"
+        },
+        {
+          "start": 167.83,
+          "end": 168.39,
+          "word": "to"
+        },
+        {
+          "start": 168.39,
+          "end": 168.65,
+          "word": "break"
+        },
+        {
+          "start": 168.65,
+          "end": 168.89,
+          "word": "out"
+        }
+      ]
+    },
+    {
+      "start": 168.89,
+      "end": 173.09,
+      "duration": 4.2,
+      "text": "the silos, break out the parts of if you're sitting in an individual institution, you're",
+      "words": [
+        {
+          "start": 168.89,
+          "end": 169.13,
+          "word": "the"
+        },
+        {
+          "start": 169.13,
+          "end": 169.47,
+          "word": "silos,"
+        },
+        {
+          "start": 169.73,
+          "end": 169.91,
+          "word": "break"
+        },
+        {
+          "start": 169.91,
+          "end": 170.13,
+          "word": "out"
+        },
+        {
+          "start": 170.13,
+          "end": 170.29,
+          "word": "the"
+        },
+        {
+          "start": 170.29,
+          "end": 170.53,
+          "word": "parts"
+        },
+        {
+          "start": 170.53,
+          "end": 170.67,
+          "word": "of"
+        },
+        {
+          "start": 170.67,
+          "end": 170.91,
+          "word": "if"
+        },
+        {
+          "start": 170.91,
+          "end": 171.09,
+          "word": "you're"
+        },
+        {
+          "start": 171.09,
+          "end": 171.31,
+          "word": "sitting"
+        },
+        {
+          "start": 171.31,
+          "end": 171.49,
+          "word": "in"
+        },
+        {
+          "start": 171.49,
+          "end": 171.63,
+          "word": "an"
+        },
+        {
+          "start": 171.63,
+          "end": 171.91,
+          "word": "individual"
+        },
+        {
+          "start": 171.91,
+          "end": 172.53,
+          "word": "institution,"
+        },
+        {
+          "start": 172.87,
+          "end": 173.09,
+          "word": "you're"
+        }
+      ]
+    },
+    {
+      "start": 173.09,
+      "end": 177.95,
+      "duration": 4.86,
+      "text": "very limited in kind of the resources that you have. But collectively, I think Masakani",
+      "words": [
+        {
+          "start": 173.09,
+          "end": 173.49,
+          "word": "very"
+        },
+        {
+          "start": 173.49,
+          "end": 173.97,
+          "word": "limited"
+        },
+        {
+          "start": 173.97,
+          "end": 174.23,
+          "word": "in"
+        },
+        {
+          "start": 174.23,
+          "end": 174.47,
+          "word": "kind"
+        },
+        {
+          "start": 174.47,
+          "end": 174.55,
+          "word": "of"
+        },
+        {
+          "start": 174.55,
+          "end": 174.67,
+          "word": "the"
+        },
+        {
+          "start": 174.67,
+          "end": 175.03,
+          "word": "resources"
+        },
+        {
+          "start": 175.03,
+          "end": 175.33,
+          "word": "that"
+        },
+        {
+          "start": 175.33,
+          "end": 175.45,
+          "word": "you"
+        },
+        {
+          "start": 175.45,
+          "end": 175.73,
+          "word": "have."
+        },
+        {
+          "start": 176.05,
+          "end": 176.15,
+          "word": "But"
+        },
+        {
+          "start": 176.15,
+          "end": 176.63,
+          "word": "collectively,"
+        },
+        {
+          "start": 177.15,
+          "end": 177.25,
+          "word": "I"
+        },
+        {
+          "start": 177.25,
+          "end": 177.41,
+          "word": "think"
+        },
+        {
+          "start": 177.41,
+          "end": 177.95,
+          "word": "Masakani"
+        }
+      ]
+    },
+    {
+      "start": 177.95,
+      "end": 181.81,
+      "duration": 3.86,
+      "text": "is showing you don't even need necessarily money. It was really people who were interested",
+      "words": [
+        {
+          "start": 177.95,
+          "end": 178.13,
+          "word": "is"
+        },
+        {
+          "start": 178.13,
+          "end": 178.27,
+          "word": "showing"
+        },
+        {
+          "start": 178.27,
+          "end": 178.47,
+          "word": "you"
+        },
+        {
+          "start": 178.47,
+          "end": 178.57,
+          "word": "don't"
+        },
+        {
+          "start": 178.57,
+          "end": 178.73,
+          "word": "even"
+        },
+        {
+          "start": 178.73,
+          "end": 179.09,
+          "word": "need"
+        },
+        {
+          "start": 179.09,
+          "end": 179.41,
+          "word": "necessarily"
+        },
+        {
+          "start": 179.41,
+          "end": 179.83,
+          "word": "money."
+        },
+        {
+          "start": 179.97,
+          "end": 180.03,
+          "word": "It"
+        },
+        {
+          "start": 180.03,
+          "end": 180.19,
+          "word": "was"
+        },
+        {
+          "start": 180.19,
+          "end": 180.45,
+          "word": "really"
+        },
+        {
+          "start": 180.45,
+          "end": 180.87,
+          "word": "people"
+        },
+        {
+          "start": 180.87,
+          "end": 181.37,
+          "word": "who"
+        },
+        {
+          "start": 181.37,
+          "end": 181.49,
+          "word": "were"
+        },
+        {
+          "start": 181.49,
+          "end": 181.81,
+          "word": "interested"
+        }
+      ]
+    },
+    {
+      "start": 181.81,
+      "end": 184.49,
+      "duration": 2.68,
+      "text": "in working on those problems. I think I'll stop there for now.",
+      "words": [
+        {
+          "start": 181.81,
+          "end": 182.03,
+          "word": "in"
+        },
+        {
+          "start": 182.03,
+          "end": 182.23,
+          "word": "working"
+        },
+        {
+          "start": 182.23,
+          "end": 182.45,
+          "word": "on"
+        },
+        {
+          "start": 182.45,
+          "end": 182.59,
+          "word": "those"
+        },
+        {
+          "start": 182.59,
+          "end": 182.99,
+          "word": "problems."
+        },
+        {
+          "start": 183.25,
+          "end": 183.33,
+          "word": "I"
+        },
+        {
+          "start": 183.33,
+          "end": 183.43,
+          "word": "think"
+        },
+        {
+          "start": 183.43,
+          "end": 183.87,
+          "word": "I'll"
+        },
+        {
+          "start": 183.87,
+          "end": 184.01,
+          "word": "stop"
+        },
+        {
+          "start": 184.01,
+          "end": 184.23,
+          "word": "there"
+        },
+        {
+          "start": 184.23,
+          "end": 184.33,
+          "word": "for"
+        },
+        {
+          "start": 184.33,
+          "end": 184.49,
+          "word": "now."
+        }
+      ]
+    },
+    {
+      "start": 185.51,
+      "end": 190.43,
+      "duration": 4.92,
+      "text": "I think in addition to that, I think I see this, we're doing a project I think",
+      "words": [
+        {
+          "start": 185.51,
+          "end": 185.89,
+          "word": "I"
+        },
+        {
+          "start": 185.89,
+          "end": 186.11,
+          "word": "think"
+        },
+        {
+          "start": 186.11,
+          "end": 186.29,
+          "word": "in"
+        },
+        {
+          "start": 186.29,
+          "end": 186.73,
+          "word": "addition"
+        },
+        {
+          "start": 186.73,
+          "end": 187.21,
+          "word": "to"
+        },
+        {
+          "start": 187.21,
+          "end": 187.39,
+          "word": "that,"
+        },
+        {
+          "start": 187.77,
+          "end": 187.99,
+          "word": "I"
+        },
+        {
+          "start": 187.99,
+          "end": 188.11,
+          "word": "think"
+        },
+        {
+          "start": 188.11,
+          "end": 188.21,
+          "word": "I"
+        },
+        {
+          "start": 188.21,
+          "end": 188.41,
+          "word": "see"
+        },
+        {
+          "start": 188.41,
+          "end": 188.71,
+          "word": "this,"
+        },
+        {
+          "start": 189.21,
+          "end": 189.47,
+          "word": "we're"
+        },
+        {
+          "start": 189.47,
+          "end": 189.69,
+          "word": "doing"
+        },
+        {
+          "start": 189.69,
+          "end": 189.85,
+          "word": "a"
+        },
+        {
+          "start": 189.85,
+          "end": 190.05,
+          "word": "project"
+        },
+        {
+          "start": 190.05,
+          "end": 190.25,
+          "word": "I"
+        },
+        {
+          "start": 190.25,
+          "end": 190.43,
+          "word": "think"
+        }
+      ]
+    },
+    {
+      "start": 190.43,
+      "end": 194.25,
+      "duration": 3.82,
+      "text": "closely to what because he has said around the next voices project where we kind of started",
+      "words": [
+        {
+          "start": 190.43,
+          "end": 191.05,
+          "word": "closely"
+        },
+        {
+          "start": 191.05,
+          "end": 191.21,
+          "word": "to"
+        },
+        {
+          "start": 191.21,
+          "end": 191.27,
+          "word": "what"
+        },
+        {
+          "start": 191.27,
+          "end": 191.49,
+          "word": "because"
+        },
+        {
+          "start": 191.49,
+          "end": 191.63,
+          "word": "he"
+        },
+        {
+          "start": 191.63,
+          "end": 191.73,
+          "word": "has"
+        },
+        {
+          "start": 191.73,
+          "end": 191.89,
+          "word": "said"
+        },
+        {
+          "start": 191.89,
+          "end": 192.13,
+          "word": "around"
+        },
+        {
+          "start": 192.13,
+          "end": 192.29,
+          "word": "the"
+        },
+        {
+          "start": 192.29,
+          "end": 192.49,
+          "word": "next"
+        },
+        {
+          "start": 192.49,
+          "end": 192.83,
+          "word": "voices"
+        },
+        {
+          "start": 192.83,
+          "end": 193.23,
+          "word": "project"
+        },
+        {
+          "start": 193.23,
+          "end": 193.43,
+          "word": "where"
+        },
+        {
+          "start": 193.43,
+          "end": 193.67,
+          "word": "we"
+        },
+        {
+          "start": 193.67,
+          "end": 193.97,
+          "word": "kind"
+        },
+        {
+          "start": 193.97,
+          "end": 194.07,
+          "word": "of"
+        },
+        {
+          "start": 194.07,
+          "end": 194.25,
+          "word": "started"
+        }
+      ]
+    },
+    {
+      "start": 194.25,
+      "end": 200.53,
+      "duration": 6.28,
+      "text": "out by building these speech recognition models for 36 African languages. And we only have",
+      "words": [
+        {
+          "start": 194.25,
+          "end": 194.47,
+          "word": "out"
+        },
+        {
+          "start": 194.47,
+          "end": 194.63,
+          "word": "by"
+        },
+        {
+          "start": 194.63,
+          "end": 194.93,
+          "word": "building"
+        },
+        {
+          "start": 194.93,
+          "end": 195.29,
+          "word": "these"
+        },
+        {
+          "start": 195.29,
+          "end": 195.51,
+          "word": "speech"
+        },
+        {
+          "start": 195.51,
+          "end": 195.77,
+          "word": "recognition"
+        },
+        {
+          "start": 195.77,
+          "end": 196.23,
+          "word": "models"
+        },
+        {
+          "start": 196.23,
+          "end": 197.21,
+          "word": "for"
+        },
+        {
+          "start": 197.21,
+          "end": 197.65,
+          "word": "36"
+        },
+        {
+          "start": 197.65,
+          "end": 198.07,
+          "word": "African"
+        },
+        {
+          "start": 198.07,
+          "end": 198.61,
+          "word": "languages."
+        },
+        {
+          "start": 199.25,
+          "end": 199.59,
+          "word": "And"
+        },
+        {
+          "start": 199.59,
+          "end": 199.91,
+          "word": "we"
+        },
+        {
+          "start": 199.91,
+          "end": 200.21,
+          "word": "only"
+        },
+        {
+          "start": 200.21,
+          "end": 200.53,
+          "word": "have"
+        }
+      ]
+    },
+    {
+      "start": 200.53,
+      "end": 204.67,
+      "duration": 4.14,
+      "text": "our languages in Uganda, but we had to source for different datasets on the",
+      "words": [
+        {
+          "start": 200.53,
+          "end": 201.01,
+          "word": "our"
+        },
+        {
+          "start": 201.01,
+          "end": 201.43,
+          "word": "languages"
+        },
+        {
+          "start": 201.43,
+          "end": 201.69,
+          "word": "in"
+        },
+        {
+          "start": 201.69,
+          "end": 201.93,
+          "word": "Uganda,"
+        },
+        {
+          "start": 202.03,
+          "end": 202.21,
+          "word": "but"
+        },
+        {
+          "start": 202.21,
+          "end": 202.37,
+          "word": "we"
+        },
+        {
+          "start": 202.37,
+          "end": 202.51,
+          "word": "had"
+        },
+        {
+          "start": 202.51,
+          "end": 202.65,
+          "word": "to"
+        },
+        {
+          "start": 202.65,
+          "end": 202.89,
+          "word": "source"
+        },
+        {
+          "start": 202.89,
+          "end": 203.13,
+          "word": "for"
+        },
+        {
+          "start": 203.13,
+          "end": 203.41,
+          "word": "different"
+        },
+        {
+          "start": 203.41,
+          "end": 203.97,
+          "word": "datasets"
+        },
+        {
+          "start": 203.97,
+          "end": 204.53,
+          "word": "on"
+        },
+        {
+          "start": 204.53,
+          "end": 204.67,
+          "word": "the"
+        }
+      ]
+    },
+    {
+      "start": 204.67,
+      "end": 210.25,
+      "duration": 5.58,
+      "text": "continent. Thanks to Mozilla Common Voice, again, we started by introducing and putting",
+      "words": [
+        {
+          "start": 204.67,
+          "end": 205.09,
+          "word": "continent."
+        },
+        {
+          "start": 206.07,
+          "end": 206.59,
+          "word": "Thanks"
+        },
+        {
+          "start": 206.59,
+          "end": 206.93,
+          "word": "to"
+        },
+        {
+          "start": 206.93,
+          "end": 207.51,
+          "word": "Mozilla"
+        },
+        {
+          "start": 207.51,
+          "end": 207.79,
+          "word": "Common"
+        },
+        {
+          "start": 207.79,
+          "end": 208.07,
+          "word": "Voice,"
+        },
+        {
+          "start": 208.25,
+          "end": 208.35,
+          "word": "again,"
+        },
+        {
+          "start": 208.43,
+          "end": 208.53,
+          "word": "we"
+        },
+        {
+          "start": 208.53,
+          "end": 208.79,
+          "word": "started"
+        },
+        {
+          "start": 208.79,
+          "end": 209.11,
+          "word": "by"
+        },
+        {
+          "start": 209.11,
+          "end": 209.67,
+          "word": "introducing"
+        },
+        {
+          "start": 209.67,
+          "end": 210.03,
+          "word": "and"
+        },
+        {
+          "start": 210.03,
+          "end": 210.25,
+          "word": "putting"
+        }
+      ]
+    },
+    {
+      "start": 210.25,
+      "end": 214.03,
+      "duration": 3.78,
+      "text": "African languages on Mozilla. So there's Luganda, there's Wahili, there are several",
+      "words": [
+        {
+          "start": 210.25,
+          "end": 210.99,
+          "word": "African"
+        },
+        {
+          "start": 210.99,
+          "end": 211.39,
+          "word": "languages"
+        },
+        {
+          "start": 211.39,
+          "end": 211.61,
+          "word": "on"
+        },
+        {
+          "start": 211.61,
+          "end": 211.99,
+          "word": "Mozilla."
+        },
+        {
+          "start": 212.25,
+          "end": 212.31,
+          "word": "So"
+        },
+        {
+          "start": 212.31,
+          "end": 212.49,
+          "word": "there's"
+        },
+        {
+          "start": 212.49,
+          "end": 212.85,
+          "word": "Luganda,"
+        },
+        {
+          "start": 213.09,
+          "end": 213.29,
+          "word": "there's"
+        },
+        {
+          "start": 213.29,
+          "end": 213.55,
+          "word": "Wahili,"
+        },
+        {
+          "start": 213.71,
+          "end": 213.81,
+          "word": "there"
+        },
+        {
+          "start": 213.81,
+          "end": 213.89,
+          "word": "are"
+        },
+        {
+          "start": 213.89,
+          "end": 214.03,
+          "word": "several"
+        }
+      ]
+    },
+    {
+      "start": 214.03,
+      "end": 218.37,
+      "duration": 4.34,
+      "text": "African languages as well. And these are open source, so whoever is interested",
+      "words": [
+        {
+          "start": 214.03,
+          "end": 214.31,
+          "word": "African"
+        },
+        {
+          "start": 214.31,
+          "end": 214.79,
+          "word": "languages"
+        },
+        {
+          "start": 214.79,
+          "end": 215.81,
+          "word": "as"
+        },
+        {
+          "start": 215.81,
+          "end": 216.13,
+          "word": "well."
+        },
+        {
+          "start": 216.39,
+          "end": 216.49,
+          "word": "And"
+        },
+        {
+          "start": 216.49,
+          "end": 216.73,
+          "word": "these"
+        },
+        {
+          "start": 216.73,
+          "end": 216.85,
+          "word": "are"
+        },
+        {
+          "start": 216.85,
+          "end": 217.07,
+          "word": "open"
+        },
+        {
+          "start": 217.07,
+          "end": 217.41,
+          "word": "source,"
+        },
+        {
+          "start": 217.53,
+          "end": 217.65,
+          "word": "so"
+        },
+        {
+          "start": 217.65,
+          "end": 217.83,
+          "word": "whoever"
+        },
+        {
+          "start": 217.83,
+          "end": 218.09,
+          "word": "is"
+        },
+        {
+          "start": 218.09,
+          "end": 218.37,
+          "word": "interested"
+        }
+      ]
+    },
+    {
+      "start": 218.37,
+      "end": 223.53,
+      "duration": 5.16,
+      "text": "really in building out models, the datasets are there. But back to the point of trying to get",
+      "words": [
+        {
+          "start": 218.37,
+          "end": 218.79,
+          "word": "really"
+        },
+        {
+          "start": 218.79,
+          "end": 219.05,
+          "word": "in"
+        },
+        {
+          "start": 219.05,
+          "end": 219.33,
+          "word": "building"
+        },
+        {
+          "start": 219.33,
+          "end": 219.59,
+          "word": "out"
+        },
+        {
+          "start": 219.59,
+          "end": 219.89,
+          "word": "models,"
+        },
+        {
+          "start": 220.11,
+          "end": 220.17,
+          "word": "the"
+        },
+        {
+          "start": 220.17,
+          "end": 220.57,
+          "word": "datasets"
+        },
+        {
+          "start": 220.57,
+          "end": 220.87,
+          "word": "are"
+        },
+        {
+          "start": 220.87,
+          "end": 221.15,
+          "word": "there."
+        },
+        {
+          "start": 221.69,
+          "end": 221.91,
+          "word": "But"
+        },
+        {
+          "start": 221.91,
+          "end": 222.17,
+          "word": "back"
+        },
+        {
+          "start": 222.17,
+          "end": 222.35,
+          "word": "to"
+        },
+        {
+          "start": 222.35,
+          "end": 222.51,
+          "word": "the"
+        },
+        {
+          "start": 222.51,
+          "end": 222.81,
+          "word": "point"
+        },
+        {
+          "start": 222.81,
+          "end": 222.99,
+          "word": "of"
+        },
+        {
+          "start": 222.99,
+          "end": 223.17,
+          "word": "trying"
+        },
+        {
+          "start": 223.17,
+          "end": 223.33,
+          "word": "to"
+        },
+        {
+          "start": 223.33,
+          "end": 223.53,
+          "word": "get"
+        }
+      ]
+    },
+    {
+      "start": 223.53,
+      "end": 226.81,
+      "duration": 3.28,
+      "text": "these datasets from the community. So when you go out and you say, I want to build a language,",
+      "words": [
+        {
+          "start": 223.53,
+          "end": 223.75,
+          "word": "these"
+        },
+        {
+          "start": 223.75,
+          "end": 224.09,
+          "word": "datasets"
+        },
+        {
+          "start": 224.09,
+          "end": 224.35,
+          "word": "from"
+        },
+        {
+          "start": 224.35,
+          "end": 224.49,
+          "word": "the"
+        },
+        {
+          "start": 224.49,
+          "end": 224.89,
+          "word": "community."
+        },
+        {
+          "start": 225.05,
+          "end": 225.13,
+          "word": "So"
+        },
+        {
+          "start": 225.13,
+          "end": 225.23,
+          "word": "when"
+        },
+        {
+          "start": 225.23,
+          "end": 225.35,
+          "word": "you"
+        },
+        {
+          "start": 225.35,
+          "end": 225.47,
+          "word": "go"
+        },
+        {
+          "start": 225.47,
+          "end": 225.59,
+          "word": "out"
+        },
+        {
+          "start": 225.59,
+          "end": 225.69,
+          "word": "and"
+        },
+        {
+          "start": 225.69,
+          "end": 225.79,
+          "word": "you"
+        },
+        {
+          "start": 225.79,
+          "end": 225.91,
+          "word": "say,"
+        },
+        {
+          "start": 225.97,
+          "end": 226.01,
+          "word": "I"
+        },
+        {
+          "start": 226.01,
+          "end": 226.17,
+          "word": "want"
+        },
+        {
+          "start": 226.17,
+          "end": 226.29,
+          "word": "to"
+        },
+        {
+          "start": 226.29,
+          "end": 226.43,
+          "word": "build"
+        },
+        {
+          "start": 226.43,
+          "end": 226.53,
+          "word": "a"
+        },
+        {
+          "start": 226.53,
+          "end": 226.81,
+          "word": "language,"
+        }
+      ]
+    },
+    {
+      "start": 226.93,
+      "end": 232.59,
+      "duration": 5.66,
+      "text": "for example, in Bambara, which is a Western African language. It's very hard. But when you have",
+      "words": [
+        {
+          "start": 226.93,
+          "end": 226.99,
+          "word": "for"
+        },
+        {
+          "start": 226.99,
+          "end": 227.25,
+          "word": "example,"
+        },
+        {
+          "start": 227.37,
+          "end": 227.47,
+          "word": "in"
+        },
+        {
+          "start": 227.47,
+          "end": 227.89,
+          "word": "Bambara,"
+        },
+        {
+          "start": 228.43,
+          "end": 228.71,
+          "word": "which"
+        },
+        {
+          "start": 228.71,
+          "end": 228.83,
+          "word": "is"
+        },
+        {
+          "start": 228.83,
+          "end": 228.95,
+          "word": "a"
+        },
+        {
+          "start": 228.95,
+          "end": 229.13,
+          "word": "Western"
+        },
+        {
+          "start": 229.13,
+          "end": 230.13,
+          "word": "African"
+        },
+        {
+          "start": 230.13,
+          "end": 230.89,
+          "word": "language."
+        },
+        {
+          "start": 231.01,
+          "end": 231.15,
+          "word": "It's"
+        },
+        {
+          "start": 231.15,
+          "end": 231.37,
+          "word": "very"
+        },
+        {
+          "start": 231.37,
+          "end": 231.65,
+          "word": "hard."
+        },
+        {
+          "start": 232.05,
+          "end": 232.17,
+          "word": "But"
+        },
+        {
+          "start": 232.17,
+          "end": 232.31,
+          "word": "when"
+        },
+        {
+          "start": 232.31,
+          "end": 232.41,
+          "word": "you"
+        },
+        {
+          "start": 232.41,
+          "end": 232.59,
+          "word": "have"
+        }
+      ]
+    },
+    {
+      "start": 232.59,
+      "end": 236.31,
+      "duration": 3.72,
+      "text": "this community of experts or this community of researchers that you're working with, then",
+      "words": [
+        {
+          "start": 232.59,
+          "end": 232.81,
+          "word": "this"
+        },
+        {
+          "start": 232.81,
+          "end": 233.27,
+          "word": "community"
+        },
+        {
+          "start": 233.27,
+          "end": 233.67,
+          "word": "of"
+        },
+        {
+          "start": 233.67,
+          "end": 234.01,
+          "word": "experts"
+        },
+        {
+          "start": 234.01,
+          "end": 234.31,
+          "word": "or"
+        },
+        {
+          "start": 234.31,
+          "end": 234.45,
+          "word": "this"
+        },
+        {
+          "start": 234.45,
+          "end": 234.71,
+          "word": "community"
+        },
+        {
+          "start": 234.71,
+          "end": 235.01,
+          "word": "of"
+        },
+        {
+          "start": 235.01,
+          "end": 235.25,
+          "word": "researchers"
+        },
+        {
+          "start": 235.25,
+          "end": 235.61,
+          "word": "that"
+        },
+        {
+          "start": 235.61,
+          "end": 235.73,
+          "word": "you're"
+        },
+        {
+          "start": 235.73,
+          "end": 235.95,
+          "word": "working"
+        },
+        {
+          "start": 235.95,
+          "end": 236.19,
+          "word": "with,"
+        },
+        {
+          "start": 236.21,
+          "end": 236.31,
+          "word": "then"
+        }
+      ]
+    },
+    {
+      "start": 236.31,
+      "end": 242.13,
+      "duration": 5.82,
+      "text": "it's very easy to tap into that, to reach out and say, can you give us the datasets?",
+      "words": [
+        {
+          "start": 236.31,
+          "end": 236.47,
+          "word": "it's"
+        },
+        {
+          "start": 236.47,
+          "end": 236.65,
+          "word": "very"
+        },
+        {
+          "start": 236.65,
+          "end": 236.85,
+          "word": "easy"
+        },
+        {
+          "start": 236.85,
+          "end": 237.03,
+          "word": "to"
+        },
+        {
+          "start": 237.03,
+          "end": 237.23,
+          "word": "tap"
+        },
+        {
+          "start": 237.23,
+          "end": 237.49,
+          "word": "into"
+        },
+        {
+          "start": 237.49,
+          "end": 238.17,
+          "word": "that,"
+        },
+        {
+          "start": 238.29,
+          "end": 238.45,
+          "word": "to"
+        },
+        {
+          "start": 238.45,
+          "end": 238.63,
+          "word": "reach"
+        },
+        {
+          "start": 238.63,
+          "end": 238.87,
+          "word": "out"
+        },
+        {
+          "start": 238.87,
+          "end": 239.05,
+          "word": "and"
+        },
+        {
+          "start": 239.05,
+          "end": 239.31,
+          "word": "say,"
+        },
+        {
+          "start": 239.77,
+          "end": 240.93,
+          "word": "can"
+        },
+        {
+          "start": 240.93,
+          "end": 241.11,
+          "word": "you"
+        },
+        {
+          "start": 241.11,
+          "end": 241.51,
+          "word": "give"
+        },
+        {
+          "start": 241.51,
+          "end": 241.67,
+          "word": "us"
+        },
+        {
+          "start": 241.67,
+          "end": 241.79,
+          "word": "the"
+        },
+        {
+          "start": 241.79,
+          "end": 242.13,
+          "word": "datasets?"
+        }
+      ]
+    },
+    {
+      "start": 242.41,
+      "end": 245.95,
+      "duration": 3.54,
+      "text": "Can we build models? And when we built out the models, it wasn't enough that we",
+      "words": [
+        {
+          "start": 242.41,
+          "end": 242.47,
+          "word": "Can"
+        },
+        {
+          "start": 242.47,
+          "end": 242.59,
+          "word": "we"
+        },
+        {
+          "start": 242.59,
+          "end": 242.85,
+          "word": "build"
+        },
+        {
+          "start": 242.85,
+          "end": 243.19,
+          "word": "models?"
+        },
+        {
+          "start": 243.41,
+          "end": 243.47,
+          "word": "And"
+        },
+        {
+          "start": 243.47,
+          "end": 243.73,
+          "word": "when"
+        },
+        {
+          "start": 243.73,
+          "end": 243.85,
+          "word": "we"
+        },
+        {
+          "start": 243.85,
+          "end": 244.07,
+          "word": "built"
+        },
+        {
+          "start": 244.07,
+          "end": 244.21,
+          "word": "out"
+        },
+        {
+          "start": 244.21,
+          "end": 244.37,
+          "word": "the"
+        },
+        {
+          "start": 244.37,
+          "end": 244.63,
+          "word": "models,"
+        },
+        {
+          "start": 244.87,
+          "end": 244.97,
+          "word": "it"
+        },
+        {
+          "start": 244.97,
+          "end": 245.27,
+          "word": "wasn't"
+        },
+        {
+          "start": 245.27,
+          "end": 245.55,
+          "word": "enough"
+        },
+        {
+          "start": 245.55,
+          "end": 245.73,
+          "word": "that"
+        },
+        {
+          "start": 245.73,
+          "end": 245.95,
+          "word": "we"
+        }
+      ]
+    },
+    {
+      "start": 246.59,
+      "end": 251.31,
+      "duration": 4.72,
+      "text": "have these models performing with what metrics we call from our end, like what",
+      "words": [
+        {
+          "start": 246.59,
+          "end": 247.03,
+          "word": "have"
+        },
+        {
+          "start": 247.03,
+          "end": 247.27,
+          "word": "these"
+        },
+        {
+          "start": 247.27,
+          "end": 247.53,
+          "word": "models"
+        },
+        {
+          "start": 247.53,
+          "end": 248.13,
+          "word": "performing"
+        },
+        {
+          "start": 248.13,
+          "end": 248.45,
+          "word": "with"
+        },
+        {
+          "start": 248.45,
+          "end": 248.71,
+          "word": "what"
+        },
+        {
+          "start": 248.71,
+          "end": 249.17,
+          "word": "metrics"
+        },
+        {
+          "start": 249.17,
+          "end": 249.39,
+          "word": "we"
+        },
+        {
+          "start": 249.39,
+          "end": 249.69,
+          "word": "call"
+        },
+        {
+          "start": 249.69,
+          "end": 250.47,
+          "word": "from"
+        },
+        {
+          "start": 250.47,
+          "end": 250.69,
+          "word": "our"
+        },
+        {
+          "start": 250.69,
+          "end": 250.91,
+          "word": "end,"
+        },
+        {
+          "start": 251.05,
+          "end": 251.09,
+          "word": "like"
+        },
+        {
+          "start": 251.09,
+          "end": 251.31,
+          "word": "what"
+        }
+      ]
+    },
+    {
+      "start": 251.31,
+      "end": 255.81,
+      "duration": 4.5,
+      "text": "error rates, which is really a technical word. We sent out the models to the communities that",
+      "words": [
+        {
+          "start": 251.31,
+          "end": 251.59,
+          "word": "error"
+        },
+        {
+          "start": 251.59,
+          "end": 251.91,
+          "word": "rates,"
+        },
+        {
+          "start": 252.15,
+          "end": 252.43,
+          "word": "which"
+        },
+        {
+          "start": 252.43,
+          "end": 252.59,
+          "word": "is"
+        },
+        {
+          "start": 252.59,
+          "end": 252.77,
+          "word": "really"
+        },
+        {
+          "start": 252.77,
+          "end": 252.89,
+          "word": "a"
+        },
+        {
+          "start": 252.89,
+          "end": 253.11,
+          "word": "technical"
+        },
+        {
+          "start": 253.11,
+          "end": 253.53,
+          "word": "word."
+        },
+        {
+          "start": 253.65,
+          "end": 253.71,
+          "word": "We"
+        },
+        {
+          "start": 253.71,
+          "end": 253.95,
+          "word": "sent"
+        },
+        {
+          "start": 253.95,
+          "end": 254.13,
+          "word": "out"
+        },
+        {
+          "start": 254.13,
+          "end": 254.31,
+          "word": "the"
+        },
+        {
+          "start": 254.31,
+          "end": 254.59,
+          "word": "models"
+        },
+        {
+          "start": 254.59,
+          "end": 254.89,
+          "word": "to"
+        },
+        {
+          "start": 254.89,
+          "end": 255.07,
+          "word": "the"
+        },
+        {
+          "start": 255.07,
+          "end": 255.55,
+          "word": "communities"
+        },
+        {
+          "start": 255.55,
+          "end": 255.81,
+          "word": "that"
+        }
+      ]
+    },
+    {
+      "start": 255.81,
+      "end": 259.87,
+      "duration": 4.06,
+      "text": "speak these languages and told them, can you evaluate these models? Because we really wanted",
+      "words": [
+        {
+          "start": 255.81,
+          "end": 256.05,
+          "word": "speak"
+        },
+        {
+          "start": 256.05,
+          "end": 256.25,
+          "word": "these"
+        },
+        {
+          "start": 256.25,
+          "end": 256.59,
+          "word": "languages"
+        },
+        {
+          "start": 256.59,
+          "end": 256.87,
+          "word": "and"
+        },
+        {
+          "start": 256.87,
+          "end": 257.01,
+          "word": "told"
+        },
+        {
+          "start": 257.01,
+          "end": 257.29,
+          "word": "them,"
+        },
+        {
+          "start": 257.55,
+          "end": 257.73,
+          "word": "can"
+        },
+        {
+          "start": 257.73,
+          "end": 257.95,
+          "word": "you"
+        },
+        {
+          "start": 257.95,
+          "end": 258.41,
+          "word": "evaluate"
+        },
+        {
+          "start": 258.41,
+          "end": 258.87,
+          "word": "these"
+        },
+        {
+          "start": 258.87,
+          "end": 259.11,
+          "word": "models?"
+        },
+        {
+          "start": 259.25,
+          "end": 259.33,
+          "word": "Because"
+        },
+        {
+          "start": 259.33,
+          "end": 259.49,
+          "word": "we"
+        },
+        {
+          "start": 259.49,
+          "end": 259.67,
+          "word": "really"
+        },
+        {
+          "start": 259.67,
+          "end": 259.87,
+          "word": "wanted"
+        }
+      ]
+    },
+    {
+      "start": 259.87,
+      "end": 265.15,
+      "duration": 5.28,
+      "text": "to understand where do the models work? Where do the models fail? And from that analysis,",
+      "words": [
+        {
+          "start": 259.87,
+          "end": 260.09,
+          "word": "to"
+        },
+        {
+          "start": 260.09,
+          "end": 260.61,
+          "word": "understand"
+        },
+        {
+          "start": 260.61,
+          "end": 261.45,
+          "word": "where"
+        },
+        {
+          "start": 261.45,
+          "end": 261.63,
+          "word": "do"
+        },
+        {
+          "start": 261.63,
+          "end": 261.71,
+          "word": "the"
+        },
+        {
+          "start": 261.71,
+          "end": 261.97,
+          "word": "models"
+        },
+        {
+          "start": 261.97,
+          "end": 262.31,
+          "word": "work?"
+        },
+        {
+          "start": 262.45,
+          "end": 262.59,
+          "word": "Where"
+        },
+        {
+          "start": 262.59,
+          "end": 262.75,
+          "word": "do"
+        },
+        {
+          "start": 262.75,
+          "end": 262.87,
+          "word": "the"
+        },
+        {
+          "start": 262.87,
+          "end": 263.09,
+          "word": "models"
+        },
+        {
+          "start": 263.09,
+          "end": 263.51,
+          "word": "fail?"
+        },
+        {
+          "start": 264.17,
+          "end": 264.49,
+          "word": "And"
+        },
+        {
+          "start": 264.49,
+          "end": 264.67,
+          "word": "from"
+        },
+        {
+          "start": 264.67,
+          "end": 264.83,
+          "word": "that"
+        },
+        {
+          "start": 264.83,
+          "end": 265.15,
+          "word": "analysis,"
+        }
+      ]
+    },
+    {
+      "start": 265.25,
+      "end": 269.49,
+      "duration": 4.24,
+      "text": "it was interesting to see that people were complaining about commas and full stops from",
+      "words": [
+        {
+          "start": 265.25,
+          "end": 265.35,
+          "word": "it"
+        },
+        {
+          "start": 265.35,
+          "end": 265.47,
+          "word": "was"
+        },
+        {
+          "start": 265.47,
+          "end": 265.81,
+          "word": "interesting"
+        },
+        {
+          "start": 265.81,
+          "end": 266.05,
+          "word": "to"
+        },
+        {
+          "start": 266.05,
+          "end": 266.19,
+          "word": "see"
+        },
+        {
+          "start": 266.19,
+          "end": 266.33,
+          "word": "that"
+        },
+        {
+          "start": 266.33,
+          "end": 266.51,
+          "word": "people"
+        },
+        {
+          "start": 266.51,
+          "end": 266.67,
+          "word": "were"
+        },
+        {
+          "start": 266.67,
+          "end": 266.95,
+          "word": "complaining"
+        },
+        {
+          "start": 266.95,
+          "end": 267.29,
+          "word": "about"
+        },
+        {
+          "start": 267.29,
+          "end": 268.15,
+          "word": "commas"
+        },
+        {
+          "start": 268.15,
+          "end": 268.43,
+          "word": "and"
+        },
+        {
+          "start": 268.43,
+          "end": 268.67,
+          "word": "full"
+        },
+        {
+          "start": 268.67,
+          "end": 269.01,
+          "word": "stops"
+        },
+        {
+          "start": 269.01,
+          "end": 269.49,
+          "word": "from"
+        }
+      ]
+    },
+    {
+      "start": 269.49,
+      "end": 273.35,
+      "duration": 3.86,
+      "text": "models. And I'm thinking, is that what is important for a speech model? But what is",
+      "words": [
+        {
+          "start": 269.49,
+          "end": 269.89,
+          "word": "models."
+        },
+        {
+          "start": 270.19,
+          "end": 270.53,
+          "word": "And"
+        },
+        {
+          "start": 270.53,
+          "end": 270.63,
+          "word": "I'm"
+        },
+        {
+          "start": 270.63,
+          "end": 270.77,
+          "word": "thinking,"
+        },
+        {
+          "start": 270.89,
+          "end": 270.97,
+          "word": "is"
+        },
+        {
+          "start": 270.97,
+          "end": 271.05,
+          "word": "that"
+        },
+        {
+          "start": 271.05,
+          "end": 271.21,
+          "word": "what"
+        },
+        {
+          "start": 271.21,
+          "end": 271.33,
+          "word": "is"
+        },
+        {
+          "start": 271.33,
+          "end": 271.63,
+          "word": "important"
+        },
+        {
+          "start": 271.63,
+          "end": 271.93,
+          "word": "for"
+        },
+        {
+          "start": 271.93,
+          "end": 272.09,
+          "word": "a"
+        },
+        {
+          "start": 272.09,
+          "end": 272.29,
+          "word": "speech"
+        },
+        {
+          "start": 272.29,
+          "end": 272.59,
+          "word": "model?"
+        },
+        {
+          "start": 272.93,
+          "end": 273.09,
+          "word": "But"
+        },
+        {
+          "start": 273.09,
+          "end": 273.21,
+          "word": "what"
+        },
+        {
+          "start": 273.21,
+          "end": 273.35,
+          "word": "is"
+        }
+      ]
+    },
+    {
+      "start": 273.35,
+      "end": 277.99,
+      "duration": 4.64,
+      "text": "important to me as an AI researcher is maybe different from what a community person is who",
+      "words": [
+        {
+          "start": 273.35,
+          "end": 273.61,
+          "word": "important"
+        },
+        {
+          "start": 273.61,
+          "end": 273.91,
+          "word": "to"
+        },
+        {
+          "start": 273.91,
+          "end": 274.15,
+          "word": "me"
+        },
+        {
+          "start": 274.15,
+          "end": 274.57,
+          "word": "as"
+        },
+        {
+          "start": 274.57,
+          "end": 274.71,
+          "word": "an"
+        },
+        {
+          "start": 274.71,
+          "end": 274.91,
+          "word": "AI"
+        },
+        {
+          "start": 274.91,
+          "end": 275.21,
+          "word": "researcher"
+        },
+        {
+          "start": 275.21,
+          "end": 275.41,
+          "word": "is"
+        },
+        {
+          "start": 275.41,
+          "end": 275.61,
+          "word": "maybe"
+        },
+        {
+          "start": 275.61,
+          "end": 275.99,
+          "word": "different"
+        },
+        {
+          "start": 275.99,
+          "end": 276.23,
+          "word": "from"
+        },
+        {
+          "start": 276.23,
+          "end": 276.37,
+          "word": "what"
+        },
+        {
+          "start": 276.37,
+          "end": 276.49,
+          "word": "a"
+        },
+        {
+          "start": 276.49,
+          "end": 276.79,
+          "word": "community"
+        },
+        {
+          "start": 276.79,
+          "end": 277.25,
+          "word": "person"
+        },
+        {
+          "start": 277.25,
+          "end": 277.69,
+          "word": "is"
+        },
+        {
+          "start": 277.69,
+          "end": 277.99,
+          "word": "who"
+        }
+      ]
+    },
+    {
+      "start": 277.99,
+      "end": 284.41,
+      "duration": 6.42,
+      "text": "wants to have a correct transcript from a speech model. So that interaction with the",
+      "words": [
+        {
+          "start": 277.99,
+          "end": 278.69,
+          "word": "wants"
+        },
+        {
+          "start": 278.69,
+          "end": 278.87,
+          "word": "to"
+        },
+        {
+          "start": 278.87,
+          "end": 279.17,
+          "word": "have"
+        },
+        {
+          "start": 279.17,
+          "end": 279.75,
+          "word": "a"
+        },
+        {
+          "start": 279.75,
+          "end": 280.07,
+          "word": "correct"
+        },
+        {
+          "start": 280.07,
+          "end": 280.65,
+          "word": "transcript"
+        },
+        {
+          "start": 280.65,
+          "end": 281.27,
+          "word": "from"
+        },
+        {
+          "start": 281.27,
+          "end": 281.73,
+          "word": "a"
+        },
+        {
+          "start": 281.73,
+          "end": 281.97,
+          "word": "speech"
+        },
+        {
+          "start": 281.97,
+          "end": 282.33,
+          "word": "model."
+        },
+        {
+          "start": 282.83,
+          "end": 283.19,
+          "word": "So"
+        },
+        {
+          "start": 283.19,
+          "end": 283.35,
+          "word": "that"
+        },
+        {
+          "start": 283.35,
+          "end": 283.95,
+          "word": "interaction"
+        },
+        {
+          "start": 283.95,
+          "end": 284.25,
+          "word": "with"
+        },
+        {
+          "start": 284.25,
+          "end": 284.41,
+          "word": "the"
+        }
+      ]
+    },
+    {
+      "start": 284.41,
+      "end": 290.49,
+      "duration": 6.08,
+      "text": "community helps us to refine and rebuild the models that we are looking at. But also,",
+      "words": [
+        {
+          "start": 284.41,
+          "end": 284.73,
+          "word": "community"
+        },
+        {
+          "start": 284.73,
+          "end": 285.11,
+          "word": "helps"
+        },
+        {
+          "start": 285.11,
+          "end": 285.27,
+          "word": "us"
+        },
+        {
+          "start": 285.27,
+          "end": 285.47,
+          "word": "to"
+        },
+        {
+          "start": 285.47,
+          "end": 285.81,
+          "word": "refine"
+        },
+        {
+          "start": 285.81,
+          "end": 286.75,
+          "word": "and"
+        },
+        {
+          "start": 286.75,
+          "end": 287.09,
+          "word": "rebuild"
+        },
+        {
+          "start": 287.09,
+          "end": 287.79,
+          "word": "the"
+        },
+        {
+          "start": 287.79,
+          "end": 288.05,
+          "word": "models"
+        },
+        {
+          "start": 288.05,
+          "end": 288.91,
+          "word": "that"
+        },
+        {
+          "start": 288.91,
+          "end": 289.05,
+          "word": "we"
+        },
+        {
+          "start": 289.05,
+          "end": 289.11,
+          "word": "are"
+        },
+        {
+          "start": 289.11,
+          "end": 289.27,
+          "word": "looking"
+        },
+        {
+          "start": 289.27,
+          "end": 289.65,
+          "word": "at."
+        },
+        {
+          "start": 290.21,
+          "end": 290.23,
+          "word": "But"
+        },
+        {
+          "start": 290.23,
+          "end": 290.49,
+          "word": "also,"
+        }
+      ]
+    },
+    {
+      "start": 291.07,
+      "end": 295.69,
+      "duration": 4.62,
+      "text": "just to mention the bit around the work that we've done with assembly committees,",
+      "words": [
+        {
+          "start": 291.07,
+          "end": 291.63,
+          "word": "just"
+        },
+        {
+          "start": 291.63,
+          "end": 291.83,
+          "word": "to"
+        },
+        {
+          "start": 291.83,
+          "end": 292.03,
+          "word": "mention"
+        },
+        {
+          "start": 292.03,
+          "end": 292.19,
+          "word": "the"
+        },
+        {
+          "start": 292.19,
+          "end": 292.33,
+          "word": "bit"
+        },
+        {
+          "start": 292.33,
+          "end": 292.71,
+          "word": "around"
+        },
+        {
+          "start": 292.71,
+          "end": 293.25,
+          "word": "the"
+        },
+        {
+          "start": 293.25,
+          "end": 293.43,
+          "word": "work"
+        },
+        {
+          "start": 293.43,
+          "end": 293.59,
+          "word": "that"
+        },
+        {
+          "start": 293.59,
+          "end": 293.85,
+          "word": "we've"
+        },
+        {
+          "start": 293.85,
+          "end": 294.15,
+          "word": "done"
+        },
+        {
+          "start": 294.15,
+          "end": 294.43,
+          "word": "with"
+        },
+        {
+          "start": 294.43,
+          "end": 295.31,
+          "word": "assembly"
+        },
+        {
+          "start": 295.31,
+          "end": 295.69,
+          "word": "committees,"
+        }
+      ]
+    },
+    {
+      "start": 295.79,
+      "end": 299.93,
+      "duration": 4.14,
+      "text": "and I think we were talking about this earlier, that when you want to collect a dataset,",
+      "words": [
+        {
+          "start": 295.79,
+          "end": 295.85,
+          "word": "and"
+        },
+        {
+          "start": 295.85,
+          "end": 295.95,
+          "word": "I"
+        },
+        {
+          "start": 295.95,
+          "end": 296.03,
+          "word": "think"
+        },
+        {
+          "start": 296.03,
+          "end": 296.15,
+          "word": "we"
+        },
+        {
+          "start": 296.15,
+          "end": 296.25,
+          "word": "were"
+        },
+        {
+          "start": 296.25,
+          "end": 296.39,
+          "word": "talking"
+        },
+        {
+          "start": 296.39,
+          "end": 296.69,
+          "word": "about"
+        },
+        {
+          "start": 296.69,
+          "end": 296.93,
+          "word": "this"
+        },
+        {
+          "start": 296.93,
+          "end": 297.29,
+          "word": "earlier,"
+        },
+        {
+          "start": 297.71,
+          "end": 297.89,
+          "word": "that"
+        },
+        {
+          "start": 297.89,
+          "end": 298.05,
+          "word": "when"
+        },
+        {
+          "start": 298.05,
+          "end": 298.23,
+          "word": "you"
+        },
+        {
+          "start": 298.23,
+          "end": 298.53,
+          "word": "want"
+        },
+        {
+          "start": 298.53,
+          "end": 298.83,
+          "word": "to"
+        },
+        {
+          "start": 298.83,
+          "end": 299.33,
+          "word": "collect"
+        },
+        {
+          "start": 299.33,
+          "end": 299.65,
+          "word": "a"
+        },
+        {
+          "start": 299.65,
+          "end": 299.93,
+          "word": "dataset,"
+        }
+      ]
+    },
+    {
+      "start": 299.93,
+      "end": 305.87,
+      "duration": 5.94,
+      "text": "you really have to work with the community. You can't just take your text and throw it in a",
+      "words": [
+        {
+          "start": 299.93,
+          "end": 300.21,
+          "word": "you"
+        },
+        {
+          "start": 300.21,
+          "end": 300.61,
+          "word": "really"
+        },
+        {
+          "start": 300.61,
+          "end": 300.83,
+          "word": "have"
+        },
+        {
+          "start": 300.83,
+          "end": 301.01,
+          "word": "to"
+        },
+        {
+          "start": 301.01,
+          "end": 301.33,
+          "word": "work"
+        },
+        {
+          "start": 301.33,
+          "end": 302.07,
+          "word": "with"
+        },
+        {
+          "start": 302.07,
+          "end": 302.29,
+          "word": "the"
+        },
+        {
+          "start": 302.29,
+          "end": 302.73,
+          "word": "community."
+        },
+        {
+          "start": 303.03,
+          "end": 303.05,
+          "word": "You"
+        },
+        {
+          "start": 303.05,
+          "end": 303.31,
+          "word": "can't"
+        },
+        {
+          "start": 303.31,
+          "end": 303.47,
+          "word": "just"
+        },
+        {
+          "start": 303.47,
+          "end": 303.73,
+          "word": "take"
+        },
+        {
+          "start": 303.73,
+          "end": 304.37,
+          "word": "your"
+        },
+        {
+          "start": 304.37,
+          "end": 304.81,
+          "word": "text"
+        },
+        {
+          "start": 304.81,
+          "end": 305.09,
+          "word": "and"
+        },
+        {
+          "start": 305.09,
+          "end": 305.29,
+          "word": "throw"
+        },
+        {
+          "start": 305.29,
+          "end": 305.47,
+          "word": "it"
+        },
+        {
+          "start": 305.47,
+          "end": 305.61,
+          "word": "in"
+        },
+        {
+          "start": 305.61,
+          "end": 305.87,
+          "word": "a"
+        }
+      ]
+    },
+    {
+      "start": 306.67,
+      "end": 311.05,
+      "duration": 4.38,
+      "text": "module that's openly available. It does the translation for you and then you think that",
+      "words": [
+        {
+          "start": 306.67,
+          "end": 307.19,
+          "word": "module"
+        },
+        {
+          "start": 307.19,
+          "end": 307.61,
+          "word": "that's"
+        },
+        {
+          "start": 307.61,
+          "end": 307.89,
+          "word": "openly"
+        },
+        {
+          "start": 307.89,
+          "end": 308.25,
+          "word": "available."
+        },
+        {
+          "start": 308.61,
+          "end": 308.61,
+          "word": "It"
+        },
+        {
+          "start": 308.61,
+          "end": 308.77,
+          "word": "does"
+        },
+        {
+          "start": 308.77,
+          "end": 308.91,
+          "word": "the"
+        },
+        {
+          "start": 308.91,
+          "end": 309.31,
+          "word": "translation"
+        },
+        {
+          "start": 309.31,
+          "end": 309.67,
+          "word": "for"
+        },
+        {
+          "start": 309.67,
+          "end": 309.93,
+          "word": "you"
+        },
+        {
+          "start": 309.93,
+          "end": 310.45,
+          "word": "and"
+        },
+        {
+          "start": 310.45,
+          "end": 310.57,
+          "word": "then"
+        },
+        {
+          "start": 310.57,
+          "end": 310.65,
+          "word": "you"
+        },
+        {
+          "start": 310.65,
+          "end": 310.87,
+          "word": "think"
+        },
+        {
+          "start": 310.87,
+          "end": 311.05,
+          "word": "that"
+        }
+      ]
+    },
+    {
+      "start": 311.05,
+      "end": 316.91,
+      "duration": 5.86,
+      "text": "is going to work well. So working with the people to get this dataset to translate,",
+      "words": [
+        {
+          "start": 311.05,
+          "end": 311.23,
+          "word": "is"
+        },
+        {
+          "start": 311.23,
+          "end": 311.37,
+          "word": "going"
+        },
+        {
+          "start": 311.37,
+          "end": 311.53,
+          "word": "to"
+        },
+        {
+          "start": 311.53,
+          "end": 311.81,
+          "word": "work"
+        },
+        {
+          "start": 311.81,
+          "end": 312.23,
+          "word": "well."
+        },
+        {
+          "start": 313.39,
+          "end": 313.41,
+          "word": "So"
+        },
+        {
+          "start": 313.41,
+          "end": 313.77,
+          "word": "working"
+        },
+        {
+          "start": 313.77,
+          "end": 314.05,
+          "word": "with"
+        },
+        {
+          "start": 314.05,
+          "end": 314.19,
+          "word": "the"
+        },
+        {
+          "start": 314.19,
+          "end": 314.45,
+          "word": "people"
+        },
+        {
+          "start": 314.45,
+          "end": 314.73,
+          "word": "to"
+        },
+        {
+          "start": 314.73,
+          "end": 315.21,
+          "word": "get"
+        },
+        {
+          "start": 315.21,
+          "end": 315.57,
+          "word": "this"
+        },
+        {
+          "start": 315.57,
+          "end": 315.95,
+          "word": "dataset"
+        },
+        {
+          "start": 315.95,
+          "end": 316.33,
+          "word": "to"
+        },
+        {
+          "start": 316.33,
+          "end": 316.91,
+          "word": "translate,"
+        }
+      ]
+    },
+    {
+      "start": 317.11,
+      "end": 321.75,
+      "duration": 4.64,
+      "text": "but to even do a quality check on the translation that a human being has done,",
+      "words": [
+        {
+          "start": 317.11,
+          "end": 317.23,
+          "word": "but"
+        },
+        {
+          "start": 317.23,
+          "end": 317.37,
+          "word": "to"
+        },
+        {
+          "start": 317.37,
+          "end": 317.55,
+          "word": "even"
+        },
+        {
+          "start": 317.55,
+          "end": 317.77,
+          "word": "do"
+        },
+        {
+          "start": 317.77,
+          "end": 317.85,
+          "word": "a"
+        },
+        {
+          "start": 317.85,
+          "end": 318.23,
+          "word": "quality"
+        },
+        {
+          "start": 318.23,
+          "end": 318.57,
+          "word": "check"
+        },
+        {
+          "start": 318.57,
+          "end": 318.95,
+          "word": "on"
+        },
+        {
+          "start": 318.95,
+          "end": 319.11,
+          "word": "the"
+        },
+        {
+          "start": 319.11,
+          "end": 319.81,
+          "word": "translation"
+        },
+        {
+          "start": 319.81,
+          "end": 320.41,
+          "word": "that"
+        },
+        {
+          "start": 320.41,
+          "end": 320.55,
+          "word": "a"
+        },
+        {
+          "start": 320.55,
+          "end": 320.85,
+          "word": "human"
+        },
+        {
+          "start": 320.85,
+          "end": 321.15,
+          "word": "being"
+        },
+        {
+          "start": 321.15,
+          "end": 321.45,
+          "word": "has"
+        },
+        {
+          "start": 321.45,
+          "end": 321.75,
+          "word": "done,"
+        }
+      ]
+    },
+    {
+      "start": 322.01,
+      "end": 325.75,
+      "duration": 3.74,
+      "text": "has been very helpful. Because many times you find that when you're trying to translate many",
+      "words": [
+        {
+          "start": 322.01,
+          "end": 322.21,
+          "word": "has"
+        },
+        {
+          "start": 322.21,
+          "end": 322.39,
+          "word": "been"
+        },
+        {
+          "start": 322.39,
+          "end": 322.61,
+          "word": "very"
+        },
+        {
+          "start": 322.61,
+          "end": 322.89,
+          "word": "helpful."
+        },
+        {
+          "start": 323.03,
+          "end": 323.17,
+          "word": "Because"
+        },
+        {
+          "start": 323.17,
+          "end": 323.39,
+          "word": "many"
+        },
+        {
+          "start": 323.39,
+          "end": 323.61,
+          "word": "times"
+        },
+        {
+          "start": 323.61,
+          "end": 323.75,
+          "word": "you"
+        },
+        {
+          "start": 323.75,
+          "end": 323.97,
+          "word": "find"
+        },
+        {
+          "start": 323.97,
+          "end": 324.23,
+          "word": "that"
+        },
+        {
+          "start": 324.23,
+          "end": 324.63,
+          "word": "when"
+        },
+        {
+          "start": 324.63,
+          "end": 324.83,
+          "word": "you're"
+        },
+        {
+          "start": 324.83,
+          "end": 324.95,
+          "word": "trying"
+        },
+        {
+          "start": 324.95,
+          "end": 325.07,
+          "word": "to"
+        },
+        {
+          "start": 325.07,
+          "end": 325.45,
+          "word": "translate"
+        },
+        {
+          "start": 325.45,
+          "end": 325.75,
+          "word": "many"
+        }
+      ]
+    },
+    {
+      "start": 325.75,
+      "end": 330.07,
+      "duration": 4.32,
+      "text": "times, many of them are scientific. And maybe there aren't even words in your local language that",
+      "words": [
+        {
+          "start": 325.75,
+          "end": 326.07,
+          "word": "times,"
+        },
+        {
+          "start": 326.19,
+          "end": 326.37,
+          "word": "many"
+        },
+        {
+          "start": 326.37,
+          "end": 326.47,
+          "word": "of"
+        },
+        {
+          "start": 326.47,
+          "end": 326.59,
+          "word": "them"
+        },
+        {
+          "start": 326.59,
+          "end": 326.73,
+          "word": "are"
+        },
+        {
+          "start": 326.73,
+          "end": 327.17,
+          "word": "scientific."
+        },
+        {
+          "start": 327.57,
+          "end": 327.61,
+          "word": "And"
+        },
+        {
+          "start": 327.61,
+          "end": 327.91,
+          "word": "maybe"
+        },
+        {
+          "start": 327.91,
+          "end": 328.07,
+          "word": "there"
+        },
+        {
+          "start": 328.07,
+          "end": 328.27,
+          "word": "aren't"
+        },
+        {
+          "start": 328.27,
+          "end": 328.47,
+          "word": "even"
+        },
+        {
+          "start": 328.47,
+          "end": 328.79,
+          "word": "words"
+        },
+        {
+          "start": 328.79,
+          "end": 329.09,
+          "word": "in"
+        },
+        {
+          "start": 329.09,
+          "end": 329.21,
+          "word": "your"
+        },
+        {
+          "start": 329.21,
+          "end": 329.47,
+          "word": "local"
+        },
+        {
+          "start": 329.47,
+          "end": 329.87,
+          "word": "language"
+        },
+        {
+          "start": 329.87,
+          "end": 330.07,
+          "word": "that"
+        }
+      ]
+    },
+    {
+      "start": 330.07,
+      "end": 337.25,
+      "duration": 7.18,
+      "text": "can be translated into that, that the word can be translated into and so creating these",
+      "words": [
+        {
+          "start": 330.07,
+          "end": 330.29,
+          "word": "can"
+        },
+        {
+          "start": 330.29,
+          "end": 330.59,
+          "word": "be"
+        },
+        {
+          "start": 330.59,
+          "end": 331.25,
+          "word": "translated"
+        },
+        {
+          "start": 331.25,
+          "end": 332.67,
+          "word": "into"
+        },
+        {
+          "start": 332.67,
+          "end": 333.09,
+          "word": "that,"
+        },
+        {
+          "start": 333.39,
+          "end": 333.73,
+          "word": "that"
+        },
+        {
+          "start": 333.73,
+          "end": 333.97,
+          "word": "the"
+        },
+        {
+          "start": 333.97,
+          "end": 334.17,
+          "word": "word"
+        },
+        {
+          "start": 334.17,
+          "end": 334.35,
+          "word": "can"
+        },
+        {
+          "start": 334.35,
+          "end": 334.47,
+          "word": "be"
+        },
+        {
+          "start": 334.47,
+          "end": 334.83,
+          "word": "translated"
+        },
+        {
+          "start": 334.83,
+          "end": 335.55,
+          "word": "into"
+        },
+        {
+          "start": 335.55,
+          "end": 336.21,
+          "word": "and"
+        },
+        {
+          "start": 336.21,
+          "end": 336.47,
+          "word": "so"
+        },
+        {
+          "start": 336.47,
+          "end": 336.89,
+          "word": "creating"
+        },
+        {
+          "start": 336.89,
+          "end": 337.25,
+          "word": "these"
+        }
+      ]
+    },
+    {
+      "start": 337.25,
+      "end": 341.91,
+      "duration": 4.66,
+      "text": "dictionaries, understanding these words. Like if I remember last time at Data Science Africa,",
+      "words": [
+        {
+          "start": 337.25,
+          "end": 337.91,
+          "word": "dictionaries,"
+        },
+        {
+          "start": 338.09,
+          "end": 338.59,
+          "word": "understanding"
+        },
+        {
+          "start": 338.59,
+          "end": 338.95,
+          "word": "these"
+        },
+        {
+          "start": 338.95,
+          "end": 339.35,
+          "word": "words."
+        },
+        {
+          "start": 339.61,
+          "end": 339.71,
+          "word": "Like"
+        },
+        {
+          "start": 339.71,
+          "end": 340.05,
+          "word": "if"
+        },
+        {
+          "start": 340.05,
+          "end": 340.31,
+          "word": "I"
+        },
+        {
+          "start": 340.31,
+          "end": 340.59,
+          "word": "remember"
+        },
+        {
+          "start": 340.59,
+          "end": 340.95,
+          "word": "last"
+        },
+        {
+          "start": 340.95,
+          "end": 341.21,
+          "word": "time"
+        },
+        {
+          "start": 341.21,
+          "end": 341.33,
+          "word": "at"
+        },
+        {
+          "start": 341.33,
+          "end": 341.47,
+          "word": "Data"
+        },
+        {
+          "start": 341.47,
+          "end": 341.67,
+          "word": "Science"
+        },
+        {
+          "start": 341.67,
+          "end": 341.91,
+          "word": "Africa,"
+        }
+      ]
+    },
+    {
+      "start": 341.93,
+      "end": 347.17,
+      "duration": 5.24,
+      "text": "someone ran a video, can you say AI in your local language? And I'm like, okay, what's AI in",
+      "words": [
+        {
+          "start": 341.93,
+          "end": 342.15,
+          "word": "someone"
+        },
+        {
+          "start": 342.15,
+          "end": 342.31,
+          "word": "ran"
+        },
+        {
+          "start": 342.31,
+          "end": 342.43,
+          "word": "a"
+        },
+        {
+          "start": 342.43,
+          "end": 342.61,
+          "word": "video,"
+        },
+        {
+          "start": 342.73,
+          "end": 342.83,
+          "word": "can"
+        },
+        {
+          "start": 342.83,
+          "end": 342.95,
+          "word": "you"
+        },
+        {
+          "start": 342.95,
+          "end": 343.09,
+          "word": "say"
+        },
+        {
+          "start": 343.09,
+          "end": 343.33,
+          "word": "AI"
+        },
+        {
+          "start": 343.33,
+          "end": 343.51,
+          "word": "in"
+        },
+        {
+          "start": 343.51,
+          "end": 343.59,
+          "word": "your"
+        },
+        {
+          "start": 343.59,
+          "end": 343.81,
+          "word": "local"
+        },
+        {
+          "start": 343.81,
+          "end": 344.29,
+          "word": "language?"
+        },
+        {
+          "start": 345.09,
+          "end": 345.53,
+          "word": "And"
+        },
+        {
+          "start": 345.53,
+          "end": 345.65,
+          "word": "I'm"
+        },
+        {
+          "start": 345.65,
+          "end": 345.79,
+          "word": "like,"
+        },
+        {
+          "start": 345.85,
+          "end": 346.11,
+          "word": "okay,"
+        },
+        {
+          "start": 346.21,
+          "end": 346.53,
+          "word": "what's"
+        },
+        {
+          "start": 346.53,
+          "end": 346.79,
+          "word": "AI"
+        },
+        {
+          "start": 346.79,
+          "end": 347.17,
+          "word": "in"
+        }
+      ]
+    },
+    {
+      "start": 347.17,
+      "end": 351.61,
+      "duration": 4.44,
+      "text": "Uganda? I don't know, you know, things like that. But AI is just one of them. There's just so",
+      "words": [
+        {
+          "start": 347.17,
+          "end": 347.49,
+          "word": "Uganda?"
+        },
+        {
+          "start": 348.05,
+          "end": 348.31,
+          "word": "I"
+        },
+        {
+          "start": 348.31,
+          "end": 348.55,
+          "word": "don't"
+        },
+        {
+          "start": 348.55,
+          "end": 348.83,
+          "word": "know,"
+        },
+        {
+          "start": 348.91,
+          "end": 349.35,
+          "word": "you"
+        },
+        {
+          "start": 349.35,
+          "end": 349.45,
+          "word": "know,"
+        },
+        {
+          "start": 349.47,
+          "end": 349.61,
+          "word": "things"
+        },
+        {
+          "start": 349.61,
+          "end": 349.83,
+          "word": "like"
+        },
+        {
+          "start": 349.83,
+          "end": 349.97,
+          "word": "that."
+        },
+        {
+          "start": 349.99,
+          "end": 350.07,
+          "word": "But"
+        },
+        {
+          "start": 350.07,
+          "end": 350.25,
+          "word": "AI"
+        },
+        {
+          "start": 350.25,
+          "end": 350.41,
+          "word": "is"
+        },
+        {
+          "start": 350.41,
+          "end": 350.57,
+          "word": "just"
+        },
+        {
+          "start": 350.57,
+          "end": 350.85,
+          "word": "one"
+        },
+        {
+          "start": 350.85,
+          "end": 351.01,
+          "word": "of"
+        },
+        {
+          "start": 351.01,
+          "end": 351.15,
+          "word": "them."
+        },
+        {
+          "start": 351.21,
+          "end": 351.37,
+          "word": "There's"
+        },
+        {
+          "start": 351.37,
+          "end": 351.45,
+          "word": "just"
+        },
+        {
+          "start": 351.45,
+          "end": 351.61,
+          "word": "so"
+        }
+      ]
+    },
+    {
+      "start": 351.61,
+      "end": 356.13,
+      "duration": 4.52,
+      "text": "many words that are coming up for which people want to understand what this technology means in",
+      "words": [
+        {
+          "start": 351.61,
+          "end": 351.77,
+          "word": "many"
+        },
+        {
+          "start": 351.77,
+          "end": 351.97,
+          "word": "words"
+        },
+        {
+          "start": 351.97,
+          "end": 352.07,
+          "word": "that"
+        },
+        {
+          "start": 352.07,
+          "end": 352.17,
+          "word": "are"
+        },
+        {
+          "start": 352.17,
+          "end": 352.37,
+          "word": "coming"
+        },
+        {
+          "start": 352.37,
+          "end": 352.67,
+          "word": "up"
+        },
+        {
+          "start": 352.67,
+          "end": 353.15,
+          "word": "for"
+        },
+        {
+          "start": 353.15,
+          "end": 353.33,
+          "word": "which"
+        },
+        {
+          "start": 353.33,
+          "end": 353.59,
+          "word": "people"
+        },
+        {
+          "start": 353.59,
+          "end": 353.83,
+          "word": "want"
+        },
+        {
+          "start": 353.83,
+          "end": 353.99,
+          "word": "to"
+        },
+        {
+          "start": 353.99,
+          "end": 354.43,
+          "word": "understand"
+        },
+        {
+          "start": 354.43,
+          "end": 354.73,
+          "word": "what"
+        },
+        {
+          "start": 354.73,
+          "end": 355.07,
+          "word": "this"
+        },
+        {
+          "start": 355.07,
+          "end": 355.41,
+          "word": "technology"
+        },
+        {
+          "start": 355.41,
+          "end": 355.91,
+          "word": "means"
+        },
+        {
+          "start": 355.91,
+          "end": 356.13,
+          "word": "in"
+        }
+      ]
+    },
+    {
+      "start": 356.13,
+      "end": 360.93,
+      "duration": 4.8,
+      "text": "their language. If you want to preach on Wikimedia, they want to go and search and understand.",
+      "words": [
+        {
+          "start": 356.13,
+          "end": 356.31,
+          "word": "their"
+        },
+        {
+          "start": 356.31,
+          "end": 356.87,
+          "word": "language."
+        },
+        {
+          "start": 357.47,
+          "end": 357.73,
+          "word": "If"
+        },
+        {
+          "start": 357.73,
+          "end": 357.87,
+          "word": "you"
+        },
+        {
+          "start": 357.87,
+          "end": 358.07,
+          "word": "want"
+        },
+        {
+          "start": 358.07,
+          "end": 358.19,
+          "word": "to"
+        },
+        {
+          "start": 358.19,
+          "end": 358.29,
+          "word": "preach"
+        },
+        {
+          "start": 358.29,
+          "end": 358.47,
+          "word": "on"
+        },
+        {
+          "start": 358.47,
+          "end": 358.91,
+          "word": "Wikimedia,"
+        },
+        {
+          "start": 358.97,
+          "end": 359.09,
+          "word": "they"
+        },
+        {
+          "start": 359.09,
+          "end": 359.25,
+          "word": "want"
+        },
+        {
+          "start": 359.25,
+          "end": 359.39,
+          "word": "to"
+        },
+        {
+          "start": 359.39,
+          "end": 359.53,
+          "word": "go"
+        },
+        {
+          "start": 359.53,
+          "end": 359.65,
+          "word": "and"
+        },
+        {
+          "start": 359.65,
+          "end": 359.97,
+          "word": "search"
+        },
+        {
+          "start": 359.97,
+          "end": 360.41,
+          "word": "and"
+        },
+        {
+          "start": 360.41,
+          "end": 360.93,
+          "word": "understand."
+        }
+      ]
+    },
+    {
+      "start": 361.45,
+      "end": 365.41,
+      "duration": 3.96,
+      "text": "But you have the community, you have the linguists. Because as computer scientists, we might not",
+      "words": [
+        {
+          "start": 361.45,
+          "end": 361.55,
+          "word": "But"
+        },
+        {
+          "start": 361.55,
+          "end": 361.87,
+          "word": "you"
+        },
+        {
+          "start": 361.87,
+          "end": 362.11,
+          "word": "have"
+        },
+        {
+          "start": 362.11,
+          "end": 362.25,
+          "word": "the"
+        },
+        {
+          "start": 362.25,
+          "end": 362.61,
+          "word": "community,"
+        },
+        {
+          "start": 362.87,
+          "end": 362.99,
+          "word": "you"
+        },
+        {
+          "start": 362.99,
+          "end": 363.17,
+          "word": "have"
+        },
+        {
+          "start": 363.17,
+          "end": 363.31,
+          "word": "the"
+        },
+        {
+          "start": 363.31,
+          "end": 363.79,
+          "word": "linguists."
+        },
+        {
+          "start": 363.93,
+          "end": 364.03,
+          "word": "Because"
+        },
+        {
+          "start": 364.03,
+          "end": 364.19,
+          "word": "as"
+        },
+        {
+          "start": 364.19,
+          "end": 364.39,
+          "word": "computer"
+        },
+        {
+          "start": 364.39,
+          "end": 364.77,
+          "word": "scientists,"
+        },
+        {
+          "start": 364.93,
+          "end": 365.01,
+          "word": "we"
+        },
+        {
+          "start": 365.01,
+          "end": 365.19,
+          "word": "might"
+        },
+        {
+          "start": 365.19,
+          "end": 365.41,
+          "word": "not"
+        }
+      ]
+    },
+    {
+      "start": 365.41,
+      "end": 370.35,
+      "duration": 4.94,
+      "text": "know these things, but you can work with the linguists to collaboratively build out these",
+      "words": [
+        {
+          "start": 365.41,
+          "end": 365.59,
+          "word": "know"
+        },
+        {
+          "start": 365.59,
+          "end": 365.77,
+          "word": "these"
+        },
+        {
+          "start": 365.77,
+          "end": 365.95,
+          "word": "things,"
+        },
+        {
+          "start": 365.99,
+          "end": 366.11,
+          "word": "but"
+        },
+        {
+          "start": 366.11,
+          "end": 366.27,
+          "word": "you"
+        },
+        {
+          "start": 366.27,
+          "end": 366.43,
+          "word": "can"
+        },
+        {
+          "start": 366.43,
+          "end": 366.61,
+          "word": "work"
+        },
+        {
+          "start": 366.61,
+          "end": 366.77,
+          "word": "with"
+        },
+        {
+          "start": 366.77,
+          "end": 366.89,
+          "word": "the"
+        },
+        {
+          "start": 366.89,
+          "end": 367.69,
+          "word": "linguists"
+        },
+        {
+          "start": 367.69,
+          "end": 367.93,
+          "word": "to"
+        },
+        {
+          "start": 367.93,
+          "end": 368.89,
+          "word": "collaboratively"
+        },
+        {
+          "start": 368.89,
+          "end": 369.23,
+          "word": "build"
+        },
+        {
+          "start": 369.23,
+          "end": 369.63,
+          "word": "out"
+        },
+        {
+          "start": 369.63,
+          "end": 370.35,
+          "word": "these"
+        }
+      ]
+    },
+    {
+      "start": 370.35,
+      "end": 376.97,
+      "duration": 6.62,
+      "text": "datasets and acknowledge them. I find that valuable in terms of acknowledging as part of",
+      "words": [
+        {
+          "start": 370.35,
+          "end": 370.89,
+          "word": "datasets"
+        },
+        {
+          "start": 370.89,
+          "end": 371.69,
+          "word": "and"
+        },
+        {
+          "start": 371.69,
+          "end": 372.15,
+          "word": "acknowledge"
+        },
+        {
+          "start": 372.15,
+          "end": 372.57,
+          "word": "them."
+        },
+        {
+          "start": 372.81,
+          "end": 372.87,
+          "word": "I"
+        },
+        {
+          "start": 372.87,
+          "end": 373.21,
+          "word": "find"
+        },
+        {
+          "start": 373.21,
+          "end": 373.39,
+          "word": "that"
+        },
+        {
+          "start": 373.39,
+          "end": 373.75,
+          "word": "valuable"
+        },
+        {
+          "start": 373.75,
+          "end": 374.65,
+          "word": "in"
+        },
+        {
+          "start": 374.65,
+          "end": 374.79,
+          "word": "terms"
+        },
+        {
+          "start": 374.79,
+          "end": 375.07,
+          "word": "of"
+        },
+        {
+          "start": 375.07,
+          "end": 375.69,
+          "word": "acknowledging"
+        },
+        {
+          "start": 375.69,
+          "end": 376.61,
+          "word": "as"
+        },
+        {
+          "start": 376.61,
+          "end": 376.77,
+          "word": "part"
+        },
+        {
+          "start": 376.77,
+          "end": 376.97,
+          "word": "of"
+        }
+      ]
+    },
+    {
+      "start": 376.97,
+      "end": 382.57,
+      "duration": 5.6,
+      "text": "that, when we write papers and we've collected data from the community, we'll put you on the",
+      "words": [
+        {
+          "start": 376.97,
+          "end": 377.39,
+          "word": "that,"
+        },
+        {
+          "start": 377.39,
+          "end": 378.57,
+          "word": "when"
+        },
+        {
+          "start": 378.57,
+          "end": 378.77,
+          "word": "we"
+        },
+        {
+          "start": 378.77,
+          "end": 378.97,
+          "word": "write"
+        },
+        {
+          "start": 378.97,
+          "end": 379.39,
+          "word": "papers"
+        },
+        {
+          "start": 379.39,
+          "end": 379.59,
+          "word": "and"
+        },
+        {
+          "start": 379.59,
+          "end": 379.75,
+          "word": "we've"
+        },
+        {
+          "start": 379.75,
+          "end": 379.95,
+          "word": "collected"
+        },
+        {
+          "start": 379.95,
+          "end": 380.27,
+          "word": "data"
+        },
+        {
+          "start": 380.27,
+          "end": 380.61,
+          "word": "from"
+        },
+        {
+          "start": 380.61,
+          "end": 381.13,
+          "word": "the"
+        },
+        {
+          "start": 381.13,
+          "end": 381.59,
+          "word": "community,"
+        },
+        {
+          "start": 381.71,
+          "end": 381.93,
+          "word": "we'll"
+        },
+        {
+          "start": 381.93,
+          "end": 382.11,
+          "word": "put"
+        },
+        {
+          "start": 382.11,
+          "end": 382.29,
+          "word": "you"
+        },
+        {
+          "start": 382.29,
+          "end": 382.43,
+          "word": "on"
+        },
+        {
+          "start": 382.43,
+          "end": 382.57,
+          "word": "the"
+        }
+      ]
+    },
+    {
+      "start": 382.57,
+      "end": 388.13,
+      "duration": 5.56,
+      "text": "paper. Because you were a central part of creating this data set of bringing us together to the",
+      "words": [
+        {
+          "start": 382.57,
+          "end": 382.87,
+          "word": "paper."
+        },
+        {
+          "start": 383.15,
+          "end": 383.35,
+          "word": "Because"
+        },
+        {
+          "start": 383.35,
+          "end": 383.59,
+          "word": "you"
+        },
+        {
+          "start": 383.59,
+          "end": 383.87,
+          "word": "were"
+        },
+        {
+          "start": 383.87,
+          "end": 384.07,
+          "word": "a"
+        },
+        {
+          "start": 384.07,
+          "end": 384.31,
+          "word": "central"
+        },
+        {
+          "start": 384.31,
+          "end": 384.69,
+          "word": "part"
+        },
+        {
+          "start": 384.69,
+          "end": 385.17,
+          "word": "of"
+        },
+        {
+          "start": 385.17,
+          "end": 385.55,
+          "word": "creating"
+        },
+        {
+          "start": 385.55,
+          "end": 385.83,
+          "word": "this"
+        },
+        {
+          "start": 385.83,
+          "end": 386.07,
+          "word": "data"
+        },
+        {
+          "start": 386.07,
+          "end": 386.35,
+          "word": "set"
+        },
+        {
+          "start": 386.35,
+          "end": 386.67,
+          "word": "of"
+        },
+        {
+          "start": 386.67,
+          "end": 387.35,
+          "word": "bringing"
+        },
+        {
+          "start": 387.35,
+          "end": 387.59,
+          "word": "us"
+        },
+        {
+          "start": 387.59,
+          "end": 387.85,
+          "word": "together"
+        },
+        {
+          "start": 387.85,
+          "end": 388.03,
+          "word": "to"
+        },
+        {
+          "start": 388.03,
+          "end": 388.13,
+          "word": "the"
+        }
+      ]
+    },
+    {
+      "start": 388.13,
+      "end": 392.51,
+      "duration": 4.38,
+      "text": "point where we are at the motto end. It all started from the datasets. Yeah, so there's a",
+      "words": [
+        {
+          "start": 388.13,
+          "end": 388.29,
+          "word": "point"
+        },
+        {
+          "start": 388.29,
+          "end": 388.47,
+          "word": "where"
+        },
+        {
+          "start": 388.47,
+          "end": 388.67,
+          "word": "we"
+        },
+        {
+          "start": 388.67,
+          "end": 388.83,
+          "word": "are"
+        },
+        {
+          "start": 388.83,
+          "end": 389.25,
+          "word": "at"
+        },
+        {
+          "start": 389.25,
+          "end": 389.39,
+          "word": "the"
+        },
+        {
+          "start": 389.39,
+          "end": 389.57,
+          "word": "motto"
+        },
+        {
+          "start": 389.57,
+          "end": 389.91,
+          "word": "end."
+        },
+        {
+          "start": 390.03,
+          "end": 390.09,
+          "word": "It"
+        },
+        {
+          "start": 390.09,
+          "end": 390.29,
+          "word": "all"
+        },
+        {
+          "start": 390.29,
+          "end": 390.55,
+          "word": "started"
+        },
+        {
+          "start": 390.55,
+          "end": 390.83,
+          "word": "from"
+        },
+        {
+          "start": 390.83,
+          "end": 390.97,
+          "word": "the"
+        },
+        {
+          "start": 390.97,
+          "end": 391.31,
+          "word": "datasets."
+        },
+        {
+          "start": 392.03,
+          "end": 392.11,
+          "word": "Yeah,"
+        },
+        {
+          "start": 392.17,
+          "end": 392.27,
+          "word": "so"
+        },
+        {
+          "start": 392.27,
+          "end": 392.45,
+          "word": "there's"
+        },
+        {
+          "start": 392.45,
+          "end": 392.51,
+          "word": "a"
+        }
+      ]
+    },
+    {
+      "start": 392.51,
+      "end": 396.23,
+      "duration": 3.72,
+      "text": "lot I think we can say from the work that we've been doing around creating these resources",
+      "words": [
+        {
+          "start": 392.51,
+          "end": 392.61,
+          "word": "lot"
+        },
+        {
+          "start": 392.61,
+          "end": 392.77,
+          "word": "I"
+        },
+        {
+          "start": 392.77,
+          "end": 392.85,
+          "word": "think"
+        },
+        {
+          "start": 392.85,
+          "end": 392.97,
+          "word": "we"
+        },
+        {
+          "start": 392.97,
+          "end": 393.11,
+          "word": "can"
+        },
+        {
+          "start": 393.11,
+          "end": 393.31,
+          "word": "say"
+        },
+        {
+          "start": 393.31,
+          "end": 393.53,
+          "word": "from"
+        },
+        {
+          "start": 393.53,
+          "end": 393.67,
+          "word": "the"
+        },
+        {
+          "start": 393.67,
+          "end": 393.83,
+          "word": "work"
+        },
+        {
+          "start": 393.83,
+          "end": 393.97,
+          "word": "that"
+        },
+        {
+          "start": 393.97,
+          "end": 394.17,
+          "word": "we've"
+        },
+        {
+          "start": 394.17,
+          "end": 394.31,
+          "word": "been"
+        },
+        {
+          "start": 394.31,
+          "end": 394.49,
+          "word": "doing"
+        },
+        {
+          "start": 394.49,
+          "end": 394.85,
+          "word": "around"
+        },
+        {
+          "start": 394.85,
+          "end": 395.43,
+          "word": "creating"
+        },
+        {
+          "start": 395.43,
+          "end": 395.77,
+          "word": "these"
+        },
+        {
+          "start": 395.77,
+          "end": 396.23,
+          "word": "resources"
+        }
+      ]
+    },
+    {
+      "start": 396.23,
+      "end": 402.51,
+      "duration": 6.28,
+      "text": "and what it means for us as African researchers on NLP. Yeah. Thank you for sharing that.",
+      "words": [
+        {
+          "start": 396.23,
+          "end": 396.65,
+          "word": "and"
+        },
+        {
+          "start": 396.65,
+          "end": 396.83,
+          "word": "what"
+        },
+        {
+          "start": 396.83,
+          "end": 396.97,
+          "word": "it"
+        },
+        {
+          "start": 396.97,
+          "end": 397.15,
+          "word": "means"
+        },
+        {
+          "start": 397.15,
+          "end": 397.39,
+          "word": "for"
+        },
+        {
+          "start": 397.39,
+          "end": 397.61,
+          "word": "us"
+        },
+        {
+          "start": 397.61,
+          "end": 397.85,
+          "word": "as"
+        },
+        {
+          "start": 397.85,
+          "end": 398.17,
+          "word": "African"
+        },
+        {
+          "start": 398.17,
+          "end": 398.73,
+          "word": "researchers"
+        },
+        {
+          "start": 398.73,
+          "end": 399.39,
+          "word": "on"
+        },
+        {
+          "start": 399.39,
+          "end": 399.79,
+          "word": "NLP."
+        },
+        {
+          "start": 400.41,
+          "end": 400.41,
+          "word": "Yeah."
+        },
+        {
+          "start": 401.37,
+          "end": 401.77,
+          "word": "Thank"
+        },
+        {
+          "start": 401.77,
+          "end": 401.93,
+          "word": "you"
+        },
+        {
+          "start": 401.93,
+          "end": 402.09,
+          "word": "for"
+        },
+        {
+          "start": 402.09,
+          "end": 402.33,
+          "word": "sharing"
+        },
+        {
+          "start": 402.33,
+          "end": 402.51,
+          "word": "that."
+        }
+      ]
+    },
+    {
+      "start": 402.51,
+      "end": 408.37,
+      "duration": 5.86,
+      "text": "I think this community approach to AI kind of really also means that you're responding to what's",
+      "words": [
+        {
+          "start": 402.51,
+          "end": 402.63,
+          "word": "I"
+        },
+        {
+          "start": 402.63,
+          "end": 402.81,
+          "word": "think"
+        },
+        {
+          "start": 402.81,
+          "end": 403.09,
+          "word": "this"
+        },
+        {
+          "start": 403.09,
+          "end": 403.93,
+          "word": "community"
+        },
+        {
+          "start": 403.93,
+          "end": 404.51,
+          "word": "approach"
+        },
+        {
+          "start": 404.51,
+          "end": 404.91,
+          "word": "to"
+        },
+        {
+          "start": 404.91,
+          "end": 405.25,
+          "word": "AI"
+        },
+        {
+          "start": 405.25,
+          "end": 405.73,
+          "word": "kind"
+        },
+        {
+          "start": 405.73,
+          "end": 406.23,
+          "word": "of"
+        },
+        {
+          "start": 406.23,
+          "end": 406.65,
+          "word": "really"
+        },
+        {
+          "start": 406.65,
+          "end": 406.91,
+          "word": "also"
+        },
+        {
+          "start": 406.91,
+          "end": 407.13,
+          "word": "means"
+        },
+        {
+          "start": 407.13,
+          "end": 407.29,
+          "word": "that"
+        },
+        {
+          "start": 407.29,
+          "end": 407.37,
+          "word": "you're"
+        },
+        {
+          "start": 407.37,
+          "end": 407.71,
+          "word": "responding"
+        },
+        {
+          "start": 407.71,
+          "end": 407.99,
+          "word": "to"
+        },
+        {
+          "start": 407.99,
+          "end": 408.37,
+          "word": "what's"
+        }
+      ]
+    },
+    {
+      "start": 408.37,
+      "end": 413.81,
+      "duration": 5.44,
+      "text": "needed versus kind of just technology for technology sake. Maybe taking a little bit of the flip side,",
+      "words": [
+        {
+          "start": 408.37,
+          "end": 408.77,
+          "word": "needed"
+        },
+        {
+          "start": 408.77,
+          "end": 409.21,
+          "word": "versus"
+        },
+        {
+          "start": 409.21,
+          "end": 409.67,
+          "word": "kind"
+        },
+        {
+          "start": 409.67,
+          "end": 409.75,
+          "word": "of"
+        },
+        {
+          "start": 409.75,
+          "end": 409.87,
+          "word": "just"
+        },
+        {
+          "start": 409.87,
+          "end": 410.23,
+          "word": "technology"
+        },
+        {
+          "start": 410.23,
+          "end": 410.49,
+          "word": "for"
+        },
+        {
+          "start": 410.49,
+          "end": 410.91,
+          "word": "technology"
+        },
+        {
+          "start": 410.91,
+          "end": 411.25,
+          "word": "sake."
+        },
+        {
+          "start": 411.47,
+          "end": 412.07,
+          "word": "Maybe"
+        },
+        {
+          "start": 412.07,
+          "end": 412.43,
+          "word": "taking"
+        },
+        {
+          "start": 412.43,
+          "end": 412.83,
+          "word": "a"
+        },
+        {
+          "start": 412.83,
+          "end": 412.93,
+          "word": "little"
+        },
+        {
+          "start": 412.93,
+          "end": 413.03,
+          "word": "bit"
+        },
+        {
+          "start": 413.03,
+          "end": 413.11,
+          "word": "of"
+        },
+        {
+          "start": 413.11,
+          "end": 413.21,
+          "word": "the"
+        },
+        {
+          "start": 413.21,
+          "end": 413.43,
+          "word": "flip"
+        },
+        {
+          "start": 413.43,
+          "end": 413.81,
+          "word": "side,"
+        }
+      ]
+    },
+    {
+      "start": 414.11,
+      "end": 420.85,
+      "duration": 6.74,
+      "text": "we have seen that a lot of the major AI models and systems have come from the west. So what are",
+      "words": [
+        {
+          "start": 414.11,
+          "end": 414.43,
+          "word": "we"
+        },
+        {
+          "start": 414.43,
+          "end": 414.55,
+          "word": "have"
+        },
+        {
+          "start": 414.55,
+          "end": 414.87,
+          "word": "seen"
+        },
+        {
+          "start": 414.87,
+          "end": 415.09,
+          "word": "that"
+        },
+        {
+          "start": 415.09,
+          "end": 415.23,
+          "word": "a"
+        },
+        {
+          "start": 415.23,
+          "end": 415.37,
+          "word": "lot"
+        },
+        {
+          "start": 415.37,
+          "end": 415.53,
+          "word": "of"
+        },
+        {
+          "start": 415.53,
+          "end": 415.75,
+          "word": "the"
+        },
+        {
+          "start": 415.75,
+          "end": 416.23,
+          "word": "major"
+        },
+        {
+          "start": 416.23,
+          "end": 416.53,
+          "word": "AI"
+        },
+        {
+          "start": 416.53,
+          "end": 416.93,
+          "word": "models"
+        },
+        {
+          "start": 416.93,
+          "end": 417.19,
+          "word": "and"
+        },
+        {
+          "start": 417.19,
+          "end": 417.59,
+          "word": "systems"
+        },
+        {
+          "start": 417.59,
+          "end": 418.17,
+          "word": "have"
+        },
+        {
+          "start": 418.17,
+          "end": 418.45,
+          "word": "come"
+        },
+        {
+          "start": 418.45,
+          "end": 418.75,
+          "word": "from"
+        },
+        {
+          "start": 418.75,
+          "end": 419.11,
+          "word": "the"
+        },
+        {
+          "start": 419.11,
+          "end": 419.47,
+          "word": "west."
+        },
+        {
+          "start": 419.99,
+          "end": 420.37,
+          "word": "So"
+        },
+        {
+          "start": 420.37,
+          "end": 420.65,
+          "word": "what"
+        },
+        {
+          "start": 420.65,
+          "end": 420.85,
+          "word": "are"
+        }
+      ]
+    },
+    {
+      "start": 420.85,
+      "end": 426.35,
+      "duration": 5.5,
+      "text": "some approaches to building models that are actually accountable and independently owned,",
+      "words": [
+        {
+          "start": 420.85,
+          "end": 421.09,
+          "word": "some"
+        },
+        {
+          "start": 421.09,
+          "end": 421.63,
+          "word": "approaches"
+        },
+        {
+          "start": 421.63,
+          "end": 422.01,
+          "word": "to"
+        },
+        {
+          "start": 422.01,
+          "end": 422.31,
+          "word": "building"
+        },
+        {
+          "start": 422.31,
+          "end": 422.75,
+          "word": "models"
+        },
+        {
+          "start": 422.75,
+          "end": 422.97,
+          "word": "that"
+        },
+        {
+          "start": 422.97,
+          "end": 423.09,
+          "word": "are"
+        },
+        {
+          "start": 423.09,
+          "end": 423.47,
+          "word": "actually"
+        },
+        {
+          "start": 423.47,
+          "end": 424.47,
+          "word": "accountable"
+        },
+        {
+          "start": 424.47,
+          "end": 425.13,
+          "word": "and"
+        },
+        {
+          "start": 425.13,
+          "end": 425.71,
+          "word": "independently"
+        },
+        {
+          "start": 425.71,
+          "end": 426.35,
+          "word": "owned,"
+        }
+      ]
+    },
+    {
+      "start": 426.59,
+      "end": 431.87,
+      "duration": 5.28,
+      "text": "including from some of the communities here and across the global south? Maybe I can turn",
+      "words": [
+        {
+          "start": 426.59,
+          "end": 427.11,
+          "word": "including"
+        },
+        {
+          "start": 427.11,
+          "end": 427.41,
+          "word": "from"
+        },
+        {
+          "start": 427.41,
+          "end": 427.61,
+          "word": "some"
+        },
+        {
+          "start": 427.61,
+          "end": 427.69,
+          "word": "of"
+        },
+        {
+          "start": 427.69,
+          "end": 427.77,
+          "word": "the"
+        },
+        {
+          "start": 427.77,
+          "end": 428.33,
+          "word": "communities"
+        },
+        {
+          "start": 428.33,
+          "end": 429.07,
+          "word": "here"
+        },
+        {
+          "start": 429.07,
+          "end": 429.29,
+          "word": "and"
+        },
+        {
+          "start": 429.29,
+          "end": 429.55,
+          "word": "across"
+        },
+        {
+          "start": 429.55,
+          "end": 429.77,
+          "word": "the"
+        },
+        {
+          "start": 429.77,
+          "end": 429.95,
+          "word": "global"
+        },
+        {
+          "start": 429.95,
+          "end": 430.27,
+          "word": "south?"
+        },
+        {
+          "start": 431.07,
+          "end": 431.47,
+          "word": "Maybe"
+        },
+        {
+          "start": 431.47,
+          "end": 431.63,
+          "word": "I"
+        },
+        {
+          "start": 431.63,
+          "end": 431.73,
+          "word": "can"
+        },
+        {
+          "start": 431.73,
+          "end": 431.87,
+          "word": "turn"
+        }
+      ]
+    },
+    {
+      "start": 431.87,
+      "end": 440.55,
+      "duration": 8.68,
+      "text": "it to Selena and Job. Yeah, sure. Most of these AI models, like chat GPT or GPT models,",
+      "words": [
+        {
+          "start": 431.87,
+          "end": 431.99,
+          "word": "it"
+        },
+        {
+          "start": 431.99,
+          "end": 432.23,
+          "word": "to"
+        },
+        {
+          "start": 432.23,
+          "end": 432.59,
+          "word": "Selena"
+        },
+        {
+          "start": 432.59,
+          "end": 432.85,
+          "word": "and"
+        },
+        {
+          "start": 432.85,
+          "end": 432.99,
+          "word": "Job."
+        },
+        {
+          "start": 434.27,
+          "end": 434.61,
+          "word": "Yeah,"
+        },
+        {
+          "start": 434.65,
+          "end": 434.93,
+          "word": "sure."
+        },
+        {
+          "start": 435.63,
+          "end": 436.45,
+          "word": "Most"
+        },
+        {
+          "start": 436.45,
+          "end": 436.57,
+          "word": "of"
+        },
+        {
+          "start": 436.57,
+          "end": 436.73,
+          "word": "these"
+        },
+        {
+          "start": 436.73,
+          "end": 436.99,
+          "word": "AI"
+        },
+        {
+          "start": 436.99,
+          "end": 437.45,
+          "word": "models,"
+        },
+        {
+          "start": 438.55,
+          "end": 438.55,
+          "word": "like"
+        },
+        {
+          "start": 438.55,
+          "end": 438.87,
+          "word": "chat"
+        },
+        {
+          "start": 438.87,
+          "end": 439.61,
+          "word": "GPT"
+        },
+        {
+          "start": 439.61,
+          "end": 439.75,
+          "word": "or"
+        },
+        {
+          "start": 439.75,
+          "end": 440.25,
+          "word": "GPT"
+        },
+        {
+          "start": 440.25,
+          "end": 440.55,
+          "word": "models,"
+        }
+      ]
+    },
+    {
+      "start": 441.59,
+      "end": 449.61,
+      "duration": 8.02,
+      "text": "cloud AI, Gemini and so on, are basically trained on data that is from the western",
+      "words": [
+        {
+          "start": 441.59,
+          "end": 442.21,
+          "word": "cloud"
+        },
+        {
+          "start": 442.21,
+          "end": 442.71,
+          "word": "AI,"
+        },
+        {
+          "start": 443.47,
+          "end": 443.81,
+          "word": "Gemini"
+        },
+        {
+          "start": 443.81,
+          "end": 444.31,
+          "word": "and"
+        },
+        {
+          "start": 444.31,
+          "end": 444.71,
+          "word": "so"
+        },
+        {
+          "start": 444.71,
+          "end": 445.33,
+          "word": "on,"
+        },
+        {
+          "start": 445.75,
+          "end": 446.25,
+          "word": "are"
+        },
+        {
+          "start": 446.25,
+          "end": 446.51,
+          "word": "basically"
+        },
+        {
+          "start": 446.51,
+          "end": 446.95,
+          "word": "trained"
+        },
+        {
+          "start": 446.95,
+          "end": 447.17,
+          "word": "on"
+        },
+        {
+          "start": 447.17,
+          "end": 447.41,
+          "word": "data"
+        },
+        {
+          "start": 447.41,
+          "end": 447.71,
+          "word": "that"
+        },
+        {
+          "start": 447.71,
+          "end": 447.97,
+          "word": "is"
+        },
+        {
+          "start": 447.97,
+          "end": 449.23,
+          "word": "from"
+        },
+        {
+          "start": 449.23,
+          "end": 449.37,
+          "word": "the"
+        },
+        {
+          "start": 449.37,
+          "end": 449.61,
+          "word": "western"
+        }
+      ]
+    },
+    {
+      "start": 450.76,
+      "end": 457.99,
+      "duration": 7.23,
+      "text": "world that reflects the western logic in terms of language and even values.",
+      "words": [
+        {
+          "start": 450.76,
+          "end": 451.17,
+          "word": "world"
+        },
+        {
+          "start": 451.17,
+          "end": 451.49,
+          "word": "that"
+        },
+        {
+          "start": 451.49,
+          "end": 452.31,
+          "word": "reflects"
+        },
+        {
+          "start": 452.31,
+          "end": 453.01,
+          "word": "the"
+        },
+        {
+          "start": 453.01,
+          "end": 453.27,
+          "word": "western"
+        },
+        {
+          "start": 453.27,
+          "end": 453.91,
+          "word": "logic"
+        },
+        {
+          "start": 453.91,
+          "end": 454.95,
+          "word": "in"
+        },
+        {
+          "start": 454.95,
+          "end": 455.15,
+          "word": "terms"
+        },
+        {
+          "start": 455.15,
+          "end": 455.41,
+          "word": "of"
+        },
+        {
+          "start": 455.41,
+          "end": 455.89,
+          "word": "language"
+        },
+        {
+          "start": 455.89,
+          "end": 456.37,
+          "word": "and"
+        },
+        {
+          "start": 456.37,
+          "end": 457.45,
+          "word": "even"
+        },
+        {
+          "start": 457.45,
+          "end": 457.99,
+          "word": "values."
+        }
+      ]
+    },
+    {
+      "start": 458.95,
+      "end": 466.53,
+      "duration": 7.58,
+      "text": "And as Vukosi and Joyce mentioned, the African societies, for instance, is made up of,",
+      "words": [
+        {
+          "start": 458.95,
+          "end": 459.57,
+          "word": "And"
+        },
+        {
+          "start": 459.57,
+          "end": 460.45,
+          "word": "as"
+        },
+        {
+          "start": 460.45,
+          "end": 460.95,
+          "word": "Vukosi"
+        },
+        {
+          "start": 460.95,
+          "end": 461.11,
+          "word": "and"
+        },
+        {
+          "start": 461.11,
+          "end": 461.31,
+          "word": "Joyce"
+        },
+        {
+          "start": 461.31,
+          "end": 462.11,
+          "word": "mentioned,"
+        },
+        {
+          "start": 463.63,
+          "end": 464.23,
+          "word": "the"
+        },
+        {
+          "start": 464.23,
+          "end": 464.45,
+          "word": "African"
+        },
+        {
+          "start": 464.45,
+          "end": 465.01,
+          "word": "societies,"
+        },
+        {
+          "start": 465.11,
+          "end": 465.25,
+          "word": "for"
+        },
+        {
+          "start": 465.25,
+          "end": 465.53,
+          "word": "instance,"
+        },
+        {
+          "start": 465.79,
+          "end": 465.91,
+          "word": "is"
+        },
+        {
+          "start": 465.91,
+          "end": 466.07,
+          "word": "made"
+        },
+        {
+          "start": 466.07,
+          "end": 466.29,
+          "word": "up"
+        },
+        {
+          "start": 466.29,
+          "end": 466.53,
+          "word": "of,"
+        }
+      ]
+    },
+    {
+      "start": 467.61,
+      "end": 475.89,
+      "duration": 8.28,
+      "text": "it's very complex and it's very diverse, 2,000 languages around the continent.",
+      "words": [
+        {
+          "start": 467.61,
+          "end": 468.41,
+          "word": "it's"
+        },
+        {
+          "start": 468.41,
+          "end": 468.59,
+          "word": "very"
+        },
+        {
+          "start": 468.59,
+          "end": 468.97,
+          "word": "complex"
+        },
+        {
+          "start": 468.97,
+          "end": 469.21,
+          "word": "and"
+        },
+        {
+          "start": 469.21,
+          "end": 469.59,
+          "word": "it's"
+        },
+        {
+          "start": 469.59,
+          "end": 470.21,
+          "word": "very"
+        },
+        {
+          "start": 470.21,
+          "end": 470.77,
+          "word": "diverse,"
+        },
+        {
+          "start": 471.41,
+          "end": 471.99,
+          "word": "2"
+        },
+        {
+          "start": 471.99,
+          "end": 472.31,
+          "word": ",000"
+        },
+        {
+          "start": 472.31,
+          "end": 472.91,
+          "word": "languages"
+        },
+        {
+          "start": 472.91,
+          "end": 475.25,
+          "word": "around"
+        },
+        {
+          "start": 475.25,
+          "end": 475.47,
+          "word": "the"
+        },
+        {
+          "start": 475.47,
+          "end": 475.89,
+          "word": "continent."
+        }
+      ]
+    }
+  ]
+}

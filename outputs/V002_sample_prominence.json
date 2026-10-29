@@ -1,0 +1,476 @@
+{
+  "video_id": "V002_sample",
+  "configuration": {
+    "minimum_segment_duration": 0.5,
+    "maximum_turn_gap": 1.0
+  },
+  "summary": {
+    "number_of_speakers": 11,
+    "total_speaking_time": 1010.478,
+    "opening_speaker": "SPEAKER_06",
+    "closing_speaker": "SPEAKER_00",
+    "valid_audio_segments": 78,
+    "merged_turns": 39
+  },
+  "speakers": {
+    "SPEAKER_00": {
+      "speaking_time": 7.695,
+      "speaking_percentage": 0.76,
+      "raw_segments": 1,
+      "turns": 1,
+      "average_turn_duration": 7.695,
+      "maximum_turn_duration": 7.695,
+      "minimum_turn_duration": 7.695,
+      "opens_video": false,
+      "closes_video": true,
+      "visual_alignment": {
+        "evaluated_segments": 1,
+        "aligned_segments": 0,
+        "ambiguous_segments": 1,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 1,
+        "evaluated_duration": 7.695,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 1075.559,
+          "end": 1083.254,
+          "duration": 7.695
+        }
+      ]
+    },
+    "SPEAKER_01": {
+      "speaking_time": 195.245,
+      "speaking_percentage": 19.32,
+      "raw_segments": 24,
+      "turns": 10,
+      "average_turn_duration": 20.191,
+      "maximum_turn_duration": 55.485,
+      "minimum_turn_duration": 3.848,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 24,
+        "aligned_segments": 1,
+        "ambiguous_segments": 1,
+        "no_visual_segments": 22,
+        "short_segments_excluded": 5,
+        "evaluated_duration": 195.245,
+        "aligned_duration": 5.991,
+        "segment_rate_percentage": 4.17,
+        "time_rate_percentage": 3.07
+      },
+      "turn_details": [
+        {
+          "start": 380.765,
+          "end": 386.755,
+          "duration": 5.99
+        },
+        {
+          "start": 388.223,
+          "end": 427.913,
+          "duration": 39.69
+        },
+        {
+          "start": 626.093,
+          "end": 637.096,
+          "duration": 11.003
+        },
+        {
+          "start": 638.581,
+          "end": 668.602,
+          "duration": 30.021
+        },
+        {
+          "start": 669.766,
+          "end": 725.251,
+          "duration": 55.485
+        },
+        {
+          "start": 973.229,
+          "end": 977.077,
+          "duration": 3.848
+        },
+        {
+          "start": 979.034,
+          "end": 988.349,
+          "duration": 9.315
+        },
+        {
+          "start": 989.699,
+          "end": 996.365,
+          "duration": 6.666
+        },
+        {
+          "start": 998.356,
+          "end": 1029.507,
+          "duration": 31.151
+        },
+        {
+          "start": 1030.621,
+          "end": 1039.362,
+          "duration": 8.741
+        }
+      ]
+    },
+    "SPEAKER_02": {
+      "speaking_time": 146.307,
+      "speaking_percentage": 14.48,
+      "raw_segments": 6,
+      "turns": 5,
+      "average_turn_duration": 29.339,
+      "maximum_turn_duration": 64.665,
+      "minimum_turn_duration": 0.54,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 6,
+        "aligned_segments": 1,
+        "ambiguous_segments": 2,
+        "no_visual_segments": 3,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 146.307,
+        "aligned_duration": 5.316,
+        "segment_rate_percentage": 16.67,
+        "time_rate_percentage": 3.63
+      },
+      "turn_details": [
+        {
+          "start": 429.702,
+          "end": 464.347,
+          "duration": 34.645
+        },
+        {
+          "start": 537.685,
+          "end": 602.35,
+          "duration": 64.665
+        },
+        {
+          "start": 732.372,
+          "end": 743.037,
+          "duration": 10.665
+        },
+        {
+          "start": 851.037,
+          "end": 851.577,
+          "duration": 0.54
+        },
+        {
+          "start": 854.058,
+          "end": 890.238,
+          "duration": 36.18
+        }
+      ]
+    },
+    "SPEAKER_03": {
+      "speaking_time": 129.296,
+      "speaking_percentage": 12.8,
+      "raw_segments": 12,
+      "turns": 4,
+      "average_turn_duration": 32.889,
+      "maximum_turn_duration": 99.225,
+      "minimum_turn_duration": 0.827,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 12,
+        "aligned_segments": 3,
+        "ambiguous_segments": 4,
+        "no_visual_segments": 5,
+        "short_segments_excluded": 4,
+        "evaluated_duration": 129.296,
+        "aligned_duration": 33.969,
+        "segment_rate_percentage": 25.0,
+        "time_rate_percentage": 26.27
+      },
+      "turn_details": [
+        {
+          "start": 142.135,
+          "end": 142.962,
+          "duration": 0.827
+        },
+        {
+          "start": 144.16,
+          "end": 152.176,
+          "duration": 8.016
+        },
+        {
+          "start": 210.884,
+          "end": 310.109,
+          "duration": 99.225
+        },
+        {
+          "start": 1040.999,
+          "end": 1064.489,
+          "duration": 23.49
+        }
+      ]
+    },
+    "SPEAKER_04": {
+      "speaking_time": 36.804,
+      "speaking_percentage": 3.64,
+      "raw_segments": 4,
+      "turns": 3,
+      "average_turn_duration": 12.364,
+      "maximum_turn_duration": 15.153,
+      "minimum_turn_duration": 7.341,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 4,
+        "aligned_segments": 0,
+        "ambiguous_segments": 0,
+        "no_visual_segments": 4,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 36.804,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 725.251,
+          "end": 732.592,
+          "duration": 7.341
+        },
+        {
+          "start": 795.755,
+          "end": 810.352,
+          "duration": 14.597
+        },
+        {
+          "start": 891.892,
+          "end": 907.045,
+          "duration": 15.153
+        }
+      ]
+    },
+    "SPEAKER_05": {
+      "speaking_time": 57.848,
+      "speaking_percentage": 5.72,
+      "raw_segments": 1,
+      "turns": 1,
+      "average_turn_duration": 57.848,
+      "maximum_turn_duration": 57.848,
+      "minimum_turn_duration": 57.848,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 1,
+        "aligned_segments": 0,
+        "ambiguous_segments": 0,
+        "no_visual_segments": 1,
+        "short_segments_excluded": 1,
+        "evaluated_duration": 57.848,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 310.109,
+          "end": 367.957,
+          "duration": 57.848
+        }
+      ]
+    },
+    "SPEAKER_06": {
+      "speaking_time": 202.062,
+      "speaking_percentage": 20.0,
+      "raw_segments": 6,
+      "turns": 4,
+      "average_turn_duration": 50.806,
+      "maximum_turn_duration": 140.805,
+      "minimum_turn_duration": 1.57,
+      "opens_video": true,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 6,
+        "aligned_segments": 0,
+        "ambiguous_segments": 2,
+        "no_visual_segments": 4,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 202.062,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 0.031,
+          "end": 140.836,
+          "duration": 140.805
+        },
+        {
+          "start": 371.905,
+          "end": 380.393,
+          "duration": 8.488
+        },
+        {
+          "start": 743.037,
+          "end": 795.4,
+          "duration": 52.363
+        },
+        {
+          "start": 845.198,
+          "end": 846.768,
+          "duration": 1.57
+        }
+      ]
+    },
+    "SPEAKER_07": {
+      "speaking_time": 60.261,
+      "speaking_percentage": 5.96,
+      "raw_segments": 1,
+      "turns": 1,
+      "average_turn_duration": 60.261,
+      "maximum_turn_duration": 60.261,
+      "minimum_turn_duration": 60.261,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 1,
+        "aligned_segments": 1,
+        "ambiguous_segments": 0,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 2,
+        "evaluated_duration": 60.261,
+        "aligned_duration": 60.261,
+        "segment_rate_percentage": 100.0,
+        "time_rate_percentage": 100.0
+      },
+      "turn_details": [
+        {
+          "start": 911.618,
+          "end": 971.879,
+          "duration": 60.261
+        }
+      ]
+    },
+    "SPEAKER_08": {
+      "speaking_time": 32.029,
+      "speaking_percentage": 3.17,
+      "raw_segments": 3,
+      "turns": 3,
+      "average_turn_duration": 10.677,
+      "maximum_turn_duration": 30.055,
+      "minimum_turn_duration": 0.591,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 3,
+        "aligned_segments": 0,
+        "ambiguous_segments": 1,
+        "no_visual_segments": 2,
+        "short_segments_excluded": 5,
+        "evaluated_duration": 32.029,
+        "aligned_duration": 0.0,
+        "segment_rate_percentage": 0.0,
+        "time_rate_percentage": 0.0
+      },
+      "turn_details": [
+        {
+          "start": 328.064,
+          "end": 328.655,
+          "duration": 0.591
+        },
+        {
+          "start": 812.663,
+          "end": 842.718,
+          "duration": 30.055
+        },
+        {
+          "start": 846.886,
+          "end": 848.27,
+          "duration": 1.384
+        }
+      ]
+    },
+    "SPEAKER_09": {
+      "speaking_time": 86.181,
+      "speaking_percentage": 8.53,
+      "raw_segments": 13,
+      "turns": 4,
+      "average_turn_duration": 22.292,
+      "maximum_turn_duration": 68.073,
+      "minimum_turn_duration": 0.523,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 13,
+        "aligned_segments": 10,
+        "ambiguous_segments": 0,
+        "no_visual_segments": 3,
+        "short_segments_excluded": 10,
+        "evaluated_duration": 86.181,
+        "aligned_duration": 65.087,
+        "segment_rate_percentage": 76.92,
+        "time_rate_percentage": 75.52
+      },
+      "turn_details": [
+        {
+          "start": 175.953,
+          "end": 176.476,
+          "duration": 0.523
+        },
+        {
+          "start": 467.047,
+          "end": 535.12,
+          "duration": 68.073
+        },
+        {
+          "start": 603.127,
+          "end": 609.64,
+          "duration": 6.513
+        },
+        {
+          "start": 611.53,
+          "end": 625.587,
+          "duration": 14.057
+        }
+      ]
+    },
+    "SPEAKER_10": {
+      "speaking_time": 56.75,
+      "speaking_percentage": 5.62,
+      "raw_segments": 7,
+      "turns": 3,
+      "average_turn_duration": 19.316,
+      "maximum_turn_duration": 31.303,
+      "minimum_turn_duration": 3.408,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 7,
+        "aligned_segments": 2,
+        "ambiguous_segments": 0,
+        "no_visual_segments": 5,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 56.75,
+        "aligned_duration": 22.967,
+        "segment_rate_percentage": 28.57,
+        "time_rate_percentage": 40.47
+      },
+      "turn_details": [
+        {
+          "start": 152.294,
+          "end": 175.531,
+          "duration": 23.237
+        },
+        {
+          "start": 176.729,
+          "end": 208.032,
+          "duration": 31.303
+        },
+        {
+          "start": 367.957,
+          "end": 371.365,
+          "duration": 3.408
+        }
+      ]
+    }
+  }
+}

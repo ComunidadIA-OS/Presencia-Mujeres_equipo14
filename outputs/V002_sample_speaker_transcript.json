@@ -1,0 +1,626 @@
+[
+  {
+    "speaker": "SPEAKER_06",
+    "start": 0.031,
+    "end": 138.98,
+    "duration": 138.949,
+    "text": "or source that is cited in a Wikipedia article, that would be very useful. It would stimulate the use. It would people inform that they can do something with this beyond reading. Because, well, people are not used to that. Even people who are active Wikipedia sometimes nominate images or so that come from open access sources onto comments, they nominate them for the leashes on grounds that they come from a scholarly journal. So by definition has to be closed. Now, the world is changing. And so we think it is useful to indicate the reusability of the materials that are being cited in Wikipedia. And we want to, well, encourage discussion around this. We want to provide this to the community and we're now really interested in getting community feedback like, do you really want to have many scholarly research articles on Wikisource? Do you want to have many images from scholarly articles on Wikimedia Commons? Do you want an item for each and every cited reference on Wikidata? And would you like to use such automated tools? And as a researcher myself, I would say yes, because as a researcher I'm only evaluated by my research output, basically only by my papers. And so everything else is a distraction, giving talks at Wikipedia as a distraction, editing Wikipedia as a distraction. So the more I can automate it, the other things that are not research, well, the more I can potentially kind of achieve in those other areas without disturbing too much of my research. And so there's lots of motivations here for researchers and for comedians to think about ways in which we can automate our work for others. And that's why I would also like to encourage the developer community to come forward with ideas of what they would like to do or to encourage the scholarly community more generally to share tools, data, whatever, to work on prototypes to engage more with hackathons. That's actually something that I learned through activities with the Wikimedia community and the Open Knowledge community. Before that, as a researcher, I had never been exposed to hackathons. But now it's a regular part of my life and we've even done some at the museum now.",
+    "word_count": 376
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 139.705,
+    "end": 140.836,
+    "duration": 1.131,
+    "text": "Okay, I'll stop here.",
+    "word_count": 4
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 142.135,
+    "end": 142.962,
+    "duration": 0.827,
+    "text": "Thanks, Daniel.",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 144.16,
+    "end": 151.636,
+    "duration": 7.476,
+    "text": "So now we'll be able to open up for a general discussion. We have about 15 minutes. But if you have questions for our panel, please let us know.",
+    "word_count": 29
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 151.67,
+    "end": 152.176,
+    "duration": 0.506,
+    "text": "Peter?",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 152.294,
+    "end": 156.631,
+    "duration": 4.337,
+    "text": "Please worry about open activists. That's what we've been causing.",
+    "word_count": 10
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 156.901,
+    "end": 175.531,
+    "duration": 18.63,
+    "text": "Melissa, I have a question for you. One of the great documents of this century is Udapest Open Access Initiative. I read it and re -read it and it's a marvelous vision and we're not doing anything like it. There's only one open access publisher in the world, and that's Wikipedia.",
+    "word_count": 51
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 175.953,
+    "end": 176.476,
+    "duration": 0.523,
+    "text": "It",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 176.729,
+    "end": 188.71,
+    "duration": 11.981,
+    "text": "encompasses the vision which is that everybody is involved. It is meritocratic. It is inclusive. And it aims to liberate human knowledge for the good of humanity.",
+    "word_count": 27
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 188.862,
+    "end": 192.052,
+    "duration": 3.189,
+    "text": "What we're doing in open access at the moment is a bureaucratic",
+    "word_count": 12
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 192.17,
+    "end": 202.025,
+    "duration": 9.855,
+    "text": "process to glorify 20th century publishing instead of building the communication outlets of the 21st century.",
+    "word_count": 16
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 202.683,
+    "end": 208.032,
+    "duration": 5.349,
+    "text": "The current publishers are not democratic, they're not transparent, and they're not...",
+    "word_count": 12
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 210.884,
+    "end": 243.52,
+    "duration": 32.636,
+    "text": "Well, and say that I think we've made great progress over the past 12 years. I would agree with that. And just to give background to the other participants, the Udapest Open Access Initiative is a visionary document which we developed in 2002, which first defined open access. And as more background, my foundation, the Open Society Foundation, our goal in helping to develop the open access movement was originally to",
+    "word_count": 71
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 243.622,
+    "end": 245.545,
+    "duration": 1.924,
+    "text": "help bring the",
+    "word_count": 3
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 245.647,
+    "end": 266.318,
+    "duration": 20.672,
+    "text": "research to the developing and transition countries which we serve. But we knew in order to get that material to this audience that we really needed to build a global movement and to work on advocating for public access to public -defended research from the world's largest research funders.",
+    "word_count": 49
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 266.791,
+    "end": 272.157,
+    "duration": 5.366,
+    "text": "so I think that we have seen progress in making that research freely available online.",
+    "word_count": 15
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 272.36,
+    "end": 282.502,
+    "duration": 10.142,
+    "text": "I take your point that more needs to be done on the publishing side but I think with E -Life and Kloss that we're seeing many more innovative",
+    "word_count": 28
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 283.48,
+    "end": 287.935,
+    "duration": 4.455,
+    "text": "come along, but as a foundation we didn't feel like we could invest",
+    "word_count": 13
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 288.155,
+    "end": 310.109,
+    "duration": 21.954,
+    "text": "in the development of the publishers themselves and that has happened organically. More needs to be done but I do think in the past 12 years that we have seen many advancements. And in addition to the publishers, of course the articles themselves are available through institutional subject -based repositories which is an advancement as well. Now, I know Ian, do you have a draft to",
+    "word_count": 66
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 310.109,
+    "end": 367.957,
+    "duration": 57.848,
+    "text": "come up? Yeah, I've got a response to what you said here. I'm genuinely getting greatly into my contrast situation in publishing space, I'm publishing and contrast up to Wikipedia. One of the big differences I feel is that the means of production in publishing space remain closed and the software tools for making those production remains closed. There are two parts in particular that are specifically closed. The first is the generation of excellence required for deposit. The second is that we output in PDF. In contrast to Wikipedia, the means of production is completely open instead of the software system. It has its own themes around how you use it, how it evolves and moves forward. And there is a movement in publishing to try and create more open tools that we have a very long way to go. And I think until we get to a point where those tools are fully open and the means of production are available to the community, there's going to be that dissonance and it's going to remain for a while. So that would be one more comment.",
+    "word_count": 187
+  },
+  {
+    "speaker": "SPEAKER_08",
+    "start": 328.064,
+    "end": 328.655,
+    "duration": 0.591,
+    "text": "software tools",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_10",
+    "start": 367.957,
+    "end": 371.365,
+    "duration": 3.409,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 371.905,
+    "end": 380.393,
+    "duration": 8.488,
+    "text": "will actually be a session on the relationship between open access and open source tomorrow, I don't know where. At the same time.",
+    "word_count": 23
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 380.765,
+    "end": 386.755,
+    "duration": 5.991,
+    "text": "Elma, you have an idea. Well, just to echo Peter's who are there, I think",
+    "word_count": 15
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 388.223,
+    "end": 398.703,
+    "duration": 10.479,
+    "text": "if you want this and we all do, it's got to go back to the author, researcher community. So that is where this final sharing of knowledge and shift is going to come from.",
+    "word_count": 34
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 399.395,
+    "end": 403.377,
+    "duration": 3.983,
+    "text": "I don't think you can expect big publishers to turn around because they're not going to.",
+    "word_count": 16
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 403.748,
+    "end": 407.242,
+    "duration": 3.493,
+    "text": "So the innovation and the change has to come,",
+    "word_count": 9
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 407.9,
+    "end": 427.913,
+    "duration": 20.014,
+    "text": "believe from the bottom. Policy is buying and it's helping change minds, but the innovation and the change in the ways of doing things has got to come from the authors. So we have to go back to them and start with new arguments and to enable them with these tools or to ask them to develop the tools in the first place.",
+    "word_count": 63
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 429.702,
+    "end": 435.018,
+    "duration": 5.316,
+    "text": "I think there's a lot to be said for the value in pushing for good public policy around",
+    "word_count": 18
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 435.406,
+    "end": 464.347,
+    "duration": 28.941,
+    "text": "to research because I think it sends a strong signal that's important that open access is the norm, that it's the future, that it's what big research funders like the US government or the European Commission funds such a large amount of research expect of the research that they fund and I think that can be very helpful in sort of creating a culture where people are more open to different types of publishing and more open to different models to create more fertile ground for different models for publication to ultimately develop.",
+    "word_count": 93
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 467.047,
+    "end": 472.784,
+    "duration": 5.737,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 472.818,
+    "end": 493.895,
+    "duration": 21.077,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 494.131,
+    "end": 494.823,
+    "duration": 0.692,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 495.042,
+    "end": 497.219,
+    "duration": 2.177,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 498.164,
+    "end": 499.666,
+    "duration": 1.502,
+    "text": "scientific communities",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 499.919,
+    "end": 501.404,
+    "duration": 1.485,
+    "text": "should",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 501.573,
+    "end": 504.458,
+    "duration": 2.886,
+    "text": "the scientific communities to encourage",
+    "word_count": 5
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 504.931,
+    "end": 507.513,
+    "duration": 2.582,
+    "text": "authors to do other things",
+    "word_count": 5
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 507.766,
+    "end": 510.179,
+    "duration": 2.413,
+    "text": "of course you also need the",
+    "word_count": 6
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 510.584,
+    "end": 535.12,
+    "duration": 24.536,
+    "text": "repertory process which is very important, it's expensive but the publisher, whoever does this cannot charge on a fair amount that we have to write it online and you just need to have the repertory online and find it's mark because if you recognize public somewhere it's not problem solved that it's in the community.",
+    "word_count": 55
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 537.685,
+    "end": 602.35,
+    "duration": 64.665,
+    "text": "completely agree with you and I think for those of you that might be newer to open access there's sort of something that's important to understand there's sort of two types of ways to make an article openly available you can publish it in an open access journal like PLOS or Elife that makes all the articles immediately and freely available online under CC by license or if for whatever reason you have to publish in a closed access journal you can make your article, the text of the article either the pre -print or the author's final version available online either through an institutional repository by subject based repository like the archive or NIH's PubMed Central or through pre -print servers and that's something that a lot of researchers don't I think frankly realize that they have the rights that they need in fact I think it's something around 70 60, 7 or so percent of journals allow for authors to make some form of their paper freely accessible and so I think in some sense a lot of the problem at least getting the text of these articles online is sort of there's a solution that's right there it's just that there's not a culture of authors making these copies freely available so many don't.",
+    "word_count": 217
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 603.127,
+    "end": 609.64,
+    "duration": 6.514,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_09",
+    "start": 611.53,
+    "end": 625.587,
+    "duration": 14.057,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 626.093,
+    "end": 637.096,
+    "duration": 11.003,
+    "text": "You're quite correct they have done it in physics they started doing it in 1991 and the sky didn't fall in and still hasn't and we still have publishers publishing journals in physics",
+    "word_count": 33
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 638.581,
+    "end": 655.034,
+    "duration": 16.453,
+    "text": "agree with you about this is what I mean about changing authors' attitudes and behaviour they have to understand what this argument's trying to get them to do they have to accept it they have to agree it's important and then they have to do it",
+    "word_count": 46
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 655.557,
+    "end": 660.451,
+    "duration": 4.894,
+    "text": "it is a very difficult job to take them through that",
+    "word_count": 11
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 660.653,
+    "end": 668.602,
+    "duration": 7.948,
+    "text": "policy as I keep saying does help because it underpins changes in behaviour it can catalyse culture change",
+    "word_count": 18
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 669.766,
+    "end": 674.626,
+    "duration": 4.86,
+    "text": "it needs to be supported then at the author level by",
+    "word_count": 11
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 675.132,
+    "end": 703.769,
+    "duration": 28.637,
+    "text": "persuasion and evidence that this is going to benefit then I think that this is happening in some disciplines it's certainly happened in some areas of physics certainly but not all areas of physics as if you talk to some kinds of physicists they still go ugh open access it's happening in the biomedical community to a certain extent but then as we heard Jonathan talking about the humanities and social sciences",
+    "word_count": 72
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 704.562,
+    "end": 719.682,
+    "duration": 15.12,
+    "text": "they with notable exceptions as disciplines they have not yet kind of brought into this argument and they're still wondering about whether it's a good thing let alone how and when they might start doing it",
+    "word_count": 36
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 720.037,
+    "end": 725.251,
+    "duration": 5.214,
+    "text": "we need more champions like yourself I think I'll have to map this briefly",
+    "word_count": 14
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 725.251,
+    "end": 731.545,
+    "duration": 6.294,
+    "text": "there's also the issue of monographs which I don't think we're going too much but it's a kind of different",
+    "word_count": 20
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 731.832,
+    "end": 732.592,
+    "duration": 0.759,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 732.372,
+    "end": 743.037,
+    "duration": 10.665,
+    "text": "just to put one last point I think if your sort of goals culture change I think that's the right one and I think it's perfect argument for why we need to work with students if you want to create a change in culture you should",
+    "word_count": 46
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 743.037,
+    "end": 744.691,
+    "duration": 1.654,
+    "text": "work with the next generation",
+    "word_count": 5
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 745.13,
+    "end": 795.4,
+    "duration": 50.271,
+    "text": "from a community perspective it actually is important how these things are licensed so your proposed solution would only work for us if the preference that I put up online are openly licensed and ideally machine readable and we're not there yet and so I actually tried to build my bot I'm a biophysicist so I went to a biological archive department central I also went to archive and wanted to do the same thing but this is not as easily doable because basically there is no proper XML and that's it so putting up the papers online is the first step it is necessary it has to be done but then we have to think about whether the PDF is actually the best format and what open licensing actually means",
+    "word_count": 131
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 795.755,
+    "end": 810.352,
+    "duration": 14.597,
+    "text": "think that's a great opportunity for the Wikipedia community to increase awareness of licensing rather than just online availability and I think playing a role there and actively requesting things and contacting them this is",
+    "word_count": 35
+  },
+  {
+    "speaker": "SPEAKER_08",
+    "start": 812.663,
+    "end": 842.718,
+    "duration": 30.054,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 845.198,
+    "end": 846.768,
+    "duration": 1.569,
+    "text": "a",
+    "word_count": 1
+  },
+  {
+    "speaker": "SPEAKER_08",
+    "start": 846.886,
+    "end": 848.27,
+    "duration": 1.384,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 851.037,
+    "end": 851.577,
+    "duration": 0.54,
+    "text": "",
+    "word_count": 0
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 854.058,
+    "end": 890.238,
+    "duration": 36.18,
+    "text": "question that we deal with working with students and early career researchers I guess for my money probably the single most effective thing would be to put motion into your pulses in a place that reward openness because that's what researchers respond to and it's something that makes it particularly difficult I think a lot of times for early career researchers to be frank was open because they feel the pressure that they have to publish in Science or Nature or South or what have you that has an impact factor but it's closed because they feel like they won't be able to have the research career that they want otherwise so I think it's incumbent upon research funders and university administrators to create an environment where openness is supported I think that would be the single most effective thing",
+    "word_count": 140
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 891.892,
+    "end": 907.045,
+    "duration": 15.154,
+    "text": "I would say recognize this career path like build it in basically whether it's through a research evaluation or through finding ways of citing self -archive material there's various other things to do but career structure",
+    "word_count": 36
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 911.618,
+    "end": 971.879,
+    "duration": 60.261,
+    "text": "demonstrate benefit to UK if you're applying for the final position of institutions so to me even the very nature of that is a sort of a closed approach because if I'm trying to do engineering work in developed countries I want to demonstrate benefit to the UK I don't quite have seen how that works when working on it so how does that conversation with the politicians go in terms of within nations in terms of whether that sort of approach is defined very naturally of course",
+    "word_count": 88
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 973.229,
+    "end": 974.849,
+    "duration": 1.62,
+    "text": "it goes",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 975.355,
+    "end": 977.077,
+    "duration": 1.721,
+    "text": "dear politician",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 979.034,
+    "end": 984.62,
+    "duration": 5.586,
+    "text": "you help us with a good policy to open up the research created in this country",
+    "word_count": 16
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 985.193,
+    "end": 986.459,
+    "duration": 1.266,
+    "text": "will benefit",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 986.999,
+    "end": 988.349,
+    "duration": 1.35,
+    "text": "our economy",
+    "word_count": 2
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 989.699,
+    "end": 993.091,
+    "duration": 3.392,
+    "text": "at the same time it will benefit other economies too",
+    "word_count": 10
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 993.344,
+    "end": 996.365,
+    "duration": 3.021,
+    "text": "be jealous of that just let it go",
+    "word_count": 8
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 998.356,
+    "end": 1014.556,
+    "duration": 16.2,
+    "text": "do get it and they do obviously understand that there's going to be leakage I mean to ask you to demonstrate how your research is going to benefit the UK's economy is to my mind a ridiculous thing to ask you to ask you to",
+    "word_count": 45
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1014.792,
+    "end": 1020.85,
+    "duration": 6.058,
+    "text": "say something about the significance of your research in general is a much more important question I would say",
+    "word_count": 19
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1021.306,
+    "end": 1029.507,
+    "duration": 8.201,
+    "text": "but you can engage them and you can engage them by talking about a national economy but to make it plain that really we're talking on a much more",
+    "word_count": 29
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1030.621,
+    "end": 1039.362,
+    "duration": 8.741,
+    "text": "or if not quite global a bigger scale than just a national thing that's a hideous way of looking at things in this century",
+    "word_count": 24
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1040.999,
+    "end": 1045.994,
+    "duration": 4.995,
+    "text": "well thank you we're going to have to wrap it up but first I'd like to thank Stuart for your",
+    "word_count": 20
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1046.146,
+    "end": 1064.489,
+    "duration": 18.343,
+    "text": "leadership and driving the open scholarship track here for I think we've seen more open access sessions here at this conference than we have at any once in the past so thank you for that and I'd like to especially thank our panel and Jimmy in particular for joining us and thank you for all of your questions and participation so thank",
+    "word_count": 62
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1075.559,
+    "end": 1083.254,
+    "duration": 7.695,
+    "text": "okay thank you and so to remind you that the next session in this room is Week Media 2 Grants and that will start at 11 .30",
+    "word_count": 27
+  }
+]

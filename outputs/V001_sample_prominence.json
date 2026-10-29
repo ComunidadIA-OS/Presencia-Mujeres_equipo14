@@ -1,0 +1,143 @@
+{
+  "video_id": "V001_sample",
+  "configuration": {
+    "minimum_segment_duration": 0.5,
+    "maximum_turn_gap": 1.0
+  },
+  "summary": {
+    "number_of_speakers": 4,
+    "total_speaking_time": 459.303,
+    "opening_speaker": "SPEAKER_03",
+    "closing_speaker": "SPEAKER_02",
+    "valid_audio_segments": 26,
+    "merged_turns": 6
+  },
+  "speakers": {
+    "SPEAKER_00": {
+      "speaking_time": 30.257,
+      "speaking_percentage": 6.59,
+      "raw_segments": 5,
+      "turns": 1,
+      "average_turn_duration": 31.775,
+      "maximum_turn_duration": 31.775,
+      "minimum_turn_duration": 31.775,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 5,
+        "aligned_segments": 4,
+        "ambiguous_segments": 1,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 30.257,
+        "aligned_duration": 25.161,
+        "segment_rate_percentage": 80.0,
+        "time_rate_percentage": 83.16
+      },
+      "turn_details": [
+        {
+          "start": 401.403,
+          "end": 433.178,
+          "duration": 31.775
+        }
+      ]
+    },
+    "SPEAKER_01": {
+      "speaking_time": 211.374,
+      "speaking_percentage": 46.02,
+      "raw_segments": 11,
+      "turns": 1,
+      "average_turn_duration": 214.869,
+      "maximum_turn_duration": 214.869,
+      "minimum_turn_duration": 214.869,
+      "opens_video": false,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 11,
+        "aligned_segments": 8,
+        "ambiguous_segments": 3,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 1,
+        "evaluated_duration": 211.374,
+        "aligned_duration": 132.113,
+        "segment_rate_percentage": 72.73,
+        "time_rate_percentage": 62.5
+      },
+      "turn_details": [
+        {
+          "start": 185.639,
+          "end": 400.508,
+          "duration": 214.869
+        }
+      ]
+    },
+    "SPEAKER_02": {
+      "speaking_time": 40.433,
+      "speaking_percentage": 8.8,
+      "raw_segments": 4,
+      "turns": 1,
+      "average_turn_duration": 42.019,
+      "maximum_turn_duration": 42.019,
+      "minimum_turn_duration": 42.019,
+      "opens_video": false,
+      "closes_video": true,
+      "visual_alignment": {
+        "evaluated_segments": 4,
+        "aligned_segments": 3,
+        "ambiguous_segments": 1,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 2,
+        "evaluated_duration": 40.433,
+        "aligned_duration": 12.437,
+        "segment_rate_percentage": 75.0,
+        "time_rate_percentage": 30.76
+      },
+      "turn_details": [
+        {
+          "start": 434.444,
+          "end": 476.463,
+          "duration": 42.019
+        }
+      ]
+    },
+    "SPEAKER_03": {
+      "speaking_time": 177.239,
+      "speaking_percentage": 38.59,
+      "raw_segments": 6,
+      "turns": 3,
+      "average_turn_duration": 59.771,
+      "maximum_turn_duration": 116.708,
+      "minimum_turn_duration": 4.269,
+      "opens_video": true,
+      "closes_video": false,
+      "visual_alignment": {
+        "evaluated_segments": 6,
+        "aligned_segments": 3,
+        "ambiguous_segments": 3,
+        "no_visual_segments": 0,
+        "short_segments_excluded": 0,
+        "evaluated_duration": 177.239,
+        "aligned_duration": 52.633,
+        "segment_rate_percentage": 50.0,
+        "time_rate_percentage": 29.7
+      },
+      "turn_details": [
+        {
+          "start": 2.174,
+          "end": 118.882,
+          "duration": 116.708
+        },
+        {
+          "start": 120.502,
+          "end": 124.771,
+          "duration": 4.269
+        },
+        {
+          "start": 126.256,
+          "end": 184.593,
+          "duration": 58.337
+        }
+      ]
+    }
+  }
+}

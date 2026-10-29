@@ -1,0 +1,204 @@
+{
+  "video_id": "V001_sample",
+  "summary": {
+    "number_of_speakers": 4,
+    "total_speaking_time_seconds": 459.303,
+    "opening_speaker": "SPEAKER_03",
+    "closing_speaker": "SPEAKER_02"
+  },
+  "speakers": {
+    "SPEAKER_00": {
+      "presence": {
+        "speaking_time_seconds": 30.257,
+        "speaking_percentage": 6.59
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 31.775,
+        "maximum_turn_duration_seconds": 31.775,
+        "opens_video": false,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 83.16,
+        "alignment_segment_percentage": 80.0,
+        "ambiguous_segments": 1
+      },
+      "content": {
+        "segments_analyzed": 5,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 3,
+          "question": 1,
+          "moderation": 1
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 17.701,
+          "question": 10.328,
+          "moderation": 2.228
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 4,
+          "medium": 1
+        },
+        "duration_seconds": {
+          "low": 19.929,
+          "medium": 10.328
+        },
+        "time_percentage": {
+          "low": 65.87,
+          "medium": 34.13,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_01": {
+      "presence": {
+        "speaking_time_seconds": 211.374,
+        "speaking_percentage": 46.02
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 214.869,
+        "maximum_turn_duration_seconds": 214.869,
+        "opens_video": false,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 62.5,
+        "alignment_segment_percentage": 72.73,
+        "ambiguous_segments": 3
+      },
+      "content": {
+        "segments_analyzed": 11,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 6,
+          "technical_explanation": 2,
+          "question": 3
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 159.822,
+          "technical_explanation": 21.937,
+          "question": 29.615
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "medium": 8,
+          "low": 3
+        },
+        "duration_seconds": {
+          "medium": 166.892,
+          "low": 44.482
+        },
+        "time_percentage": {
+          "low": 21.04,
+          "medium": 78.96,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_02": {
+      "presence": {
+        "speaking_time_seconds": 40.433,
+        "speaking_percentage": 8.8
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 42.019,
+        "maximum_turn_duration_seconds": 42.019,
+        "opens_video": false,
+        "closes_video": true
+      },
+      "visual": {
+        "alignment_time_percentage": 30.76,
+        "alignment_segment_percentage": 75.0,
+        "ambiguous_segments": 1
+      },
+      "content": {
+        "segments_analyzed": 3,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 2,
+          "technical_explanation": 1
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 36.484,
+          "technical_explanation": 3.206
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 3
+        },
+        "duration_seconds": {
+          "low": 39.69
+        },
+        "time_percentage": {
+          "low": 100.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_03": {
+      "presence": {
+        "speaking_time_seconds": 177.239,
+        "speaking_percentage": 38.59
+      },
+      "turn_control": {
+        "turns": 3,
+        "average_turn_duration_seconds": 59.771,
+        "maximum_turn_duration_seconds": 116.708,
+        "opens_video": true,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 29.7,
+        "alignment_segment_percentage": 50.0,
+        "ambiguous_segments": 3
+      },
+      "content": {
+        "segments_analyzed": 6,
+        "dominant_content_type": "technical_explanation",
+        "content_type_counts": {
+          "technical_explanation": 1,
+          "opinion": 4,
+          "moderation": 1
+        },
+        "duration_by_content_type_seconds": {
+          "technical_explanation": 93.066,
+          "opinion": 80.73,
+          "moderation": 3.443
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "medium": 2,
+          "low": 4
+        },
+        "duration_seconds": {
+          "medium": 115.949,
+          "low": 61.29
+        },
+        "time_percentage": {
+          "low": 34.58,
+          "medium": 65.42,
+          "high": 0.0
+        }
+      }
+    }
+  },
+  "methodology": {
+    "gender_inferred": false,
+    "facial_recognition_used": false,
+    "semantic_analysis": {
+      "provider": "OVHcloud AI Endpoints",
+      "virtual_model": "mistral@latest",
+      "task": "content classification"
+    }
+  }
+}

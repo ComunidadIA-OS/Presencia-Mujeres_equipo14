@@ -1,0 +1,488 @@
+[
+  {
+    "speaker": "SPEAKER_03",
+    "start": 0.031,
+    "end": 29.09,
+    "duration": 29.059,
+    "text": "paradigm is that we create one -size -fits -all solutions, which obviously they do not work for different cultures. We have to think cultures, we have to think individuality here and also the necessity of human individuals. So what we also see, especially in Germany, is a technology gap, for example. We have people with disabilities who cannot participate, who cannot use technologies. We have people living in remote places who cannot use technologies. We have young people that use technologies without",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 29.697,
+    "end": 37.797,
+    "duration": 8.1,
+    "text": "the consequences and so on and so on and so on. So what we do at the HAM at the Human Machine Mediation Center is we are trying to",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 38.253,
+    "end": 58.638,
+    "duration": 20.385,
+    "text": "explore or communicate between humans and machines. So what we are doing is we are helping humans to better understand machines by educating them about them, basically also by supporting them through this appropriation process of technology. But on the other hand also we are helping machines to better understand humans",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 59.195,
+    "end": 78.162,
+    "duration": 18.968,
+    "text": "for example, creating the right environment, by making sure that the input is also creating the output that is intended by the project. We had one project, for example, that makes it more feasible. We had a project, we were guiding the onboarding process of an artificial intelligence in a company which took several months. And usually you think, OK,",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 78.247,
+    "end": 95.56,
+    "duration": 17.314,
+    "text": "creating or bringing a new technology into a culture is only a thing of a day or a week, maybe, but no, it's not. And this is often forgotten because culture is very fluid. And what I try to do here is to bring in the culture into account as well, because it's often just not regarded.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 96.488,
+    "end": 122.138,
+    "duration": 25.65,
+    "text": "talking now about humans and machines. Let's come back for a minute to the systems that sustain them, both natural systems and especially what energy food nexus. We have several multiple crises coming up in different place of the world. Even here in Berlin we have currently a water crisis coming up, which is not very much talked about. In the media, but still it's there, a long route. We have important energy crisis in other places. Kerstin,",
+    "content_type": "opinion",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 122.594,
+    "end": 123.168,
+    "duration": 0.574,
+    "text": "how",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 123.691,
+    "end": 126.627,
+    "duration": 2.936,
+    "text": "you envision to",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 126.931,
+    "end": 130.475,
+    "duration": 3.544,
+    "text": "these systems with these kinds of multiple crises?",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 131.369,
+    "end": 139.267,
+    "duration": 7.897,
+    "text": "But it's not only that we are having more crises, be it environmental or economic, but we also know more about them.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 139.722,
+    "end": 150.033,
+    "duration": 10.311,
+    "text": "Using technologies in various sectors, for example, the new notion of industry 4 .0 provides a huge amount of data that could be actually used to manage those",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 150.235,
+    "end": 159.854,
+    "duration": 9.619,
+    "text": "kinds of crises, but also manage the system before it's actually getting into a crisis mode. And the same is for social data coming from e -commerce, et cetera.",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 160.124,
+    "end": 166.199,
+    "duration": 6.075,
+    "text": "So what we are envisioning in the Automated Environmental Governance Initiative is",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 166.537,
+    "end": 194.465,
+    "duration": 27.928,
+    "text": "also use those new trends and to make them an input for the governance systems that we already have in place, that we already see. And of course, this is very complex. So we are starting with a couple of pilots throughout the European Union. One is actually going to happen in Torren -Priezen, which is a small community in the southwest of Brandenburg, which is energy -sufficient.",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 194.718,
+    "end": 202.835,
+    "duration": 8.117,
+    "text": "And there we are working together with the local community to gather that data to include them into the design of the",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 203.105,
+    "end": 207.492,
+    "duration": 4.387,
+    "text": "Environmental Governance System and to also see",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 207.83,
+    "end": 211.964,
+    "duration": 4.134,
+    "text": "the decisions made by the AI then",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 212.268,
+    "end": 223.574,
+    "duration": 11.306,
+    "text": "for reactions and how solutions could then be implemented. So we are here linking very modern digital technologies with, of course, with people.",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 223.422,
+    "end": 228.417,
+    "duration": 4.995,
+    "text": "If I may raise a question here. Of course, I'm not an expert on environmental governance,",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 228.67,
+    "end": 231.269,
+    "duration": 2.599,
+    "text": "but from what I know, there are",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 231.387,
+    "end": 234.222,
+    "duration": 2.835,
+    "text": "this project, like for example, Carbon Taxes, which",
+    "content_type": "technical_explanation",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 234.712,
+    "end": 245.444,
+    "duration": 10.732,
+    "text": "basically only helping the rich people because it's binding sustainability to income. So again, it's excluding people here. How do you want to make sure that this approach is inclusive?",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 245.613,
+    "end": 260.564,
+    "duration": 14.951,
+    "text": "Yeah, well, this is what it's actually all about. Being inclusive not only with regard to people, but also with regard to nature and actually giving back nature some say in what is happening to it.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 261.037,
+    "end": 279.177,
+    "duration": 18.141,
+    "text": "So the way we're actually trying to be inclusive is also not just to educate people within this project on environmental issues, environmental governance, and literacy, but also on technical literacy. Because basically, if you don't understand the technology behind, you cannot",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 279.363,
+    "end": 289.336,
+    "duration": 9.973,
+    "text": "trust the decision that it makes or the advice that it provides you with. So we are actually linking those two aspects very organically in the project.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 289.336,
+    "end": 297.048,
+    "duration": 7.712,
+    "text": "I mean, I also know about this project from you, Mr. Ingolfsson and Costa Rica, which you mentioned earlier. And",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 297.773,
+    "end": 305.468,
+    "duration": 7.695,
+    "text": "wonder or I'm a little skeptical about if it's using this approach really helps to be that inclusive. I mean, because of",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 305.941,
+    "end": 309.94,
+    "duration": 3.999,
+    "text": "the outcome of your project in Costa Rica was, for example, that it only the people - No",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 309.434,
+    "end": 310.852,
+    "duration": 1.417,
+    "text": "- No deforestation anymore.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 311.948,
+    "end": 328.03,
+    "duration": 16.082,
+    "text": "May I make my point, please? That only the people that were actually able to participate needed to buy a smartphone. So again, we have this exclusiveness which is created through an income. Only if you have access to a smartphone, you can participate in the project.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 312.117,
+    "end": 312.86,
+    "duration": 0.743,
+    "text": "I make",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 331.152,
+    "end": 332.89,
+    "duration": 1.738,
+    "text": "yeah, you need to",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 333.683,
+    "end": 345.682,
+    "duration": 11.998,
+    "text": "a smartphone, but what you kind of obscure here is the actual system that we put in place in Costa Rica and that has been highly successful. It's been a universal basic income scheme that required people to",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 345.901,
+    "end": 362.489,
+    "duration": 16.588,
+    "text": "go of their environmental decision -making, so most of their day -to -day consumption choices for getting into a universal basic income. And it was one of the first, like Costa Rica being one of the luckiest or happiest countries in the world, it was one of their first approach of trying to understand how they can sustain that,",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 363.08,
+    "end": 364.396,
+    "duration": 1.316,
+    "text": "how they can actually",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 365.155,
+    "end": 369.458,
+    "duration": 4.303,
+    "text": "beyond just being 100 % renewable energy, which is also the case already now",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 369.644,
+    "end": 371.45,
+    "duration": 1.806,
+    "text": "that country. And",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 371.922,
+    "end": 377.035,
+    "duration": 5.113,
+    "text": "you try to hint on is that not everybody in a society follows through with that",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 377.423,
+    "end": 380.208,
+    "duration": 2.784,
+    "text": "like not everybody in our testing society joined",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 380.714,
+    "end": 384.173,
+    "duration": 3.459,
+    "text": "UBI scheme and our, we called it,",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 384.747,
+    "end": 385.861,
+    "duration": 1.114,
+    "text": "economically",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 386.603,
+    "end": 389.557,
+    "duration": 2.953,
+    "text": "a new term for re -organizing economy",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 390.181,
+    "end": 391.362,
+    "duration": 1.181,
+    "text": "it doesn't create an",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 391.818,
+    "end": 396.526,
+    "duration": 4.708,
+    "text": "anomaly anymore. Okay, so this is the kind of approach of how can we",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 397.167,
+    "end": 406.33,
+    "duration": 9.163,
+    "text": "human societies with the ecosystem and we've proven to ourselves that humans are not able to make these decisions. Our human -based governance",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 407.056,
+    "end": 411.46,
+    "duration": 4.404,
+    "text": "not succeeded so far and we are not having the time anymore to go",
+    "content_type": "closing",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 411.73,
+    "end": 413.452,
+    "duration": 1.721,
+    "text": "these experiments for any longer.",
+    "content_type": "other",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 413.806,
+    "end": 429.922,
+    "duration": 16.116,
+    "text": "And just to make clear, one point to the audience maybe for those who don't know the project was that what Mr. Muller hinted at at the critique on the project was that the ownership of the smartphone enabled you to opt in and if you didn't, it ended up with some poor people picking up garbage for the welfare in order for them to",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 430.394,
+    "end": 435.878,
+    "duration": 5.484,
+    "text": "their footprints steady or to reduce it. So there was an equity issue going on with it.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 435.997,
+    "end": 438.595,
+    "duration": 2.599,
+    "text": "Yeah, definitely. If I might jump in. I mean, we",
+    "content_type": "moderation",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 438.882,
+    "end": 451.218,
+    "duration": 12.336,
+    "text": "regarded this project in Costa Rica and it actually taught us a lot of lessons and it showed in particular that we need to take the human context into account and that those kind of technologies need to be",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 451.387,
+    "end": 459.52,
+    "duration": 8.134,
+    "text": "embedded. So we learned a lot from it and we hope we can actually improve the system that we have based on this experience and make it more inclusive in your sense.",
+    "content_type": "opinion",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 462.271,
+    "end": 468.785,
+    "duration": 6.514,
+    "text": "Yes, how do you want to make sure that this inclusion actually happens? What is the governance take on that?",
+    "content_type": "question",
+    "technical_weight": "low"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 469.477,
+    "end": 484.124,
+    "duration": 14.648,
+    "text": "Well, yeah, as I said, we're linking it with a lot of programs on the ground. We're linking it with hackathons, for example, for school kids. We're really trying to make them feel comfortable with the technology to really feel that it's part of their life, that they can.",
+    "content_type": "technical_explanation",
+    "technical_weight": "medium"
+  }
+]

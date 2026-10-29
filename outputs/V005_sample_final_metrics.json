@@ -1,0 +1,249 @@
+{
+  "video_id": "V005_sample",
+  "summary": {
+    "number_of_speakers": 5,
+    "total_speaking_time_seconds": 450.931,
+    "opening_speaker": "SPEAKER_00",
+    "closing_speaker": "SPEAKER_01"
+  },
+  "speakers": {
+    "SPEAKER_00": {
+      "presence": {
+        "speaking_time_seconds": 53.646,
+        "speaking_percentage": 11.9
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 54.726,
+        "maximum_turn_duration_seconds": 54.726,
+        "opens_video": true,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 0.0,
+        "alignment_segment_percentage": 0.0,
+        "ambiguous_segments": 3
+      },
+      "content": {
+        "segments_analyzed": 3,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 2,
+          "question": 1
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 36.552,
+          "question": 17.094
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 2,
+          "medium": 1
+        },
+        "duration_seconds": {
+          "low": 29.042,
+          "medium": 24.604
+        },
+        "time_percentage": {
+          "low": 54.14,
+          "medium": 45.86,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_01": {
+      "presence": {
+        "speaking_time_seconds": 66.133,
+        "speaking_percentage": 14.67
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 69.053,
+        "maximum_turn_duration_seconds": 69.053,
+        "opens_video": false,
+        "closes_video": true
+      },
+      "visual": {
+        "alignment_time_percentage": 0.0,
+        "alignment_segment_percentage": 0.0,
+        "ambiguous_segments": 6
+      },
+      "content": {
+        "segments_analyzed": 6,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 5,
+          "other": 1
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 64.58,
+          "other": 1.553
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 6
+        },
+        "duration_seconds": {
+          "low": 66.133
+        },
+        "time_percentage": {
+          "low": 100.0,
+          "medium": 0.0,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_02": {
+      "presence": {
+        "speaking_time_seconds": 86.906,
+        "speaking_percentage": 19.27
+      },
+      "turn_control": {
+        "turns": 1,
+        "average_turn_duration_seconds": 90.18,
+        "maximum_turn_duration_seconds": 90.18,
+        "opens_video": false,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 0.0,
+        "alignment_segment_percentage": 0.0,
+        "ambiguous_segments": 8
+      },
+      "content": {
+        "segments_analyzed": 8,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 6,
+          "other": 1,
+          "question": 1
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 72.815,
+          "other": 1.249,
+          "question": 12.842
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 6,
+          "medium": 2
+        },
+        "duration_seconds": {
+          "low": 52.666,
+          "medium": 34.24
+        },
+        "time_percentage": {
+          "low": 60.6,
+          "medium": 39.4,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_03": {
+      "presence": {
+        "speaking_time_seconds": 81.539,
+        "speaking_percentage": 18.08
+      },
+      "turn_control": {
+        "turns": 3,
+        "average_turn_duration_seconds": 29.666,
+        "maximum_turn_duration_seconds": 51.604,
+        "opens_video": false,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 0.0,
+        "alignment_segment_percentage": 0.0,
+        "ambiguous_segments": 20
+      },
+      "content": {
+        "segments_analyzed": 19,
+        "dominant_content_type": "opinion",
+        "content_type_counts": {
+          "opinion": 12,
+          "other": 7
+        },
+        "duration_by_content_type_seconds": {
+          "opinion": 70.537,
+          "other": 10.327
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "low": 18,
+          "medium": 1
+        },
+        "duration_seconds": {
+          "low": 68.613,
+          "medium": 12.251
+        },
+        "time_percentage": {
+          "low": 84.85,
+          "medium": 15.15,
+          "high": 0.0
+        }
+      }
+    },
+    "SPEAKER_04": {
+      "presence": {
+        "speaking_time_seconds": 162.707,
+        "speaking_percentage": 36.08
+      },
+      "turn_control": {
+        "turns": 3,
+        "average_turn_duration_seconds": 55.119,
+        "maximum_turn_duration_seconds": 66.538,
+        "opens_video": false,
+        "closes_video": false
+      },
+      "visual": {
+        "alignment_time_percentage": 0.0,
+        "alignment_segment_percentage": 0.0,
+        "ambiguous_segments": 14
+      },
+      "content": {
+        "segments_analyzed": 14,
+        "dominant_content_type": "question",
+        "content_type_counts": {
+          "question": 7,
+          "opinion": 4,
+          "technical_explanation": 2,
+          "other": 1
+        },
+        "duration_by_content_type_seconds": {
+          "question": 70.402,
+          "opinion": 68.647,
+          "technical_explanation": 21.954,
+          "other": 1.704
+        }
+      },
+      "technical_weight": {
+        "counts": {
+          "medium": 11,
+          "low": 3
+        },
+        "duration_seconds": {
+          "medium": 150.271,
+          "low": 12.436
+        },
+        "time_percentage": {
+          "low": 7.64,
+          "medium": 92.36,
+          "high": 0.0
+        }
+      }
+    }
+  },
+  "methodology": {
+    "gender_inferred": false,
+    "facial_recognition_used": false,
+    "semantic_analysis": {
+      "provider": "OVHcloud AI Endpoints",
+      "virtual_model": "mistral@latest",
+      "task": "content classification"
+    }
+  }
+}

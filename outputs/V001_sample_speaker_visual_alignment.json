@@ -1,0 +1,1108 @@
+[
+  {
+    "speaker": "SPEAKER_01",
+    "start": 0.959,
+    "end": 1.448,
+    "duration": 0.489,
+    "candidate_track": null,
+    "status": "segment_too_short",
+    "confidence_margin": 0.0,
+    "candidates": []
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2.174,
+    "end": 95.24,
+    "duration": 93.066,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.2591,
+    "candidates": [
+      {
+        "track_id": 37,
+        "detections": 1184,
+        "visible_duration": 47.36,
+        "visibility_coverage": 0.5089,
+        "average_area": 0.5039,
+        "average_centrality": 0.8626,
+        "dominance": 0.3181,
+        "alignment_score": 0.423
+      },
+      {
+        "track_id": 39,
+        "detections": 566,
+        "visible_duration": 22.64,
+        "visibility_coverage": 0.2433,
+        "average_area": 0.1864,
+        "average_centrality": 0.4853,
+        "dominance": 0.0669,
+        "alignment_score": 0.1639
+      },
+      {
+        "track_id": 2,
+        "detections": 463,
+        "visible_duration": 18.52,
+        "visibility_coverage": 0.199,
+        "average_area": 0.0488,
+        "average_centrality": 0.7647,
+        "dominance": 0.0477,
+        "alignment_score": 0.1309
+      },
+      {
+        "track_id": 4,
+        "detections": 463,
+        "visible_duration": 18.52,
+        "visibility_coverage": 0.199,
+        "average_area": 0.0518,
+        "average_centrality": 0.7062,
+        "dominance": 0.0451,
+        "alignment_score": 0.1298
+      },
+      {
+        "track_id": 3,
+        "detections": 463,
+        "visible_duration": 18.52,
+        "visibility_coverage": 0.199,
+        "average_area": 0.0508,
+        "average_centrality": 0.4771,
+        "dominance": 0.033,
+        "alignment_score": 0.1243
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 95.999,
+    "end": 118.882,
+    "duration": 22.883,
+    "candidate_track": 67,
+    "status": "candidate_selected",
+    "confidence_margin": 0.9961,
+    "candidates": [
+      {
+        "track_id": 67,
+        "detections": 573,
+        "visible_duration": 22.92,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5186,
+        "average_centrality": 0.9523,
+        "dominance": 0.9989,
+        "alignment_score": 0.9995
+      },
+      {
+        "track_id": 69,
+        "detections": 3,
+        "visible_duration": 0.12,
+        "visibility_coverage": 0.0052,
+        "average_area": 0.0663,
+        "average_centrality": 0.316,
+        "dominance": 0.0011,
+        "alignment_score": 0.0034
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 120.502,
+    "end": 124.771,
+    "duration": 4.269,
+    "candidate_track": 67,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 67,
+        "detections": 107,
+        "visible_duration": 4.28,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5287,
+        "average_centrality": 0.9407,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 126.256,
+    "end": 129.698,
+    "duration": 3.443,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.011,
+    "candidates": [
+      {
+        "track_id": 79,
+        "detections": 61,
+        "visible_duration": 2.44,
+        "visibility_coverage": 0.7087,
+        "average_area": 0.0535,
+        "average_centrality": 0.9182,
+        "dominance": 0.148,
+        "alignment_score": 0.4564
+      },
+      {
+        "track_id": 71,
+        "detections": 61,
+        "visible_duration": 2.44,
+        "visibility_coverage": 0.7087,
+        "average_area": 0.0436,
+        "average_centrality": 0.7709,
+        "dominance": 0.1237,
+        "alignment_score": 0.4454
+      },
+      {
+        "track_id": 70,
+        "detections": 61,
+        "visible_duration": 2.44,
+        "visibility_coverage": 0.7087,
+        "average_area": 0.058,
+        "average_centrality": 0.7085,
+        "dominance": 0.121,
+        "alignment_score": 0.4442
+      },
+      {
+        "track_id": 72,
+        "detections": 61,
+        "visible_duration": 2.44,
+        "visibility_coverage": 0.7087,
+        "average_area": 0.0517,
+        "average_centrality": 0.4718,
+        "dominance": 0.086,
+        "alignment_score": 0.4285
+      },
+      {
+        "track_id": 75,
+        "detections": 61,
+        "visible_duration": 2.44,
+        "visibility_coverage": 0.7087,
+        "average_area": 0.0645,
+        "average_centrality": 0.4178,
+        "dominance": 0.0839,
+        "alignment_score": 0.4275
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 130.306,
+    "end": 158.403,
+    "duration": 28.097,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.4564,
+    "candidates": [
+      {
+        "track_id": 90,
+        "detections": 566,
+        "visible_duration": 22.64,
+        "visibility_coverage": 0.8058,
+        "average_area": 0.3891,
+        "average_centrality": 0.9101,
+        "dominance": 0.4378,
+        "alignment_score": 0.6402
+      },
+      {
+        "track_id": 86,
+        "detections": 187,
+        "visible_duration": 7.48,
+        "visibility_coverage": 0.2662,
+        "average_area": 0.2216,
+        "average_centrality": 0.5285,
+        "dominance": 0.0831,
+        "alignment_score": 0.1838
+      },
+      {
+        "track_id": 89,
+        "detections": 187,
+        "visible_duration": 7.48,
+        "visibility_coverage": 0.2662,
+        "average_area": 0.1129,
+        "average_centrality": 0.743,
+        "dominance": 0.0753,
+        "alignment_score": 0.1803
+      },
+      {
+        "track_id": 88,
+        "detections": 187,
+        "visible_duration": 7.48,
+        "visibility_coverage": 0.2662,
+        "average_area": 0.1291,
+        "average_centrality": 0.5008,
+        "dominance": 0.0618,
+        "alignment_score": 0.1742
+      },
+      {
+        "track_id": 92,
+        "detections": 187,
+        "visible_duration": 7.48,
+        "visibility_coverage": 0.2662,
+        "average_area": 0.0748,
+        "average_centrality": 0.5413,
+        "dominance": 0.0533,
+        "alignment_score": 0.1704
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 159.112,
+    "end": 184.593,
+    "duration": 25.481,
+    "candidate_track": 90,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 90,
+        "detections": 637,
+        "visible_duration": 25.48,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5429,
+        "average_centrality": 0.9311,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 185.639,
+    "end": 198.818,
+    "duration": 13.179,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.0531,
+    "candidates": [
+      {
+        "track_id": 90,
+        "detections": 165,
+        "visible_duration": 6.6,
+        "visibility_coverage": 0.5008,
+        "average_area": 0.4931,
+        "average_centrality": 0.9574,
+        "dominance": 0.235,
+        "alignment_score": 0.3812
+      },
+      {
+        "track_id": 111,
+        "detections": 164,
+        "visible_duration": 6.56,
+        "visibility_coverage": 0.4978,
+        "average_area": 0.1379,
+        "average_centrality": 0.8465,
+        "dominance": 0.1208,
+        "alignment_score": 0.3281
+      },
+      {
+        "track_id": 105,
+        "detections": 164,
+        "visible_duration": 6.56,
+        "visibility_coverage": 0.4978,
+        "average_area": 0.2137,
+        "average_centrality": 0.5192,
+        "dominance": 0.1112,
+        "alignment_score": 0.3238
+      },
+      {
+        "track_id": 114,
+        "detections": 164,
+        "visible_duration": 6.56,
+        "visibility_coverage": 0.4978,
+        "average_area": 0.1041,
+        "average_centrality": 0.7325,
+        "dominance": 0.1002,
+        "alignment_score": 0.3188
+      },
+      {
+        "track_id": 106,
+        "detections": 164,
+        "visible_duration": 6.56,
+        "visibility_coverage": 0.4978,
+        "average_area": 0.1106,
+        "average_centrality": 0.4901,
+        "dominance": 0.0788,
+        "alignment_score": 0.3092
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 199.325,
+    "end": 215.103,
+    "duration": 15.778,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 0.5732,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 394,
+        "visible_duration": 15.76,
+        "visibility_coverage": 0.9989,
+        "average_area": 0.4109,
+        "average_centrality": 0.8908,
+        "dominance": 0.5107,
+        "alignment_score": 0.7792
+      },
+      {
+        "track_id": 114,
+        "detections": 124,
+        "visible_duration": 4.96,
+        "visibility_coverage": 0.3144,
+        "average_area": 0.0722,
+        "average_centrality": 0.7549,
+        "dominance": 0.0735,
+        "alignment_score": 0.206
+      },
+      {
+        "track_id": 106,
+        "detections": 124,
+        "visible_duration": 4.96,
+        "visibility_coverage": 0.3144,
+        "average_area": 0.1318,
+        "average_centrality": 0.4526,
+        "dominance": 0.0642,
+        "alignment_score": 0.2018
+      },
+      {
+        "track_id": 105,
+        "detections": 105,
+        "visible_duration": 4.2,
+        "visibility_coverage": 0.2662,
+        "average_area": 0.2135,
+        "average_centrality": 0.5424,
+        "dominance": 0.0758,
+        "alignment_score": 0.1805
+      },
+      {
+        "track_id": 132,
+        "detections": 83,
+        "visible_duration": 3.32,
+        "visibility_coverage": 0.2104,
+        "average_area": 0.1674,
+        "average_centrality": 0.4489,
+        "dominance": 0.0482,
+        "alignment_score": 0.1374
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 215.137,
+    "end": 221.296,
+    "duration": 6.159,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 154,
+        "visible_duration": 6.16,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5152,
+        "average_centrality": 0.9514,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 221.515,
+    "end": 228.13,
+    "duration": 6.615,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 166,
+        "visible_duration": 6.64,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5604,
+        "average_centrality": 0.9559,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 228.333,
+    "end": 240.162,
+    "duration": 11.829,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 0.6273,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 296,
+        "visible_duration": 11.84,
+        "visibility_coverage": 1.0,
+        "average_area": 0.4424,
+        "average_centrality": 0.9498,
+        "dominance": 0.6776,
+        "alignment_score": 0.8549
+      },
+      {
+        "track_id": 150,
+        "detections": 95,
+        "visible_duration": 3.8,
+        "visibility_coverage": 0.3212,
+        "average_area": 0.2176,
+        "average_centrality": 0.5324,
+        "dominance": 0.1132,
+        "alignment_score": 0.2276
+      },
+      {
+        "track_id": 149,
+        "detections": 95,
+        "visible_duration": 3.8,
+        "visibility_coverage": 0.3212,
+        "average_area": 0.177,
+        "average_centrality": 0.4999,
+        "dominance": 0.0985,
+        "alignment_score": 0.221
+      },
+      {
+        "track_id": 152,
+        "detections": 95,
+        "visible_duration": 3.8,
+        "visibility_coverage": 0.3212,
+        "average_area": 0.097,
+        "average_centrality": 0.3266,
+        "dominance": 0.059,
+        "alignment_score": 0.2032
+      },
+      {
+        "track_id": 153,
+        "detections": 95,
+        "visible_duration": 3.8,
+        "visibility_coverage": 0.3212,
+        "average_area": 0.0327,
+        "average_centrality": 0.444,
+        "dominance": 0.0518,
+        "alignment_score": 0.2
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 240.736,
+    "end": 260.817,
+    "duration": 20.081,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 0.8131,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 502,
+        "visible_duration": 20.08,
+        "visibility_coverage": 1.0,
+        "average_area": 0.4472,
+        "average_centrality": 0.9547,
+        "dominance": 0.7854,
+        "alignment_score": 0.9034
+      },
+      {
+        "track_id": 149,
+        "detections": 57,
+        "visible_duration": 2.28,
+        "visibility_coverage": 0.1135,
+        "average_area": 0.3294,
+        "average_centrality": 0.6053,
+        "dominance": 0.0619,
+        "alignment_score": 0.0903
+      },
+      {
+        "track_id": 150,
+        "detections": 57,
+        "visible_duration": 2.28,
+        "visibility_coverage": 0.1135,
+        "average_area": 0.1414,
+        "average_centrality": 0.5809,
+        "dominance": 0.039,
+        "alignment_score": 0.08
+      },
+      {
+        "track_id": 155,
+        "detections": 40,
+        "visible_duration": 1.6,
+        "visibility_coverage": 0.0797,
+        "average_area": 0.2497,
+        "average_centrality": 0.7555,
+        "dominance": 0.041,
+        "alignment_score": 0.0623
+      },
+      {
+        "track_id": 156,
+        "detections": 40,
+        "visible_duration": 1.6,
+        "visibility_coverage": 0.0797,
+        "average_area": 0.1688,
+        "average_centrality": 0.8132,
+        "dominance": 0.036,
+        "alignment_score": 0.06
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 248.684,
+    "end": 248.701,
+    "duration": 0.017,
+    "candidate_track": null,
+    "status": "segment_too_short",
+    "confidence_margin": 0.0,
+    "candidates": []
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 248.768,
+    "end": 248.853,
+    "duration": 0.084,
+    "candidate_track": null,
+    "status": "segment_too_short",
+    "confidence_margin": 0.0,
+    "candidates": []
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 260.885,
+    "end": 263.804,
+    "duration": 2.919,
+    "candidate_track": 111,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 73,
+        "visible_duration": 2.92,
+        "visibility_coverage": 1.0,
+        "average_area": 0.4486,
+        "average_centrality": 0.9662,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 264.057,
+    "end": 301.435,
+    "duration": 37.378,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.0789,
+    "candidates": [
+      {
+        "track_id": 111,
+        "detections": 464,
+        "visible_duration": 18.56,
+        "visibility_coverage": 0.4965,
+        "average_area": 0.4638,
+        "average_centrality": 0.943,
+        "dominance": 0.365,
+        "alignment_score": 0.4374
+      },
+      {
+        "track_id": 172,
+        "detections": 416,
+        "visible_duration": 16.64,
+        "visibility_coverage": 0.4452,
+        "average_area": 0.2868,
+        "average_centrality": 0.9412,
+        "dominance": 0.2526,
+        "alignment_score": 0.3585
+      },
+      {
+        "track_id": 165,
+        "detections": 247,
+        "visible_duration": 9.88,
+        "visibility_coverage": 0.2643,
+        "average_area": 0.1127,
+        "average_centrality": 0.4542,
+        "dominance": 0.066,
+        "alignment_score": 0.1751
+      },
+      {
+        "track_id": 162,
+        "detections": 169,
+        "visible_duration": 6.76,
+        "visibility_coverage": 0.1809,
+        "average_area": 0.0492,
+        "average_centrality": 0.7603,
+        "dominance": 0.0517,
+        "alignment_score": 0.1227
+      },
+      {
+        "track_id": 163,
+        "detections": 169,
+        "visible_duration": 6.76,
+        "visibility_coverage": 0.1809,
+        "average_area": 0.0545,
+        "average_centrality": 0.7052,
+        "dominance": 0.0495,
+        "alignment_score": 0.1217
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 301.773,
+    "end": 344.467,
+    "duration": 42.694,
+    "candidate_track": 172,
+    "status": "candidate_selected",
+    "confidence_margin": 0.9998,
+    "candidates": [
+      {
+        "track_id": 172,
+        "detections": 1067,
+        "visible_duration": 42.68,
+        "visibility_coverage": 0.9997,
+        "average_area": 0.501,
+        "average_centrality": 0.9573,
+        "dominance": 1.0,
+        "alignment_score": 0.9998
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 345.378,
+    "end": 374.082,
+    "duration": 28.704,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.0341,
+    "candidates": [
+      {
+        "track_id": 172,
+        "detections": 356,
+        "visible_duration": 14.24,
+        "visibility_coverage": 0.4961,
+        "average_area": 0.4706,
+        "average_centrality": 0.9415,
+        "dominance": 0.2673,
+        "alignment_score": 0.3931
+      },
+      {
+        "track_id": 186,
+        "detections": 406,
+        "visible_duration": 16.24,
+        "visibility_coverage": 0.5658,
+        "average_area": 0.1141,
+        "average_centrality": 0.4777,
+        "dominance": 0.1062,
+        "alignment_score": 0.359
+      },
+      {
+        "track_id": 192,
+        "detections": 350,
+        "visible_duration": 14.0,
+        "visibility_coverage": 0.4877,
+        "average_area": 0.1381,
+        "average_centrality": 0.4688,
+        "dominance": 0.0986,
+        "alignment_score": 0.3126
+      },
+      {
+        "track_id": 199,
+        "detections": 327,
+        "visible_duration": 13.08,
+        "visibility_coverage": 0.4557,
+        "average_area": 0.1328,
+        "average_centrality": 0.9202,
+        "dominance": 0.1376,
+        "alignment_score": 0.3125
+      },
+      {
+        "track_id": 187,
+        "detections": 225,
+        "visible_duration": 9.0,
+        "visibility_coverage": 0.3135,
+        "average_area": 0.0588,
+        "average_centrality": 0.7347,
+        "dominance": 0.0654,
+        "alignment_score": 0.2019
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 374.47,
+    "end": 400.508,
+    "duration": 26.038,
+    "candidate_track": 210,
+    "status": "candidate_selected",
+    "confidence_margin": 0.8913,
+    "candidates": [
+      {
+        "track_id": 210,
+        "detections": 651,
+        "visible_duration": 26.04,
+        "visibility_coverage": 1.0,
+        "average_area": 0.4912,
+        "average_centrality": 0.9246,
+        "dominance": 0.8795,
+        "alignment_score": 0.9458
+      },
+      {
+        "track_id": 214,
+        "detections": 42,
+        "visible_duration": 1.68,
+        "visibility_coverage": 0.0645,
+        "average_area": 0.3866,
+        "average_centrality": 0.6222,
+        "dominance": 0.0422,
+        "alignment_score": 0.0545
+      },
+      {
+        "track_id": 215,
+        "detections": 42,
+        "visible_duration": 1.68,
+        "visibility_coverage": 0.0645,
+        "average_area": 0.2937,
+        "average_centrality": 0.5357,
+        "dominance": 0.0335,
+        "alignment_score": 0.0506
+      },
+      {
+        "track_id": 217,
+        "detections": 42,
+        "visible_duration": 1.68,
+        "visibility_coverage": 0.0645,
+        "average_area": 0.0659,
+        "average_centrality": 0.5509,
+        "dominance": 0.0177,
+        "alignment_score": 0.0435
+      },
+      {
+        "track_id": 216,
+        "detections": 42,
+        "visible_duration": 1.68,
+        "visibility_coverage": 0.0645,
+        "average_area": 0.0945,
+        "average_centrality": 0.3496,
+        "dominance": 0.015,
+        "alignment_score": 0.0422
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 401.403,
+    "end": 405.959,
+    "duration": 4.556,
+    "candidate_track": 210,
+    "status": "candidate_selected",
+    "confidence_margin": 0.9957,
+    "candidates": [
+      {
+        "track_id": 210,
+        "detections": 113,
+        "visible_duration": 4.52,
+        "visibility_coverage": 0.9921,
+        "average_area": 0.4996,
+        "average_centrality": 0.9614,
+        "dominance": 1.0,
+        "alignment_score": 0.9957
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 406.28,
+    "end": 411.376,
+    "duration": 5.096,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.2297,
+    "candidates": [
+      {
+        "track_id": 210,
+        "detections": 74,
+        "visible_duration": 2.96,
+        "visibility_coverage": 0.5808,
+        "average_area": 0.5359,
+        "average_centrality": 0.9703,
+        "dominance": 0.4111,
+        "alignment_score": 0.5045
+      },
+      {
+        "track_id": 222,
+        "detections": 53,
+        "visible_duration": 2.12,
+        "visibility_coverage": 0.416,
+        "average_area": 0.0484,
+        "average_centrality": 0.7492,
+        "dominance": 0.1021,
+        "alignment_score": 0.2748
+      },
+      {
+        "track_id": 224,
+        "detections": 53,
+        "visible_duration": 2.12,
+        "visibility_coverage": 0.416,
+        "average_area": 0.0532,
+        "average_centrality": 0.6921,
+        "dominance": 0.0973,
+        "alignment_score": 0.2726
+      },
+      {
+        "track_id": 223,
+        "detections": 53,
+        "visible_duration": 2.12,
+        "visibility_coverage": 0.416,
+        "average_area": 0.048,
+        "average_centrality": 0.4758,
+        "dominance": 0.0708,
+        "alignment_score": 0.2607
+      },
+      {
+        "track_id": 225,
+        "detections": 53,
+        "visible_duration": 2.12,
+        "visibility_coverage": 0.416,
+        "average_area": 0.0649,
+        "average_centrality": 0.419,
+        "dominance": 0.0701,
+        "alignment_score": 0.2603
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 411.781,
+    "end": 419.83,
+    "duration": 8.049,
+    "candidate_track": 243,
+    "status": "candidate_selected",
+    "confidence_margin": 0.4083,
+    "candidates": [
+      {
+        "track_id": 243,
+        "detections": 141,
+        "visible_duration": 5.64,
+        "visibility_coverage": 0.7007,
+        "average_area": 0.463,
+        "average_centrality": 0.8552,
+        "dominance": 0.5126,
+        "alignment_score": 0.616
+      },
+      {
+        "track_id": 228,
+        "detections": 59,
+        "visible_duration": 2.36,
+        "visibility_coverage": 0.2932,
+        "average_area": 0.053,
+        "average_centrality": 0.9208,
+        "dominance": 0.1032,
+        "alignment_score": 0.2077
+      },
+      {
+        "track_id": 222,
+        "detections": 59,
+        "visible_duration": 2.36,
+        "visibility_coverage": 0.2932,
+        "average_area": 0.0493,
+        "average_centrality": 0.7486,
+        "dominance": 0.0857,
+        "alignment_score": 0.1998
+      },
+      {
+        "track_id": 224,
+        "detections": 59,
+        "visible_duration": 2.36,
+        "visibility_coverage": 0.2932,
+        "average_area": 0.0554,
+        "average_centrality": 0.71,
+        "dominance": 0.0837,
+        "alignment_score": 0.1989
+      },
+      {
+        "track_id": 223,
+        "detections": 59,
+        "visible_duration": 2.36,
+        "visibility_coverage": 0.2932,
+        "average_area": 0.0495,
+        "average_centrality": 0.4748,
+        "dominance": 0.0596,
+        "alignment_score": 0.1881
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 420.151,
+    "end": 430.478,
+    "duration": 10.328,
+    "candidate_track": 243,
+    "status": "candidate_selected",
+    "confidence_margin": 0.9996,
+    "candidates": [
+      {
+        "track_id": 243,
+        "detections": 258,
+        "visible_duration": 10.32,
+        "visibility_coverage": 0.9992,
+        "average_area": 0.5863,
+        "average_centrality": 0.7731,
+        "dominance": 1.0,
+        "alignment_score": 0.9996
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 430.951,
+    "end": 433.178,
+    "duration": 2.228,
+    "candidate_track": 243,
+    "status": "candidate_selected",
+    "confidence_margin": 1.0,
+    "candidates": [
+      {
+        "track_id": 243,
+        "detections": 56,
+        "visible_duration": 2.24,
+        "visibility_coverage": 1.0,
+        "average_area": 0.5746,
+        "average_centrality": 0.7865,
+        "dominance": 1.0,
+        "alignment_score": 1.0
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 434.444,
+    "end": 462.44,
+    "duration": 27.996,
+    "candidate_track": null,
+    "status": "ambiguous_group_shot",
+    "confidence_margin": 0.2216,
+    "candidates": [
+      {
+        "track_id": 269,
+        "detections": 368,
+        "visible_duration": 14.72,
+        "visibility_coverage": 0.5258,
+        "average_area": 0.4919,
+        "average_centrality": 0.8312,
+        "dominance": 0.347,
+        "alignment_score": 0.4453
+      },
+      {
+        "track_id": 243,
+        "detections": 194,
+        "visible_duration": 7.76,
+        "visibility_coverage": 0.2772,
+        "average_area": 0.3923,
+        "average_centrality": 0.8206,
+        "dominance": 0.1584,
+        "alignment_score": 0.2237
+      },
+      {
+        "track_id": 244,
+        "detections": 208,
+        "visible_duration": 8.32,
+        "visibility_coverage": 0.2972,
+        "average_area": 0.0842,
+        "average_centrality": 0.4473,
+        "dominance": 0.0595,
+        "alignment_score": 0.1902
+      },
+      {
+        "track_id": 250,
+        "detections": 198,
+        "visible_duration": 7.92,
+        "visibility_coverage": 0.2829,
+        "average_area": 0.0516,
+        "average_centrality": 0.7351,
+        "dominance": 0.072,
+        "alignment_score": 0.188
+      },
+      {
+        "track_id": 253,
+        "detections": 128,
+        "visible_duration": 5.12,
+        "visibility_coverage": 0.1829,
+        "average_area": 0.0522,
+        "average_centrality": 0.7034,
+        "dominance": 0.045,
+        "alignment_score": 0.1208
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 462.963,
+    "end": 463.705,
+    "duration": 0.743,
+    "candidate_track": 269,
+    "status": "candidate_selected",
+    "confidence_margin": 0.983,
+    "candidates": [
+      {
+        "track_id": 269,
+        "detections": 18,
+        "visible_duration": 0.72,
+        "visibility_coverage": 0.969,
+        "average_area": 0.5464,
+        "average_centrality": 0.9003,
+        "dominance": 1.0,
+        "alignment_score": 0.983
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 464.026,
+    "end": 467.232,
+    "duration": 3.206,
+    "candidate_track": 269,
+    "status": "candidate_selected",
+    "confidence_margin": 0.999,
+    "candidates": [
+      {
+        "track_id": 269,
+        "detections": 80,
+        "visible_duration": 3.2,
+        "visibility_coverage": 0.9981,
+        "average_area": 0.5455,
+        "average_centrality": 0.8995,
+        "dominance": 1.0,
+        "alignment_score": 0.999
+      }
+    ]
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 467.975,
+    "end": 476.463,
+    "duration": 8.488,
+    "candidate_track": 269,
+    "status": "candidate_selected",
+    "confidence_margin": 0.9995,
+    "candidates": [
+      {
+        "track_id": 269,
+        "detections": 212,
+        "visible_duration": 8.48,
+        "visibility_coverage": 0.9991,
+        "average_area": 0.5434,
+        "average_centrality": 0.8985,
+        "dominance": 1.0,
+        "alignment_score": 0.9995
+      }
+    ]
+  }
+]
